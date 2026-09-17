@@ -1,0 +1,4935 @@
+{
+  "source_file": "LiftED Cohort 2_Program Management Hub.xlsx",
+  "source_sha256": "5ba8628e3b0adcb46d2d867eae96f9186ec92fb7f669988e570d132238139ec7",
+  "extracted_at": "2026-09-17T11:27:09.423925+00:00",
+  "warnings": [],
+  "schools": [
+    {
+      "School ID": "1556001",
+      "Zone": "West",
+      "School": "JANAK PURI A-1 A (CO-ED)",
+      "PoC": "Megha",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A2:I2"
+    },
+    {
+      "School ID": "1556002",
+      "Zone": "West",
+      "School": "JANAK PURI A 1 B (CO-ED)",
+      "PoC": "Megha",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A3:I3"
+    },
+    {
+      "School ID": "1556003",
+      "Zone": "West",
+      "School": "ASALAT PUR (CO-ED)",
+      "PoC": "Megha",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A4:I4"
+    },
+    {
+      "School ID": "1556005",
+      "Zone": "West",
+      "School": "JANAK PURI A 4 C (CO-ED)",
+      "PoC": "Megha",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A5:I5"
+    },
+    {
+      "School ID": "1556394",
+      "Zone": "West",
+      "School": "BINDA PUR POCKET 4 (CO-ED)",
+      "PoC": "Manish",
+      "Grade 3 teachers": 3,
+      "Source": "School Allocation!A6:I6"
+    },
+    {
+      "School ID": "1556138",
+      "Zone": "West",
+      "School": "BINDA PUR VILLAGE (BOYS)",
+      "PoC": "Manish",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A7:I7"
+    },
+    {
+      "School ID": "1556014",
+      "Zone": "West",
+      "School": "POSANGI PUR (CO-ED)",
+      "PoC": "Megha",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A8:I8"
+    },
+    {
+      "School ID": "1556015",
+      "Zone": "West",
+      "School": "JANAK PURI C 4 E (CO-ED)",
+      "PoC": "Megha",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A9:I9"
+    },
+    {
+      "School ID": "1556137",
+      "Zone": "West",
+      "School": "BINDA PUR VILLAGE (GIRLS)",
+      "PoC": "Manish",
+      "Grade 3 teachers": 3,
+      "Source": "School Allocation!A10:I10"
+    },
+    {
+      "School ID": "1556017",
+      "Zone": "West",
+      "School": "JANAK PURI B-1 (CO-ED)",
+      "PoC": "Megha",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A11:I11"
+    },
+    {
+      "School ID": "1556018",
+      "Zone": "West",
+      "School": "JANAK PURI B-2 B (CO-ED)",
+      "PoC": "Megha",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A12:I12"
+    },
+    {
+      "School ID": "1556019",
+      "Zone": "West",
+      "School": "JANAK PURI B-3 A (CO-ED)",
+      "PoC": "Megha",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A13:I13"
+    },
+    {
+      "School ID": "1556020",
+      "Zone": "West",
+      "School": "PANKHA ROAD (CO-ED)",
+      "PoC": "Megha",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A14:I14"
+    },
+    {
+      "School ID": "1556022",
+      "Zone": "West",
+      "School": "NANGAL RAI (CO-ED)",
+      "PoC": "Megha",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A15:I15"
+    },
+    {
+      "School ID": "1556024",
+      "Zone": "West",
+      "School": "LAJWANTI GARDEN (CO-ED)",
+      "PoC": "Megha",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A16:I16"
+    },
+    {
+      "School ID": "1556025",
+      "Zone": "West",
+      "School": "JANAK PURI NO 1 D-1 A (CO-ED)",
+      "PoC": "Megha",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A17:I17"
+    },
+    {
+      "School ID": "1556027",
+      "Zone": "West",
+      "School": "KHAJAN BASTI (CO-ED)",
+      "PoC": "Sakshi",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A18:I18"
+    },
+    {
+      "School ID": "1556029",
+      "Zone": "West",
+      "School": "HARI NAGAR L BLOCK (CO-ED)",
+      "PoC": "Megha",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A19:I19"
+    },
+    {
+      "School ID": "1556030",
+      "Zone": "West",
+      "School": "GURU NANAK PURA (CO-ED)",
+      "PoC": "Megha",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A20:I20"
+    },
+    {
+      "School ID": "1556031",
+      "Zone": "West",
+      "School": "PARTAP NAGAR (CO-ED)",
+      "PoC": "Megha",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A21:I21"
+    },
+    {
+      "School ID": "1556032",
+      "Zone": "West",
+      "School": "DMS HARI NAGAR (CO-ED)",
+      "PoC": "Sakshi",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A22:I22"
+    },
+    {
+      "School ID": "1556034",
+      "Zone": "West",
+      "School": "SHIV NAGAR (CO-ED)",
+      "PoC": "Megha",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A23:I23"
+    },
+    {
+      "School ID": "1556037",
+      "Zone": "West",
+      "School": "TIHAR NO 1 BLOCK 6 (CO-ED)",
+      "PoC": "Sakshi",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A24:I24"
+    },
+    {
+      "School ID": "1556038",
+      "Zone": "West",
+      "School": "TIHAR NO 1 BLOCK 1 (CO-ED)",
+      "PoC": "Sakshi",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A25:I25"
+    },
+    {
+      "School ID": "1556039",
+      "Zone": "West",
+      "School": "TIHAR NO 2 (CO-ED)",
+      "PoC": "Sakshi",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A26:I26"
+    },
+    {
+      "School ID": "1556040",
+      "Zone": "West",
+      "School": "TIHAR VILLAGE NO.1 (CO-ED)",
+      "PoC": "Sakshi",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A27:I27"
+    },
+    {
+      "School ID": "1556041",
+      "Zone": "West",
+      "School": "SUBHASH NAGAR MARKET BLOCK 9 (CO-ED)",
+      "PoC": "Sakshi",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A28:I28"
+    },
+    {
+      "School ID": "1556042",
+      "Zone": "West",
+      "School": "HARI NAGAR BE-BLOCK (CO-ED)",
+      "PoC": "Sakshi",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A29:I29"
+    },
+    {
+      "School ID": "1556043",
+      "Zone": "West",
+      "School": "HARI NAGAR GHANTA GHAR (CO-ED)",
+      "PoC": "Sakshi",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A30:I30"
+    },
+    {
+      "School ID": "1556044",
+      "Zone": "West",
+      "School": "MAYA PURI PRESS COLONY (CO-ED)",
+      "PoC": "Sakshi",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A31:I31"
+    },
+    {
+      "School ID": "1556045",
+      "Zone": "West",
+      "School": "TAGORE GARDEN EA (GIRLS)",
+      "PoC": "Sakshi",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A32:I32"
+    },
+    {
+      "School ID": "1556046",
+      "Zone": "West",
+      "School": "TAGORE GARDEN EA (BOYS)",
+      "PoC": "Sakshi",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A33:I33"
+    },
+    {
+      "School ID": "1556047",
+      "Zone": "West",
+      "School": "TAGORE GARDEN J J NO 1 (GIRLS)",
+      "PoC": "Sakshi",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A34:I34"
+    },
+    {
+      "School ID": "1556048",
+      "Zone": "West",
+      "School": "TAGORE GARDEN J J NO 1 (BOYS)",
+      "PoC": "Sakshi",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A35:I35"
+    },
+    {
+      "School ID": "1556049",
+      "Zone": "West",
+      "School": "TRANSIT CAMP RAGHUBIR NAGAR (CO-ED)",
+      "PoC": "Sakshi",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A36:I36"
+    },
+    {
+      "School ID": "1556050",
+      "Zone": "West",
+      "School": "MUKERJEE PARK (CO-ED)",
+      "PoC": "Swagata",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A37:I37"
+    },
+    {
+      "School ID": "1556051",
+      "Zone": "West",
+      "School": "CHAUKHANDI OLD (GIRLS)",
+      "PoC": "Swagata",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A38:I38"
+    },
+    {
+      "School ID": "1556052",
+      "Zone": "West",
+      "School": "CHAUKHANDI OLD (BOYS)",
+      "PoC": "Swagata",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A39:I39"
+    },
+    {
+      "School ID": "1556053",
+      "Zone": "West",
+      "School": "CHAUKHANDI NEW (CO-ED)",
+      "PoC": "Swagata",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A40:I40"
+    },
+    {
+      "School ID": "1556054",
+      "Zone": "West",
+      "School": "GANESH NAGAR (CO-ED)",
+      "PoC": "Swagata",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A41:I41"
+    },
+    {
+      "School ID": "1556056",
+      "Zone": "West",
+      "School": "TILAK NAGAR NO 1 (CO-ED)",
+      "PoC": "Harshita",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A42:I42"
+    },
+    {
+      "School ID": "1556058",
+      "Zone": "West",
+      "School": "TILAK NAGAR NO 3 (CO-ED)",
+      "PoC": "Manish",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A43:I43"
+    },
+    {
+      "School ID": "1556059",
+      "Zone": "West",
+      "School": "TILAK NAGAR NO 4 (CO-ED)",
+      "PoC": "Manish",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A44:I44"
+    },
+    {
+      "School ID": "1556061",
+      "Zone": "West",
+      "School": "TILAK NAGAR NO 2 (CO-ED)",
+      "PoC": "Anshika",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A45:I45"
+    },
+    {
+      "School ID": "1556062",
+      "Zone": "West",
+      "School": "VIKAS PURI B-BLOCK (CO-ED)",
+      "PoC": "Shalini",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A46:I46"
+    },
+    {
+      "School ID": "1556063",
+      "Zone": "West",
+      "School": "RAJOURI GARDEN SOUTH (CO-ED)",
+      "PoC": "Harshita",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A47:I47"
+    },
+    {
+      "School ID": "1556064",
+      "Zone": "West",
+      "School": "RAJOURI GARDEN RAJOURI MAIN BETWEEN F&C BLOCK",
+      "PoC": "Harshita",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A48:I48"
+    },
+    {
+      "School ID": "1556065",
+      "Zone": "West",
+      "School": "RAJOURI EXTN (CO-ED)",
+      "PoC": "Harshita",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A49:I49"
+    },
+    {
+      "School ID": "1556066",
+      "Zone": "West",
+      "School": "TATAR PUR (CO-ED)",
+      "PoC": "Harshita",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A50:I50"
+    },
+    {
+      "School ID": "1556068",
+      "Zone": "West",
+      "School": "BASAI DARA PUR (CO-ED)",
+      "PoC": "Harshita",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A51:I51"
+    },
+    {
+      "School ID": "1556071",
+      "Zone": "West",
+      "School": "VISHAL ENCLAVE (CO-ED)",
+      "PoC": "Harshita",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A52:I52"
+    },
+    {
+      "School ID": "1556072",
+      "Zone": "West",
+      "School": "SHIVAJI ENCLAVE (CO-ED)",
+      "PoC": "Harshita",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A53:I53"
+    },
+    {
+      "School ID": "1556073",
+      "Zone": "West",
+      "School": "RAGHUBIR NAGAR J J N0 2 (CO-ED)",
+      "PoC": "Harshita",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A54:I54"
+    },
+    {
+      "School ID": "1556074",
+      "Zone": "West",
+      "School": "RAGHUBIR NAGAR M-BLOCK (GIRLS)",
+      "PoC": "Harshita",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A55:I55"
+    },
+    {
+      "School ID": "1556075",
+      "Zone": "West",
+      "School": "RAGHUBIR NAGAR M-BLOCK (BOYS)",
+      "PoC": "Harshita",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A56:I56"
+    },
+    {
+      "School ID": "1556076",
+      "Zone": "West",
+      "School": "RAGHUBIR NAGAR B-2 (GIRLS)",
+      "PoC": "Harshita",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A57:I57"
+    },
+    {
+      "School ID": "1556077",
+      "Zone": "West",
+      "School": "RAGHUBIR NAGAR B-2 (BOYS)",
+      "PoC": "Harshita",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A58:I58"
+    },
+    {
+      "School ID": "1556078",
+      "Zone": "West",
+      "School": "RAGHUBIR NAGAR B-3 (GIRLS)",
+      "PoC": "Harshita",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A59:I59"
+    },
+    {
+      "School ID": "1556079",
+      "Zone": "West",
+      "School": "RAGHUBIR NAGAR B-3 (BOYS)",
+      "PoC": "Harshita",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A60:I60"
+    },
+    {
+      "School ID": "1556080",
+      "Zone": "West",
+      "School": "PASCHIM PURI1212 (CO-ED)",
+      "PoC": "Sakshi",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A61:I61"
+    },
+    {
+      "School ID": "1556082",
+      "Zone": "West",
+      "School": "MADI PUR J J COLONY (CO-ED)",
+      "PoC": "Sakshi",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A62:I62"
+    },
+    {
+      "School ID": "1556083",
+      "Zone": "West",
+      "School": "MADI PUR VILLAGE NO 1 (CO-ED)",
+      "PoC": "Sakshi",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A63:I63"
+    },
+    {
+      "School ID": "1556087",
+      "Zone": "West",
+      "School": "SHIVAJI PARK (CO-ED)",
+      "PoC": "Harshita",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A64:I64"
+    },
+    {
+      "School ID": "1556088",
+      "Zone": "West",
+      "School": "PUNJABI BAGH ROAD NO 66 (CO-ED)",
+      "PoC": "Harshita",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A65:I65"
+    },
+    {
+      "School ID": "1556093",
+      "Zone": "West",
+      "School": "JANTA QUARTER PASCHIM PURI (CO-ED)",
+      "PoC": "Shalini",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A66:I66"
+    },
+    {
+      "School ID": "1556094",
+      "Zone": "West",
+      "School": "PUNJABI BAGH EXTN (CO-ED)",
+      "PoC": "Shalini",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A67:I67"
+    },
+    {
+      "School ID": "1556095",
+      "Zone": "West",
+      "School": "KHYALA NEW (GIRLS)",
+      "PoC": "Geeta",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A68:I68"
+    },
+    {
+      "School ID": "1556096",
+      "Zone": "West",
+      "School": "KHYALA NEW (BOYS)",
+      "PoC": "Geeta",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A69:I69"
+    },
+    {
+      "School ID": "1556097",
+      "Zone": "West",
+      "School": "KHYALA OLD (GIRLS)",
+      "PoC": "Shalini",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A70:I70"
+    },
+    {
+      "School ID": "1556098",
+      "Zone": "West",
+      "School": "KHYALA OLD (BOYS)",
+      "PoC": "Shalini",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A71:I71"
+    },
+    {
+      "School ID": "1556099",
+      "Zone": "West",
+      "School": "CHAND NAGAR B-BLOCK (GIRLS)",
+      "PoC": "Malya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A72:I72"
+    },
+    {
+      "School ID": "1556100",
+      "Zone": "West",
+      "School": "CHAND NAGAR B-BLOCK (BOYS)",
+      "PoC": "Malya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A73:I73"
+    },
+    {
+      "School ID": "1556101",
+      "Zone": "West",
+      "School": "CHAND NAGAR D-BLOCK (GIRLS)",
+      "PoC": "Malya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A74:I74"
+    },
+    {
+      "School ID": "1556102",
+      "Zone": "West",
+      "School": "CHAND NAGAR D-BLOCK (BOYS)",
+      "PoC": "Malya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A75:I75"
+    },
+    {
+      "School ID": "1556104",
+      "Zone": "West",
+      "School": "VISHNU GARDEN (CO-ED)",
+      "PoC": "Malya",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A76:I76"
+    },
+    {
+      "School ID": "1556106",
+      "Zone": "West",
+      "School": "KESHO PUR (CO-ED)",
+      "PoC": "Shalini",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A77:I77"
+    },
+    {
+      "School ID": "1556108",
+      "Zone": "West",
+      "School": "PRITHVI PARK (CO-ED)",
+      "PoC": "Shalini",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A78:I78"
+    },
+    {
+      "School ID": "1556110",
+      "Zone": "West",
+      "School": "TILAK VIHAR (CO-ED)",
+      "PoC": "Shalini",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A79:I79"
+    },
+    {
+      "School ID": "1556111",
+      "Zone": "West",
+      "School": "VIKAS PURI GG-3 (CO-ED)",
+      "PoC": "Shalini",
+      "Grade 3 teachers": 3,
+      "Source": "School Allocation!A80:I80"
+    },
+    {
+      "School ID": "1556112",
+      "Zone": "West",
+      "School": "VIKAS PURI SITE 4 (CO-ED)",
+      "PoC": "Shalini",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A81:I81"
+    },
+    {
+      "School ID": "1556113",
+      "Zone": "West",
+      "School": "BUDHELLA (CO-ED)",
+      "PoC": "Shalini",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A82:I82"
+    },
+    {
+      "School ID": "1556114",
+      "Zone": "West",
+      "School": "HASTSAL VILLAGE NO 1 (GIRLS)",
+      "PoC": "Anshika",
+      "Grade 3 teachers": 4,
+      "Source": "School Allocation!A83:I83"
+    },
+    {
+      "School ID": "1556115",
+      "Zone": "West",
+      "School": "HASTSAL VILLAGE NO 1 (BOYS)",
+      "PoC": "Anshika",
+      "Grade 3 teachers": 3,
+      "Source": "School Allocation!A84:I84"
+    },
+    {
+      "School ID": "1556116",
+      "Zone": "West",
+      "School": "HASTSAL VILLAGE NO 2 (GIRLS)",
+      "PoC": "Anshika",
+      "Grade 3 teachers": 4,
+      "Source": "School Allocation!A85:I85"
+    },
+    {
+      "School ID": "1556117",
+      "Zone": "West",
+      "School": "HASTSAL VILLAGE NO 2 (BOYS)",
+      "PoC": "Anshika",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A86:I86"
+    },
+    {
+      "School ID": "1556118",
+      "Zone": "West",
+      "School": "HASTSAL VILLAGE J J COLONY NO 1 (GIRLS)",
+      "PoC": "Anshika",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A87:I87"
+    },
+    {
+      "School ID": "1556119",
+      "Zone": "West",
+      "School": "HASTSAL VILLAGE J J COLONY NO 1 (BOYS)",
+      "PoC": "Manish",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A88:I88"
+    },
+    {
+      "School ID": "1556120",
+      "Zone": "West",
+      "School": "HASTSAL VILLAGE J J COLONY NO 2 (GIRLS)",
+      "PoC": "Manish",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A89:I89"
+    },
+    {
+      "School ID": "1556121",
+      "Zone": "West",
+      "School": "HASTSAL VILLAGE J J COLONY NO 2 (BOYS)",
+      "PoC": "Anshika",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A90:I90"
+    },
+    {
+      "School ID": "1556122",
+      "Zone": "West",
+      "School": "HASTSAL NEW J J COLONY NO 1 (GIRLS)",
+      "PoC": "Anshika",
+      "Grade 3 teachers": 3,
+      "Source": "School Allocation!A91:I91"
+    },
+    {
+      "School ID": "1556123",
+      "Zone": "West",
+      "School": "HASTSAL NEW J J COLONY NO 1 (BOYS)",
+      "PoC": "Anshika",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A92:I92"
+    },
+    {
+      "School ID": "1556124",
+      "Zone": "West",
+      "School": "BAKKAR WALA (BOYS)",
+      "PoC": "Aditya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A93:I93"
+    },
+    {
+      "School ID": "1556125",
+      "Zone": "West",
+      "School": "BAKKAR WALA (GIRLS)",
+      "PoC": "Aditya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A94:I94"
+    },
+    {
+      "School ID": "1556126",
+      "Zone": "West",
+      "School": "BAPROLA VILLAGE (CO-ED)",
+      "PoC": "Aditya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A95:I95"
+    },
+    {
+      "School ID": "1556127",
+      "Zone": "West",
+      "School": "RANHOLLA (GIRLS)",
+      "PoC": "Aditya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A96:I96"
+    },
+    {
+      "School ID": "1556128",
+      "Zone": "West",
+      "School": "RANHOLLA (BOYS)",
+      "PoC": "Malya",
+      "Grade 3 teachers": 4,
+      "Source": "School Allocation!A97:I97"
+    },
+    {
+      "School ID": "1556129",
+      "Zone": "West",
+      "School": "TILANG PUR KOTLA (CO-ED)",
+      "PoC": "Aditya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A98:I98"
+    },
+    {
+      "School ID": "1556006",
+      "Zone": "West",
+      "School": "JANAK PURI C-1 (CO-ED)",
+      "PoC": "Manish",
+      "Grade 3 teachers": 4,
+      "Source": "School Allocation!A99:I99"
+    },
+    {
+      "School ID": "1556007",
+      "Zone": "West",
+      "School": "JANAK PURI C-2 (CO-ED)",
+      "PoC": "Manish",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A100:I100"
+    },
+    {
+      "School ID": "1556133",
+      "Zone": "West",
+      "School": "NAWADA VILLAGE (GIRLS)",
+      "PoC": "Aditya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A101:I101"
+    },
+    {
+      "School ID": "1556134",
+      "Zone": "West",
+      "School": "NAWADA VILLAGE (BOYS)",
+      "PoC": "Aditya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A102:I102"
+    },
+    {
+      "School ID": "1556135",
+      "Zone": "West",
+      "School": "NAWADA MAIN (GIRLS)",
+      "PoC": "Aditya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A103:I103"
+    },
+    {
+      "School ID": "1556136",
+      "Zone": "West",
+      "School": "NAWADA MAIN (BOYS)",
+      "PoC": "Aditya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A104:I104"
+    },
+    {
+      "School ID": "1556016",
+      "Zone": "West",
+      "School": "JANAK PURI C-5 (CO-ED)",
+      "PoC": "Manish",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A105:I105"
+    },
+    {
+      "School ID": "1556140",
+      "Zone": "West",
+      "School": "JIWAN PARK (BOYS)",
+      "PoC": "Malya",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A106:I106"
+    },
+    {
+      "School ID": "1556139",
+      "Zone": "West",
+      "School": "JIWAN PARK (GIRLS)",
+      "PoC": "Manish",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A107:I107"
+    },
+    {
+      "School ID": "1757163",
+      "Zone": "West",
+      "School": "MAHAVIR ENCLAVE II /III (GIRLS)",
+      "PoC": "Manish",
+      "Grade 3 teachers": 4,
+      "Source": "School Allocation!A108:I108"
+    },
+    {
+      "School ID": "1556141",
+      "Zone": "West",
+      "School": "BAKKAR WALA J J COLONY G-BLOCK (CO-ED)",
+      "PoC": "Malya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A109:I109"
+    },
+    {
+      "School ID": "1556142",
+      "Zone": "West",
+      "School": "RAZA PUR KHURD NO 2 (GIRLS)",
+      "PoC": "Anshika",
+      "Grade 3 teachers": 5,
+      "Source": "School Allocation!A110:I110"
+    },
+    {
+      "School ID": "1556144",
+      "Zone": "West",
+      "School": "BAKKAR WALA J J COLONY B-BLOCK (CO-ED)",
+      "PoC": "Malya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A111:I111"
+    },
+    {
+      "School ID": "1556361",
+      "Zone": "West",
+      "School": "NEW KRISHANA PARK (CO-ED)",
+      "PoC": "Malya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A112:I112"
+    },
+    {
+      "School ID": "1556366",
+      "Zone": "West",
+      "School": "BAPROLA EXTN. (JAI VIHAR) (GIRLS)",
+      "PoC": "Malya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A113:I113"
+    },
+    {
+      "School ID": "1556367",
+      "Zone": "West",
+      "School": "BAPROLA EXTN. (JAI VIHAR) (BOYS)",
+      "PoC": "Aditya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A114:I114"
+    },
+    {
+      "School ID": "1556368",
+      "Zone": "West",
+      "School": "RAZA PUR KHURD NO 1 (GIRLS)",
+      "PoC": "Anshika",
+      "Grade 3 teachers": 5,
+      "Source": "School Allocation!A115:I115"
+    },
+    {
+      "School ID": "1757162",
+      "Zone": "West",
+      "School": "MAHAVIR ENCLAVE II /III (BOYS)",
+      "PoC": "Manish",
+      "Grade 3 teachers": 3,
+      "Source": "School Allocation!A116:I116"
+    },
+    {
+      "School ID": "1556395",
+      "Zone": "West",
+      "School": "HASTSAL NEW J J COLONY NO 2 (GIRLS)",
+      "PoC": "Anshika",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A117:I117"
+    },
+    {
+      "School ID": "1556396",
+      "Zone": "West",
+      "School": "RAZA PUR KHURD NO 1 (BOYS)",
+      "PoC": "Anshika",
+      "Grade 3 teachers": 3,
+      "Source": "School Allocation!A118:I118"
+    },
+    {
+      "School ID": "1556415",
+      "Zone": "West",
+      "School": "HASTSAL NEW J J COLONY NO 2 (BOYS)",
+      "PoC": "Anshika",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A119:I119"
+    },
+    {
+      "School ID": "1556416",
+      "Zone": "West",
+      "School": "RAZA PUR KHURD NO 2 (BOYS)",
+      "PoC": "Anshika",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A120:I120"
+    },
+    {
+      "School ID": "1556468",
+      "Zone": "West",
+      "School": "CHANCHAL PARK (CO-ED)",
+      "PoC": "Malya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A121:I121"
+    },
+    {
+      "School ID": "1556469",
+      "Zone": "West",
+      "School": "RAZA PUR KHURD NO 4 (CO-ED)",
+      "PoC": "Malya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A122:I122"
+    },
+    {
+      "School ID": "1556470",
+      "Zone": "West",
+      "School": "RAZA PUR KHURD NO 3 (CO-ED)",
+      "PoC": "Anshika",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A123:I123"
+    },
+    {
+      "School ID": "1757437",
+      "Zone": "West",
+      "School": "PANKHA ROAD J J COLONY (CO-ED)",
+      "PoC": "Malya",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A124:I124"
+    },
+    {
+      "School ID": "1556132",
+      "Zone": "West",
+      "School": "UTTAM NAGAR NEW NO 2 (BOYS)",
+      "PoC": "Malya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A125:I125"
+    },
+    {
+      "School ID": "1556131",
+      "Zone": "West",
+      "School": "UTTAM NAGAR NEW NO. 2 (GIRLS)",
+      "PoC": "Malya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A126:I126"
+    },
+    {
+      "School ID": "1757435",
+      "Zone": "West",
+      "School": "UTTAM NAGAR NEW NO 1 (CO-ED)",
+      "PoC": "Anshika",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A127:I127"
+    },
+    {
+      "School ID": "1757433",
+      "Zone": "West",
+      "School": "UTTAM NAGAR OLD (CO-ED)",
+      "PoC": "Malya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A128:I128"
+    },
+    {
+      "School ID": "1958001",
+      "Zone": "Central",
+      "School": "PREM NAGAR CENTRAL (CO-ED)",
+      "PoC": "Sheetal",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A129:I129"
+    },
+    {
+      "School ID": "1958002",
+      "Zone": "Central",
+      "School": "SEWA NAGAR WEST (CO-ED)",
+      "PoC": "Sheetal",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A130:I130"
+    },
+    {
+      "School ID": "1958003",
+      "Zone": "Central",
+      "School": "SEWA NAGAR N BLOCK (CO-ED)",
+      "PoC": "Kavya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A131:I131"
+    },
+    {
+      "School ID": "1958005",
+      "Zone": "Central",
+      "School": "SEWA NAGAR EAST (CO-ED)",
+      "PoC": "Kavya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A132:I132"
+    },
+    {
+      "School ID": "1958006",
+      "Zone": "Central",
+      "School": "BAPU PARK (CO-ED)",
+      "PoC": "Kavya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A133:I133"
+    },
+    {
+      "School ID": "1958007",
+      "Zone": "Central",
+      "School": "BAGH NATHU SINGH (CO-ED)",
+      "PoC": "Kavya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A134:I134"
+    },
+    {
+      "School ID": "1958008",
+      "Zone": "Central",
+      "School": "WAZIR NAGAR KOTLA (CO-ED)",
+      "PoC": "Kavya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A135:I135"
+    },
+    {
+      "School ID": "1958010",
+      "Zone": "Central",
+      "School": "SOUTH EXTN PART I (CO-ED)",
+      "PoC": "Kavya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A136:I136"
+    },
+    {
+      "School ID": "1958011",
+      "Zone": "Central",
+      "School": "SOUTH EXTN NEW PART II (CO-ED)",
+      "PoC": "Kavya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A137:I137"
+    },
+    {
+      "School ID": "1958012",
+      "Zone": "Central",
+      "School": "DEFENCE COLONY C-BLOCK (CO-ED)",
+      "PoC": "Kavya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A138:I138"
+    },
+    {
+      "School ID": "1958014",
+      "Zone": "Central",
+      "School": "SADIQ NAGAR (CO-ED)",
+      "PoC": "Geeta",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A139:I139"
+    },
+    {
+      "School ID": "1958015",
+      "Zone": "Central",
+      "School": "LAJPAT NAGAR PART III (CO-ED)",
+      "PoC": "Keerthi",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A140:I140"
+    },
+    {
+      "School ID": "1958016",
+      "Zone": "Central",
+      "School": "ANDREWJ GANJ (CO-ED)",
+      "PoC": "Geeta",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A141:I141"
+    },
+    {
+      "School ID": "1958017",
+      "Zone": "Central",
+      "School": "AMAR COLONY (CO-ED)",
+      "PoC": "Geeta",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A142:I142"
+    },
+    {
+      "School ID": "1958018",
+      "Zone": "Central",
+      "School": "LAJPAT NAGAR IV (BOYS)",
+      "PoC": "Kavya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A143:I143"
+    },
+    {
+      "School ID": "1958019",
+      "Zone": "Central",
+      "School": "LAJPAT NAGAR IV (GIRLS)",
+      "PoC": "Kavya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A144:I144"
+    },
+    {
+      "School ID": "1958020",
+      "Zone": "Central",
+      "School": "JANGPURA EXTENSION (CO-ED)",
+      "PoC": "Kavya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A145:I145"
+    },
+    {
+      "School ID": "1958021",
+      "Zone": "Central",
+      "School": "PANT NAGAR (CO-ED)",
+      "PoC": "Kavya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A146:I146"
+    },
+    {
+      "School ID": "1958022",
+      "Zone": "Central",
+      "School": "VINOBA PURI (CO-ED)",
+      "PoC": "Riya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A147:I147"
+    },
+    {
+      "School ID": "1958023",
+      "Zone": "Central",
+      "School": "LAJPAT NAGAR PART I (CO-ED",
+      "PoC": "Riya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A148:I148"
+    },
+    {
+      "School ID": "1958024",
+      "Zone": "Central",
+      "School": "LAJPAT NAGAR PART II (CO-ED)",
+      "PoC": "Keerthi",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A149:I149"
+    },
+    {
+      "School ID": "1958025",
+      "Zone": "Central",
+      "School": "KRISHNA MARKET (CO-ED)",
+      "PoC": "Sheetal",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A150:I150"
+    },
+    {
+      "School ID": "1958028",
+      "Zone": "Central",
+      "School": "NEHRU NAGAR (CO-ED)",
+      "PoC": "Sheetal",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A151:I151"
+    },
+    {
+      "School ID": "1958029",
+      "Zone": "Central",
+      "School": "KILOKARI TANK (CO-ED)",
+      "PoC": "Keerthi",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A152:I152"
+    },
+    {
+      "School ID": "1958030",
+      "Zone": "Central",
+      "School": "DAMKAL KENDRA (CO-ED)",
+      "PoC": "Geeta",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A153:I153"
+    },
+    {
+      "School ID": "1958031",
+      "Zone": "Central",
+      "School": "ASHRAM (BOYS)",
+      "PoC": "Riya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A154:I154"
+    },
+    {
+      "School ID": "1958032",
+      "Zone": "Central",
+      "School": "ASHRAM (GIRLS)",
+      "PoC": "Riya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A155:I155"
+    },
+    {
+      "School ID": "1958033",
+      "Zone": "Central",
+      "School": "KILKORI VILLAGE (CO-ED)",
+      "PoC": "Keerthi",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A156:I156"
+    },
+    {
+      "School ID": "1958035",
+      "Zone": "Central",
+      "School": "JEEVAN NAGAR (CO-ED)",
+      "PoC": "Keerthi",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A157:I157"
+    },
+    {
+      "School ID": "1958038",
+      "Zone": "Central",
+      "School": "BHARAT NAGAR (GIRLS)",
+      "PoC": "Riya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A158:I158"
+    },
+    {
+      "School ID": "1958039",
+      "Zone": "Central",
+      "School": "BHARAT NAGAR (BOYS)",
+      "PoC": "Riya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A159:I159"
+    },
+    {
+      "School ID": "1958040",
+      "Zone": "Central",
+      "School": "SARAI JULENA (CO-ED)",
+      "PoC": "Geeta",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A160:I160"
+    },
+    {
+      "School ID": "1958041",
+      "Zone": "Central",
+      "School": "NEW FRIENDS COLONY HINDI (CO-ED)",
+      "PoC": "Geeta",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A161:I161"
+    },
+    {
+      "School ID": "1958044",
+      "Zone": "Central",
+      "School": "MASIH GARH (CO-ED)",
+      "PoC": "Riya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A162:I162"
+    },
+    {
+      "School ID": "1958045",
+      "Zone": "Central",
+      "School": "KHIZRABAD HINDI (GIRLS)",
+      "PoC": "Riya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A163:I163"
+    },
+    {
+      "School ID": "1958046",
+      "Zone": "Central",
+      "School": "KHIZRABAD HINDI (BOYS)",
+      "PoC": "Riya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A164:I164"
+    },
+    {
+      "School ID": "1958047",
+      "Zone": "Central",
+      "School": "KHIZRABAD URDU (CO-ED)",
+      "PoC": "Riya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A165:I165"
+    },
+    {
+      "School ID": "1958049",
+      "Zone": "Central",
+      "School": "NOOR NAGAR HINDI & URDU (GIRLS)",
+      "PoC": "Geeta",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A166:I166"
+    },
+    {
+      "School ID": "1958051",
+      "Zone": "Central",
+      "School": "NOOR NAGAR HINDI & URDU (BOYS)",
+      "PoC": "Geeta",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A167:I167"
+    },
+    {
+      "School ID": "1958054",
+      "Zone": "Central",
+      "School": "ABUL FAZAL 2 HINDI-URDU (BOYS)",
+      "PoC": "Geeta",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A168:I168"
+    },
+    {
+      "School ID": "1958055",
+      "Zone": "Central",
+      "School": "ABUL FAZAL 1 HINDI-URDU (GIRLS)",
+      "PoC": "Geeta",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A169:I169"
+    },
+    {
+      "School ID": "1958057",
+      "Zone": "Central",
+      "School": "ZAKIR NAGAR HINDI (GIRLS)",
+      "PoC": "Geeta",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A170:I170"
+    },
+    {
+      "School ID": "1958058",
+      "Zone": "Central",
+      "School": "ZAKIR NAGAR HINDI (BOYS)",
+      "PoC": "Geeta",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A171:I171"
+    },
+    {
+      "School ID": "1958059",
+      "Zone": "Central",
+      "School": "ZAKIR NAGAR URDU (GIRLS)",
+      "PoC": "Geeta",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A172:I172"
+    },
+    {
+      "School ID": "1958060",
+      "Zone": "Central",
+      "School": "ZAKIR NAGAR URDU (BOYS)",
+      "PoC": "Geeta",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A173:I173"
+    },
+    {
+      "School ID": "1958062",
+      "Zone": "Central",
+      "School": "OKHLA HINDI & URDU COED",
+      "PoC": "Geeta",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A174:I174"
+    },
+    {
+      "School ID": "1958065",
+      "Zone": "Central",
+      "School": "WATER SEWAGE OKHLA (CO-ED)",
+      "PoC": "Geeta",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A175:I175"
+    },
+    {
+      "School ID": "1958066",
+      "Zone": "Central",
+      "School": "MODI MILL (CO-ED)",
+      "PoC": "Riya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A176:I176"
+    },
+    {
+      "School ID": "1958067",
+      "Zone": "Central",
+      "School": "SRI NIWAS PURI (GIRLS)",
+      "PoC": "Riya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A177:I177"
+    },
+    {
+      "School ID": "1958068",
+      "Zone": "Central",
+      "School": "SRI NIWAS PURI (BOYS)",
+      "PoC": "Riya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A178:I178"
+    },
+    {
+      "School ID": "1958069",
+      "Zone": "Central",
+      "School": "SHYAM NAGAR (CO-ED)",
+      "PoC": "Riya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A179:I179"
+    },
+    {
+      "School ID": "1958070",
+      "Zone": "Central",
+      "School": "EAST OF KAILASH (CO-ED)",
+      "PoC": "Riya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A180:I180"
+    },
+    {
+      "School ID": "1958072",
+      "Zone": "Central",
+      "School": "GARHI ZHARIA MARIA (CO-ED)",
+      "PoC": "Riya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A181:I181"
+    },
+    {
+      "School ID": "1958081",
+      "Zone": "Central",
+      "School": "KALKAJI B-BLOCK (CO-ED)",
+      "PoC": "Riya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A182:I182"
+    },
+    {
+      "School ID": "1958082",
+      "Zone": "Central",
+      "School": "KALKAJI K BLOCK (CO-ED)",
+      "PoC": "Riya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A183:I183"
+    },
+    {
+      "School ID": "1958084",
+      "Zone": "Central",
+      "School": "KALKAJI CENTRAL (CO-ED)",
+      "PoC": "Riya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A184:I184"
+    },
+    {
+      "School ID": "1958085",
+      "Zone": "Central",
+      "School": "GOVIND PURI KALKAJI (CO-ED)",
+      "PoC": "Anchal",
+      "Grade 3 teachers": 3,
+      "Source": "School Allocation!A185:I185"
+    },
+    {
+      "School ID": "1958087",
+      "Zone": "Central",
+      "School": "GIRI NAGAR (CO-ED)",
+      "PoC": "Anchal",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A186:I186"
+    },
+    {
+      "School ID": "1958089",
+      "Zone": "Central",
+      "School": "TRANSIT CAMP A-BLOCK (GIRLS)",
+      "PoC": "Anchal",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A187:I187"
+    },
+    {
+      "School ID": "1958090",
+      "Zone": "Central",
+      "School": "TRANSIT CAMP A-BLOCK (BOYS)",
+      "PoC": "Anchal",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A188:I188"
+    },
+    {
+      "School ID": "1958093",
+      "Zone": "Central",
+      "School": "RAILWAY COLONY BADARPUR (GIRLS)",
+      "PoC": "Anchal",
+      "Grade 3 teachers": 3,
+      "Source": "School Allocation!A189:I189"
+    },
+    {
+      "School ID": "1958094",
+      "Zone": "Central",
+      "School": "RAILWAY COLONY BADARPUR (BOYS)",
+      "PoC": "Anchal",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A190:I190"
+    },
+    {
+      "School ID": "1958095",
+      "Zone": "Central",
+      "School": "TUGLAKABAD VILLAGE (BOYS)",
+      "PoC": "Anchal",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A191:I191"
+    },
+    {
+      "School ID": "1958096",
+      "Zone": "Central",
+      "School": "TUGLAKABAD VILLAGE (GIRLS)",
+      "PoC": "Anchal",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A192:I192"
+    },
+    {
+      "School ID": "1958097",
+      "Zone": "Central",
+      "School": "TUGLAKABAD EXTENSION NO.1 (GIRLS)",
+      "PoC": "Anchal",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A193:I193"
+    },
+    {
+      "School ID": "1958099",
+      "Zone": "Central",
+      "School": "TUGLAKABAD EXTENSION NO.2 (GIRLS)",
+      "PoC": "Anchal",
+      "Grade 3 teachers": 3,
+      "Source": "School Allocation!A194:I194"
+    },
+    {
+      "School ID": "1958100",
+      "Zone": "Central",
+      "School": "TUGLAKABAD EXTENSION NO.2 (BOYS)",
+      "PoC": "Anchal",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A195:I195"
+    },
+    {
+      "School ID": "1958102",
+      "Zone": "Central",
+      "School": "PUL PEHLADPUR (GIRLS)",
+      "PoC": "Anchal",
+      "Grade 3 teachers": 4,
+      "Source": "School Allocation!A196:I196"
+    },
+    {
+      "School ID": "1958103",
+      "Zone": "Central",
+      "School": "PUL PEHLADPUR (BOYS)",
+      "PoC": "Anchal",
+      "Grade 3 teachers": 3,
+      "Source": "School Allocation!A197:I197"
+    },
+    {
+      "School ID": "1958104",
+      "Zone": "Central",
+      "School": "LAL KUAN CHUNGI NO 2 (GIRLS)",
+      "PoC": "Swagata",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A198:I198"
+    },
+    {
+      "School ID": "1958105",
+      "Zone": "Central",
+      "School": "LAL KUAN CHUNGI NO 2 (BOYS)",
+      "PoC": "Swagata",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A199:I199"
+    },
+    {
+      "School ID": "1958106",
+      "Zone": "Central",
+      "School": "LAL KUAN CENTRAL (GIRLS)",
+      "PoC": "Anchal",
+      "Grade 3 teachers": 4,
+      "Source": "School Allocation!A200:I200"
+    },
+    {
+      "School ID": "1958108",
+      "Zone": "Central",
+      "School": "SANGAM VIHAR F2-BLOCK (GIRLS)",
+      "PoC": "Sheetal",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A201:I201"
+    },
+    {
+      "School ID": "1958109",
+      "Zone": "Central",
+      "School": "SANGAM VIHAR F2-BLOCK (BOYS)",
+      "PoC": "Sheetal",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A202:I202"
+    },
+    {
+      "School ID": "1958110",
+      "Zone": "Central",
+      "School": "SANGAM VIHAR I-BLOCK (GIRLS)",
+      "PoC": "Sheetal",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A203:I203"
+    },
+    {
+      "School ID": "1958111",
+      "Zone": "Central",
+      "School": "SANGAM VIHAR I-BLOCK (BOYS)",
+      "PoC": "Sheetal",
+      "Grade 3 teachers": 3,
+      "Source": "School Allocation!A204:I204"
+    },
+    {
+      "School ID": "1958118",
+      "Zone": "Central",
+      "School": "JAITPUR (GIRLS)",
+      "PoC": "Sheetal",
+      "Grade 3 teachers": 8,
+      "Source": "School Allocation!A205:I205"
+    },
+    {
+      "School ID": "1958119",
+      "Zone": "Central",
+      "School": "JAITPUR (BOYS)",
+      "PoC": "Sheetal",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A206:I206"
+    },
+    {
+      "School ID": "1958122",
+      "Zone": "Central",
+      "School": "MEETHAPUR VILLAGE (GIRLS)",
+      "PoC": "Veena",
+      "Grade 3 teachers": 4,
+      "Source": "School Allocation!A207:I207"
+    },
+    {
+      "School ID": "1958123",
+      "Zone": "Central",
+      "School": "MEETHAPUR VILLAGE (BOYS)",
+      "PoC": "Veena",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A208:I208"
+    },
+    {
+      "School ID": "1958124",
+      "Zone": "Central",
+      "School": "MEETHAPUR EXTN (GIRLS)",
+      "PoC": "Veena",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A209:I209"
+    },
+    {
+      "School ID": "1958125",
+      "Zone": "Central",
+      "School": "MEETHAPUR EXTN (BOYS)",
+      "PoC": "Veena",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A210:I210"
+    },
+    {
+      "School ID": "1958126",
+      "Zone": "Central",
+      "School": "MOLARBAND VILLAGE (GIRLS)",
+      "PoC": "Veena",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A211:I211"
+    },
+    {
+      "School ID": "1958127",
+      "Zone": "Central",
+      "School": "MOLARBAND VILLAGE (BOYS)",
+      "PoC": "Veena",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A212:I212"
+    },
+    {
+      "School ID": "1958128",
+      "Zone": "Central",
+      "School": "MOLARBAND EXTN (GIRLS)",
+      "PoC": "Veena",
+      "Grade 3 teachers": 3,
+      "Source": "School Allocation!A213:I213"
+    },
+    {
+      "School ID": "1958129",
+      "Zone": "Central",
+      "School": "MOLARBAND EXTN (BOYS)",
+      "PoC": "Veena",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A214:I214"
+    },
+    {
+      "School ID": "1958130",
+      "Zone": "Central",
+      "School": "TAJPUR VILLAGE (GIRLS)",
+      "PoC": "Veena",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A215:I215"
+    },
+    {
+      "School ID": "1958131",
+      "Zone": "Central",
+      "School": "TAJPUR VILLAGE (BOYS)",
+      "PoC": "Veena",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A216:I216"
+    },
+    {
+      "School ID": "1958132",
+      "Zone": "Central",
+      "School": "TAJPUR PAHARI (GIRLS)",
+      "PoC": "Veena",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A217:I217"
+    },
+    {
+      "School ID": "1958133",
+      "Zone": "Central",
+      "School": "TAJPUR PAHARI (BOYS)",
+      "PoC": "Veena",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A218:I218"
+    },
+    {
+      "School ID": "1958134",
+      "Zone": "Central",
+      "School": "BADARPUR (GIRLS)",
+      "PoC": "Sheetal",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A219:I219"
+    },
+    {
+      "School ID": "1958135",
+      "Zone": "Central",
+      "School": "BADARPUR (BOYS)",
+      "PoC": "Sheetal",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A220:I220"
+    },
+    {
+      "School ID": "1958136",
+      "Zone": "Central",
+      "School": "GAUTAM PURI NO 1 (GIRLS)",
+      "PoC": "Sheetal",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A221:I221"
+    },
+    {
+      "School ID": "1958137",
+      "Zone": "Central",
+      "School": "GAUTAM PURI NO 2 (GIRLS)",
+      "PoC": "Sheetal",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A222:I222"
+    },
+    {
+      "School ID": "1958138",
+      "Zone": "Central",
+      "School": "GAUTAM PURI NO 1 (BOYS)",
+      "PoC": "Sheetal",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A223:I223"
+    },
+    {
+      "School ID": "1958139",
+      "Zone": "Central",
+      "School": "GAUTAM PURI NO 2 (BOYS)",
+      "PoC": "Sheetal",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A224:I224"
+    },
+    {
+      "School ID": "1958140",
+      "Zone": "Central",
+      "School": "AALI VILLAGE (GIRLS)",
+      "PoC": "Keerthi",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A225:I225"
+    },
+    {
+      "School ID": "1958141",
+      "Zone": "Central",
+      "School": "AALI VILLAGE (BOYS)",
+      "PoC": "Keerthi",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A226:I226"
+    },
+    {
+      "School ID": "1958144",
+      "Zone": "Central",
+      "School": "MADANPUR KHADAR VILLAGE NO 1(GIRLS)",
+      "PoC": "Swagata",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A227:I227"
+    },
+    {
+      "School ID": "1958145",
+      "Zone": "Central",
+      "School": "MADANPUR KHADAR VILLAGE NO 2 (GIRLS)",
+      "PoC": "Swagata",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A228:I228"
+    },
+    {
+      "School ID": "1958146",
+      "Zone": "Central",
+      "School": "MADANPUR KHADAR PHASE 1 (GIRLS)",
+      "PoC": "Swagata",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A229:I229"
+    },
+    {
+      "School ID": "1958147",
+      "Zone": "Central",
+      "School": "MADANPUR KHADAR PHASE 2 (GIRLS)",
+      "PoC": "Veena",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A230:I230"
+    },
+    {
+      "School ID": "1958148",
+      "Zone": "Central",
+      "School": "MADANPUR KHADAR PHASE 3 (GIRLS)",
+      "PoC": "Veena",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A231:I231"
+    },
+    {
+      "School ID": "1958149",
+      "Zone": "Central",
+      "School": "JASOLA VILLAGE (GIRLS)",
+      "PoC": "Keerthi",
+      "Grade 3 teachers": 4,
+      "Source": "School Allocation!A232:I232"
+    },
+    {
+      "School ID": "1958150",
+      "Zone": "Central",
+      "School": "JASOLA VILLAGE (BOYS)",
+      "PoC": "Keerthi",
+      "Grade 3 teachers": 4,
+      "Source": "School Allocation!A233:I233"
+    },
+    {
+      "School ID": "1958151",
+      "Zone": "Central",
+      "School": "HARKESH NAGAR (GIRLS)",
+      "PoC": "Keerthi",
+      "Grade 3 teachers": 4,
+      "Source": "School Allocation!A234:I234"
+    },
+    {
+      "School ID": "1958152",
+      "Zone": "Central",
+      "School": "HARKESH NAGAR (BOYS)",
+      "PoC": "Keerthi",
+      "Grade 3 teachers": 4,
+      "Source": "School Allocation!A235:I235"
+    },
+    {
+      "School ID": "1958153",
+      "Zone": "Central",
+      "School": "TEHKHANAD NO 2 (GIRLS)",
+      "PoC": "Swagata",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A236:I236"
+    },
+    {
+      "School ID": "1958154",
+      "Zone": "Central",
+      "School": "TEHKHANAD NO 2 (BOYS)",
+      "PoC": "Swagata",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A237:I237"
+    },
+    {
+      "School ID": "1958155",
+      "Zone": "Central",
+      "School": "TEHKHANAD NO 1 (GIRLS)",
+      "PoC": "Swagata",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A238:I238"
+    },
+    {
+      "School ID": "1958156",
+      "Zone": "Central",
+      "School": "TEHKHANAD NO 1 (BOYS)",
+      "PoC": "Swagata",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A239:I239"
+    },
+    {
+      "School ID": "1958157",
+      "Zone": "Central",
+      "School": "INDRA KALYAN VIHAR (GIRLS)",
+      "PoC": "Keerthi",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A240:I240"
+    },
+    {
+      "School ID": "1958158",
+      "Zone": "Central",
+      "School": "INDRA KALYAN VIHAR (BOYS)",
+      "PoC": "Keerthi",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A241:I241"
+    },
+    {
+      "School ID": "1958159",
+      "Zone": "Central",
+      "School": "SANJAY COLONY (GIRLS)",
+      "PoC": "Anchal",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A242:I242"
+    },
+    {
+      "School ID": "1958160",
+      "Zone": "Central",
+      "School": "SANJAY COLONY (BOYS)",
+      "PoC": "Anchal",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A243:I243"
+    },
+    {
+      "School ID": "1958405",
+      "Zone": "Central",
+      "School": "MADANPUR KHADAR VILLAGE NO 1 (BOYS)",
+      "PoC": "Swagata",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A244:I244"
+    },
+    {
+      "School ID": "1958406",
+      "Zone": "Central",
+      "School": "MADANPUR KHADAR VILLAGE NO 2 (BOYS)",
+      "PoC": "Swagata",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A245:I245"
+    },
+    {
+      "School ID": "1958407",
+      "Zone": "Central",
+      "School": "MADANPUR KHADAR PHASE 1 (BOYS)",
+      "PoC": "Swagata",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A246:I246"
+    },
+    {
+      "School ID": "1958452",
+      "Zone": "Central",
+      "School": "MADANPUR KHADAR PHASE 2 (BOYS)",
+      "PoC": "Veena",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A247:I247"
+    },
+    {
+      "School ID": "1958453",
+      "Zone": "Central",
+      "School": "MADANPUR KHADAR PHASE 3 (BOYS)",
+      "PoC": "Veena",
+      "Grade 3 teachers": 4,
+      "Source": "School Allocation!A248:I248"
+    },
+    {
+      "School ID": "1958527",
+      "Zone": "Central",
+      "School": "SANGAM VIHAR G-BLOCK GALI NO 12 - girls",
+      "PoC": "Anchal",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A249:I249"
+    },
+    {
+      "School ID": "1958536",
+      "Zone": "Central",
+      "School": "SANGAM VIHAR G-BLOCK (BOYS)",
+      "PoC": "Anchal",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A250:I250"
+    },
+    {
+      "School ID": "2162008",
+      "Zone": "Central",
+      "School": "KOTLA FEROZ SHAH (CO-ED)",
+      "PoC": "Sheetal",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A251:I251"
+    },
+    {
+      "School ID": "2162012",
+      "Zone": "Central",
+      "School": "NIZAMUDDIN WEST (CO-ED)",
+      "PoC": "Geeta",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A252:I252"
+    },
+    {
+      "School ID": "2162015",
+      "Zone": "Central",
+      "School": "SARAI KALE KHAN (GIRLS)",
+      "PoC": "Veena",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A253:I253"
+    },
+    {
+      "School ID": "2162016",
+      "Zone": "Central",
+      "School": "SARAI KALE KHAN (BOYS)",
+      "PoC": "Veena",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A254:I254"
+    },
+    {
+      "School ID": "2162020",
+      "Zone": "Central",
+      "School": "NANGLI RAZAPUR (CO-ED)",
+      "PoC": "Aditya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A255:I255"
+    },
+    {
+      "School ID": "2162095",
+      "Zone": "Central",
+      "School": "SIDDHARTH BASTI (CO-ED)",
+      "PoC": "Sheetal",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A256:I256"
+    },
+    {
+      "School ID": "1253097",
+      "Zone": "Civil",
+      "School": "DHAKKA Co Ed",
+      "PoC": "Swagata",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A257:I257"
+    },
+    {
+      "School ID": "1253102",
+      "Zone": "Civil",
+      "School": "VIJAY NAGAR SINGLE STOREY",
+      "PoC": "Anshika",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A258:I258"
+    },
+    {
+      "School ID": "1253103",
+      "Zone": "Civil",
+      "School": "VIJAY NAGAR D/S",
+      "PoC": "Anshika",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A259:I259"
+    },
+    {
+      "School ID": "1253105",
+      "Zone": "Civil",
+      "School": "VIJAY NAGAR NEW",
+      "PoC": "Geeta",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A260:I260"
+    },
+    {
+      "School ID": "1253117",
+      "Zone": "Civil",
+      "School": "KEWAL PARK",
+      "PoC": "Malya",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A261:I261"
+    },
+    {
+      "School ID": "1959007",
+      "Zone": "South",
+      "School": "HAUZ RANI URDU (COED)",
+      "PoC": "Aditya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A262:I262"
+    },
+    {
+      "School ID": "1959109",
+      "Zone": "South",
+      "School": "DEVLI NO 1 (BOYS)",
+      "PoC": "Aditya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A263:I263"
+    },
+    {
+      "School ID": "1959111",
+      "Zone": "South",
+      "School": "DEVLI NO 2 (BOYS)",
+      "PoC": "Aditya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A264:I264"
+    },
+    {
+      "School ID": "1959114",
+      "Zone": "South",
+      "School": "SANGAM VIHAR CBLOCK (GIRLS)",
+      "PoC": "Aditya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A265:I265"
+    },
+    {
+      "School ID": "1959115",
+      "Zone": "South",
+      "School": "SANGAM VIHAR CBLOCK (BOYS)",
+      "PoC": "Aditya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A266:I266"
+    },
+    {
+      "School ID": "1959117",
+      "Zone": "South",
+      "School": "SANGAM VIHAR K (BOYS)",
+      "PoC": "Aditya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A267:I267"
+    },
+    {
+      "School ID": "1959119",
+      "Zone": "South",
+      "School": "SANGAM VIHAR LBLOCK (BOYS)",
+      "PoC": "Aditya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A268:I268"
+    },
+    {
+      "School ID": "1253174",
+      "Zone": "Civil",
+      "School": "GHANTA GHAR",
+      "PoC": "Malya",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A269:I269"
+    },
+    {
+      "School ID": "1253063",
+      "Zone": "Civil",
+      "School": "GANDHI VIHAR",
+      "PoC": "Megha",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A271:I271"
+    },
+    {
+      "School ID": "1253124",
+      "Zone": "Civil",
+      "School": "Mohan Park Co Ed",
+      "PoC": "Megha",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A272:I272"
+    },
+    {
+      "School ID": "1253043",
+      "Zone": "Civil",
+      "School": "AZADPUR VILLAGE-1",
+      "PoC": "Riya",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A273:I273"
+    },
+    {
+      "School ID": "1757254",
+      "Zone": "South",
+      "School": "KISHAN GARH (COED)",
+      "PoC": "Anchal",
+      "Grade 3 teachers": 4,
+      "Source": "School Allocation!A274:I274"
+    },
+    {
+      "School ID": "1959102",
+      "Zone": "South",
+      "School": "DR AMBEDKAR NAGAR SEC 1 NO 1 (Coed)",
+      "PoC": "Anchal",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A275:I275"
+    },
+    {
+      "School ID": "1959104",
+      "Zone": "South",
+      "School": "DR AMBEDKAR NAGAR SEC. 1 NO 2 (Co-Ed)",
+      "PoC": "Anchal",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A276:I276"
+    },
+    {
+      "School ID": "1959122",
+      "Zone": "South",
+      "School": "DR AMBEDKAR NAGAR SEC 4 NO. 1 (BOYS)",
+      "PoC": "Anchal",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A277:I277"
+    },
+    {
+      "School ID": "1959123",
+      "Zone": "South",
+      "School": "DR AMBEDKAR NAGAR SEC 4 NO. 2 (GIRLS)",
+      "PoC": "Anchal",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A278:I278"
+    },
+    {
+      "School ID": "1959125",
+      "Zone": "South",
+      "School": "DR AMBEDKAR NAGAR SEC 4 NO 3 (COED)",
+      "PoC": "Anchal",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A279:I279"
+    },
+    {
+      "School ID": "1959127",
+      "Zone": "South",
+      "School": "DR AMBEDKAR NAGAR SEC 3 NO 1 (COED)",
+      "PoC": "Anchal",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A280:I280"
+    },
+    {
+      "School ID": "1959129",
+      "Zone": "South",
+      "School": "DR AMBEDKAR NAGAR SEC 2 (COED)",
+      "PoC": "Anchal",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A281:I281"
+    },
+    {
+      "School ID": "1959132",
+      "Zone": "South",
+      "School": "DR AMBEDKAR NAGAR SEC 5 NO 2 (COED)",
+      "PoC": "Anchal",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A282:I282"
+    },
+    {
+      "School ID": "1959134",
+      "Zone": "South",
+      "School": "DR AMBEDKAR NAGAR SEC 3 NO 2 (COED)",
+      "PoC": "Anchal",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A283:I283"
+    },
+    {
+      "School ID": "1959152",
+      "Zone": "South",
+      "School": "DR AMBEDKAR NAGAR SEC 6 NO 3 (COED)",
+      "PoC": "Anchal",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A284:I284"
+    },
+    {
+      "School ID": "1253044",
+      "Zone": "Civil",
+      "School": "AZADPUR VILLAGE 2",
+      "PoC": "Riya",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A285:I285"
+    },
+    {
+      "School ID": "1253049",
+      "Zone": "Civil",
+      "School": "BHAROLA VILLAGE-I",
+      "PoC": "Aditya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A286:I286"
+    },
+    {
+      "School ID": "1253094",
+      "Zone": "Civil",
+      "School": "INDRA VIHAR",
+      "PoC": "Aditya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A287:I287"
+    },
+    {
+      "School ID": "1253095",
+      "Zone": "Civil",
+      "School": "DHEERPUR Co Ed",
+      "PoC": "Aditya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A288:I288"
+    },
+    {
+      "School ID": "1253469",
+      "Zone": "Civil",
+      "School": "BHAROLA VILLAGE II",
+      "PoC": "Aditya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A289:I289"
+    },
+    {
+      "School ID": "1253471",
+      "Zone": "Civil",
+      "School": "JANTA VIHAR",
+      "PoC": "Aditya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A290:I290"
+    },
+    {
+      "School ID": "1253164",
+      "Zone": "Civil",
+      "School": "LIBASPUR I",
+      "PoC": "Anchal",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A291:I291"
+    },
+    {
+      "School ID": "1253165",
+      "Zone": "Civil",
+      "School": "LIBASPUR-II",
+      "PoC": "Anchal",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A292:I292"
+    },
+    {
+      "School ID": "1253166",
+      "Zone": "Civil",
+      "School": "MODEL GIRLS SCHOOL SIRASPUR",
+      "PoC": "Anchal",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A293:I293"
+    },
+    {
+      "School ID": "1253009",
+      "Zone": "Civil",
+      "School": "K BLOCK JAHANGIRPURI",
+      "PoC": "Anshika",
+      "Grade 3 teachers": 3,
+      "Source": "School Allocation!A294:I294"
+    },
+    {
+      "School ID": "1253078",
+      "Zone": "Civil",
+      "School": "MALKA GANJ Co-ed",
+      "PoC": "Anshika",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A295:I295"
+    },
+    {
+      "School ID": "1253079",
+      "Zone": "Civil",
+      "School": "KABIR BASTI",
+      "PoC": "Anshika",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A296:I296"
+    },
+    {
+      "School ID": "1253082",
+      "Zone": "Civil",
+      "School": "NU TIMARPUR Co Ed",
+      "PoC": "Anshika",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A297:I297"
+    },
+    {
+      "School ID": "1253084",
+      "Zone": "Civil",
+      "School": "LANCER's ROAD",
+      "PoC": "Anshika",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A298:I298"
+    },
+    {
+      "School ID": "1253086",
+      "Zone": "Civil",
+      "School": "WAZIRABAD VILLAGE- I",
+      "PoC": "Anshika",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A299:I299"
+    },
+    {
+      "School ID": "1253087",
+      "Zone": "Civil",
+      "School": "GOPALPUR VILLAGE",
+      "PoC": "Anshika",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A300:I300"
+    },
+    {
+      "School ID": "1253088",
+      "Zone": "Civil",
+      "School": "WAZIRABAD WATER WORKS-1",
+      "PoC": "Anshika",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A301:I301"
+    },
+    {
+      "School ID": "1253089",
+      "Zone": "Civil",
+      "School": "WAZIRABAD WATER WORKS II",
+      "PoC": "Anshika",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A302:I302"
+    },
+    {
+      "School ID": "1253092",
+      "Zone": "Civil",
+      "School": "PARMANAND COLONY",
+      "PoC": "Anshika",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A303:I303"
+    },
+    {
+      "School ID": "1253093",
+      "Zone": "Civil",
+      "School": "HAKIKAT NAGAR",
+      "PoC": "Anshika",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A304:I304"
+    },
+    {
+      "School ID": "1253099",
+      "Zone": "Civil",
+      "School": "MUKHERJEE PARK",
+      "PoC": "Anshika",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A305:I305"
+    },
+    {
+      "School ID": "1959036",
+      "Zone": "South",
+      "School": "R K PURAM SEC 1 (COED)",
+      "PoC": "Geeta",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A306:I306"
+    },
+    {
+      "School ID": "1959037",
+      "Zone": "South",
+      "School": "R K PURAM SEC 5 (COED)",
+      "PoC": "Geeta",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A307:I307"
+    },
+    {
+      "School ID": "1959039",
+      "Zone": "South",
+      "School": "R K PURAM SEC 6 (COED)",
+      "PoC": "Geeta",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A308:I308"
+    },
+    {
+      "School ID": "1959041",
+      "Zone": "South",
+      "School": "R K PURAM SEC 7 (COED)",
+      "PoC": "Geeta",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A309:I309"
+    },
+    {
+      "School ID": "1959042",
+      "Zone": "South",
+      "School": "R K PURAM SEC 8 (COED)",
+      "PoC": "Geeta",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A310:I310"
+    },
+    {
+      "School ID": "1959045",
+      "Zone": "South",
+      "School": "SOUTH MOTI BAGH (COED)",
+      "PoC": "Geeta",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A311:I311"
+    },
+    {
+      "School ID": "1959046",
+      "Zone": "South",
+      "School": "NANAK PURA MOTI BAGH (COED)",
+      "PoC": "Geeta",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A312:I312"
+    },
+    {
+      "School ID": "1959047",
+      "Zone": "South",
+      "School": "R K PURAM SEC 2 (COED)",
+      "PoC": "Geeta",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A313:I313"
+    },
+    {
+      "School ID": "1959048",
+      "Zone": "South",
+      "School": "R K PURAM SEC 3 (COED)",
+      "PoC": "Geeta",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A314:I314"
+    },
+    {
+      "School ID": "1959049",
+      "Zone": "South",
+      "School": "R K PURAM SEC 4 (COED)",
+      "PoC": "Geeta",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A315:I315"
+    },
+    {
+      "School ID": "1959008",
+      "Zone": "South",
+      "School": "MMTC COLONY (COED)",
+      "PoC": "Harshita",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A316:I316"
+    },
+    {
+      "School ID": "1959009",
+      "Zone": "South",
+      "School": "PTS COLONY (COED)",
+      "PoC": "Harshita",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A317:I317"
+    },
+    {
+      "School ID": "1959010",
+      "Zone": "South",
+      "School": "MALVIYA NAGAR (GIRLS)",
+      "PoC": "Harshita",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A318:I318"
+    },
+    {
+      "School ID": "1959011",
+      "Zone": "South",
+      "School": "MALVIYA NAGAR (BOYS)",
+      "PoC": "Harshita",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A319:I319"
+    },
+    {
+      "School ID": "1959075",
+      "Zone": "South",
+      "School": "GADAI PUR (COED)",
+      "PoC": "Harshita",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A320:I320"
+    },
+    {
+      "School ID": "1959076",
+      "Zone": "South",
+      "School": "JONA PUR (GIRLS)",
+      "PoC": "Harshita",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A321:I321"
+    },
+    {
+      "School ID": "1959077",
+      "Zone": "South",
+      "School": "JONA PUR (BOYS)",
+      "PoC": "Harshita",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A322:I322"
+    },
+    {
+      "School ID": "1959078",
+      "Zone": "South",
+      "School": "MANDI VILLAGE (COED)",
+      "PoC": "Harshita",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A323:I323"
+    },
+    {
+      "School ID": "1959084",
+      "Zone": "South",
+      "School": "SATBARI (COED)",
+      "PoC": "Harshita",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A324:I324"
+    },
+    {
+      "School ID": "1959085",
+      "Zone": "South",
+      "School": "FATEH PUR BERI (GIRLS)",
+      "PoC": "Harshita",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A325:I325"
+    },
+    {
+      "School ID": "1959086",
+      "Zone": "South",
+      "School": "FATEH PUR BERI (BOYS)",
+      "PoC": "Harshita",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A326:I326"
+    },
+    {
+      "School ID": "1959087",
+      "Zone": "South",
+      "School": "ASOLA (COED)",
+      "PoC": "Harshita",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A327:I327"
+    },
+    {
+      "School ID": "1959089",
+      "Zone": "South",
+      "School": "BHATI VILLAGE (COED)",
+      "PoC": "Harshita",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A328:I328"
+    },
+    {
+      "School ID": "1959090",
+      "Zone": "South",
+      "School": "BHATI MINES (GIRLS)",
+      "PoC": "Harshita",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A329:I329"
+    },
+    {
+      "School ID": "1959091",
+      "Zone": "South",
+      "School": "BHATI MINES (BOYS)",
+      "PoC": "Harshita",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A330:I330"
+    },
+    {
+      "School ID": "1959092",
+      "Zone": "South",
+      "School": "DERA VILLAGE (COED)",
+      "PoC": "Harshita",
+      "Grade 3 teachers": 3,
+      "Source": "School Allocation!A331:I331"
+    },
+    {
+      "School ID": "1757247",
+      "Zone": "South",
+      "School": "RAJOKARI (BOYS)",
+      "PoC": "Keerthi",
+      "Grade 3 teachers": 4,
+      "Source": "School Allocation!A332:I332"
+    },
+    {
+      "School ID": "1757248",
+      "Zone": "South",
+      "School": "RAJOKARI (GIRLS)",
+      "PoC": "Keerthi",
+      "Grade 3 teachers": 3,
+      "Source": "School Allocation!A333:I333"
+    },
+    {
+      "School ID": "1757249",
+      "Zone": "South",
+      "School": "RAJOKARI HARIJAN BASTI (COED)",
+      "PoC": "Keerthi",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A334:I334"
+    },
+    {
+      "School ID": "1959072",
+      "Zone": "South",
+      "School": "SULTAN PUR (COED)",
+      "PoC": "Keerthi",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A335:I335"
+    },
+    {
+      "School ID": "1959073",
+      "Zone": "South",
+      "School": "AAYA NAGAR (GIRLS)",
+      "PoC": "Keerthi",
+      "Grade 3 teachers": 4,
+      "Source": "School Allocation!A336:I336"
+    },
+    {
+      "School ID": "1959083",
+      "Zone": "South",
+      "School": "RAJPUR KHURD (COED)",
+      "PoC": "Keerthi",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A337:I337"
+    },
+    {
+      "School ID": "1959148",
+      "Zone": "South",
+      "School": "GHITORNI (BOYS)",
+      "PoC": "Keerthi",
+      "Grade 3 teachers": 3,
+      "Source": "School Allocation!A338:I338"
+    },
+    {
+      "School ID": "1959149",
+      "Zone": "South",
+      "School": "GHITORNI (GIRLS)",
+      "PoC": "Keerthi",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A339:I339"
+    },
+    {
+      "School ID": "1959150",
+      "Zone": "South",
+      "School": "MASOOD PUR (COED)",
+      "PoC": "Keerthi",
+      "Grade 3 teachers": 4,
+      "Source": "School Allocation!A340:I340"
+    },
+    {
+      "School ID": "1959412",
+      "Zone": "South",
+      "School": "AAYA NAGAR (BOYS)",
+      "PoC": "Keerthi",
+      "Grade 3 teachers": 4,
+      "Source": "School Allocation!A341:I341"
+    },
+    {
+      "School ID": "1253100",
+      "Zone": "Civil",
+      "School": "MALIKPUR",
+      "PoC": "Anshika",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A342:I342"
+    },
+    {
+      "School ID": "1253104",
+      "Zone": "Civil",
+      "School": "GTB NAGAR",
+      "PoC": "Anshika",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A343:I343"
+    },
+    {
+      "School ID": "1253034",
+      "Zone": "Civil",
+      "School": "SANT RAVIDAS NAGAR, E- BLOCK",
+      "PoC": "Geeta",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A344:I344"
+    },
+    {
+      "School ID": "1253036",
+      "Zone": "Civil",
+      "School": "JAHANGIRPURI EE Co Ed",
+      "PoC": "Geeta",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A345:I345"
+    },
+    {
+      "School ID": "1253090",
+      "Zone": "Civil",
+      "School": "MUKHERJEE NAGAR OLD",
+      "PoC": "Geeta",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A346:I346"
+    },
+    {
+      "School ID": "1253091",
+      "Zone": "Civil",
+      "School": "MUKHERJEE NAGAR NEW",
+      "PoC": "Geeta",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A347:I347"
+    },
+    {
+      "School ID": "1253013",
+      "Zone": "Civil",
+      "School": "BHALSWA VILLAGE",
+      "PoC": "Malya",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A348:I348"
+    },
+    {
+      "School ID": "1253021",
+      "Zone": "Civil",
+      "School": "IBRAHIMPUR-I",
+      "PoC": "Malya",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A349:I349"
+    },
+    {
+      "School ID": "1253022",
+      "Zone": "Civil",
+      "School": "IBRAHIMPUR-II",
+      "PoC": "Malya",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A350:I350"
+    },
+    {
+      "School ID": "1253025",
+      "Zone": "Civil",
+      "School": "BURARI BOYS",
+      "PoC": "Malya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A351:I351"
+    },
+    {
+      "School ID": "1253027",
+      "Zone": "Civil",
+      "School": "SANT NAGAR 1",
+      "PoC": "Malya",
+      "Grade 3 teachers": 4,
+      "Source": "School Allocation!A352:I352"
+    },
+    {
+      "School ID": "1253030",
+      "Zone": "Civil",
+      "School": "MUKUNDPUR-l",
+      "PoC": "Malya",
+      "Grade 3 teachers": 4,
+      "Source": "School Allocation!A353:I353"
+    },
+    {
+      "School ID": "1253031",
+      "Zone": "Civil",
+      "School": "MUKUNDPUR BOYS",
+      "PoC": "Malya",
+      "Grade 3 teachers": 3,
+      "Source": "School Allocation!A354:I354"
+    },
+    {
+      "School ID": "1253158",
+      "Zone": "Civil",
+      "School": "BADLI Co Ed",
+      "PoC": "Malya",
+      "Grade 3 teachers": 4,
+      "Source": "School Allocation!A355:I355"
+    },
+    {
+      "School ID": "1253160",
+      "Zone": "Civil",
+      "School": "SAMAYPUR OLD 1st",
+      "PoC": "Malya",
+      "Grade 3 teachers": 3,
+      "Source": "School Allocation!A356:I356"
+    },
+    {
+      "School ID": "1253161",
+      "Zone": "Civil",
+      "School": "SAMAYPUR OLD-II",
+      "PoC": "Malya",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A357:I357"
+    },
+    {
+      "School ID": "1253162",
+      "Zone": "Civil",
+      "School": "SAMAYPUR NEW 1",
+      "PoC": "Malya",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A358:I358"
+    },
+    {
+      "School ID": "1253163",
+      "Zone": "Civil",
+      "School": "SAMAYPUR NEW BOYS",
+      "PoC": "Malya",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A359:I359"
+    },
+    {
+      "School ID": "1253177",
+      "Zone": "Civil",
+      "School": "MEETHA KUAN",
+      "PoC": "Malya",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A360:I360"
+    },
+    {
+      "School ID": "1253404",
+      "Zone": "Civil",
+      "School": "WAZIRABAD VILLAGE-2nd",
+      "PoC": "Malya",
+      "Grade 3 teachers": 3,
+      "Source": "School Allocation!A361:I361"
+    },
+    {
+      "School ID": "1253017",
+      "Zone": "Civil",
+      "School": "KADIPUR KUSHAK BOYS 2",
+      "PoC": "Manish",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A362:I362"
+    },
+    {
+      "School ID": "1253018",
+      "Zone": "Civil",
+      "School": "KADIPUR KUSHAK No.1",
+      "PoC": "Manish",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A363:I363"
+    },
+    {
+      "School ID": "1253019",
+      "Zone": "Civil",
+      "School": "CO-ED MUKHMEL PUR",
+      "PoC": "Manish",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A364:I364"
+    },
+    {
+      "School ID": "1253023",
+      "Zone": "Civil",
+      "School": "NATHUPURA- 1",
+      "PoC": "Manish",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A365:I365"
+    },
+    {
+      "School ID": "1253024",
+      "Zone": "Civil",
+      "School": "NATHU PURA-II",
+      "PoC": "Manish",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A366:I366"
+    },
+    {
+      "School ID": "1253026",
+      "Zone": "Civil",
+      "School": "BURARI GIRLS",
+      "PoC": "Manish",
+      "Grade 3 teachers": 3,
+      "Source": "School Allocation!A367:I367"
+    },
+    {
+      "School ID": "1253028",
+      "Zone": "Civil",
+      "School": "JHARODA MAJRA-I",
+      "PoC": "Manish",
+      "Grade 3 teachers": 3,
+      "Source": "School Allocation!A368:I368"
+    },
+    {
+      "School ID": "1253029",
+      "Zone": "Civil",
+      "School": "JHARODA MAJRA-II",
+      "PoC": "Manish",
+      "Grade 3 teachers": 3,
+      "Source": "School Allocation!A369:I369"
+    },
+    {
+      "School ID": "1253032",
+      "Zone": "Civil",
+      "School": "SANT RAVIDAS NAGAR D-Ist",
+      "PoC": "Manish",
+      "Grade 3 teachers": 3,
+      "Source": "School Allocation!A370:I370"
+    },
+    {
+      "School ID": "1253033",
+      "Zone": "Civil",
+      "School": "SANT RAVIDAS NAGAR D-II",
+      "PoC": "Manish",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A371:I371"
+    },
+    {
+      "School ID": "1253039",
+      "Zone": "Civil",
+      "School": "JAGAT PUR",
+      "PoC": "Megha",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A372:I372"
+    },
+    {
+      "School ID": "1253045",
+      "Zone": "Civil",
+      "School": "MAJLIS PARK Co-Ed",
+      "PoC": "Megha",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A373:I373"
+    },
+    {
+      "School ID": "1253047",
+      "Zone": "Civil",
+      "School": "ADARSH NAGAR GIRLS",
+      "PoC": "Megha",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A374:I374"
+    },
+    {
+      "School ID": "1253048",
+      "Zone": "Civil",
+      "School": "ADARSH NAGAR BOYS",
+      "PoC": "Megha",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A375:I375"
+    },
+    {
+      "School ID": "1253050",
+      "Zone": "Civil",
+      "School": "BHAROLLA UDYAN PANCHWATI",
+      "PoC": "Megha",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A376:I376"
+    },
+    {
+      "School ID": "1253051",
+      "Zone": "Civil",
+      "School": "INDRA NAGAR",
+      "PoC": "Megha",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A377:I377"
+    },
+    {
+      "School ID": "1253053",
+      "Zone": "Civil",
+      "School": "SARAI PIPAL THALA-1",
+      "PoC": "Megha",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A378:I378"
+    },
+    {
+      "School ID": "1253054",
+      "Zone": "Civil",
+      "School": "SARAI PIPAL THALA-2",
+      "PoC": "Megha",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A379:I379"
+    },
+    {
+      "School ID": "1253056",
+      "Zone": "Civil",
+      "School": "JAHANGIR PURI A-II",
+      "PoC": "Megha",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A380:I380"
+    },
+    {
+      "School ID": "1253057",
+      "Zone": "Civil",
+      "School": "F&G BLOCK JAHANGIR PURI Co Ed",
+      "PoC": "Megha",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A381:I381"
+    },
+    {
+      "School ID": "1253059",
+      "Zone": "Civil",
+      "School": "H-BLOCK JAHANGIRPURI Co Ed",
+      "PoC": "Megha",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A382:I382"
+    },
+    {
+      "School ID": "1253077",
+      "Zone": "Civil",
+      "School": "NEHRU KUTIYA CO-ED",
+      "PoC": "Megha",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A383:I383"
+    },
+    {
+      "School ID": "1253080",
+      "Zone": "Civil",
+      "School": "NEHRU VIHAR GIRLS",
+      "PoC": "Megha",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A384:I384"
+    },
+    {
+      "School ID": "1253081",
+      "Zone": "Civil",
+      "School": "NEHRU VIHAR BOYS",
+      "PoC": "Megha",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A385:I385"
+    },
+    {
+      "School ID": "1253002",
+      "Zone": "Civil",
+      "School": "JAHANGIRPURI C I",
+      "PoC": "Riya",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A386:I386"
+    },
+    {
+      "School ID": "1253003",
+      "Zone": "Civil",
+      "School": "JAHANGIRPURI C II",
+      "PoC": "Riya",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A387:I387"
+    },
+    {
+      "School ID": "1253004",
+      "Zone": "Civil",
+      "School": "JAHANGIR PURI I Block 1st",
+      "PoC": "Riya",
+      "Grade 3 teachers": 4,
+      "Source": "School Allocation!A388:I388"
+    },
+    {
+      "School ID": "1253005",
+      "Zone": "Civil",
+      "School": "JAHANGIRPURI I- II",
+      "PoC": "Riya",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A389:I389"
+    },
+    {
+      "School ID": "1253006",
+      "Zone": "Civil",
+      "School": "B-II JAHANGIR PURI",
+      "PoC": "Riya",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A390:I390"
+    },
+    {
+      "School ID": "1253007",
+      "Zone": "Civil",
+      "School": "J Block JAHANGIRPURI",
+      "PoC": "Riya",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A391:I391"
+    },
+    {
+      "School ID": "1253011",
+      "Zone": "Civil",
+      "School": "BHALASWA DAIRY-1",
+      "PoC": "Riya",
+      "Grade 3 teachers": 4,
+      "Source": "School Allocation!A392:I392"
+    },
+    {
+      "School ID": "1253012",
+      "Zone": "Civil",
+      "School": "BHALSWA DAIRY II",
+      "PoC": "Riya",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A393:I393"
+    },
+    {
+      "School ID": "1253014",
+      "Zone": "Civil",
+      "School": "BHALASWA JJ No. 1",
+      "PoC": "Riya",
+      "Grade 3 teachers": 3,
+      "Source": "School Allocation!A394:I394"
+    },
+    {
+      "School ID": "1253015",
+      "Zone": "Civil",
+      "School": "CO-ED SCHOOL BHALASWA JJ NO-2",
+      "PoC": "Riya",
+      "Grade 3 teachers": 3,
+      "Source": "School Allocation!A395:I395"
+    },
+    {
+      "School ID": "1253016",
+      "Zone": "Civil",
+      "School": "NANGLI POONA",
+      "PoC": "Riya",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A396:I396"
+    },
+    {
+      "School ID": "1253119",
+      "Zone": "Civil",
+      "School": "RAMESHWAR NAGAR Co-Ed",
+      "PoC": "Riya",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A397:I397"
+    },
+    {
+      "School ID": "1253167",
+      "Zone": "Civil",
+      "School": "SIRAS PUR BOYS",
+      "PoC": "Anchal",
+      "Grade 3 teachers": 3,
+      "Source": "School Allocation!A398:I398"
+    },
+    {
+      "School ID": "1253178",
+      "Zone": "Civil",
+      "School": "BV JAHANGIRPURI A-1",
+      "PoC": "Sakshi",
+      "Grade 3 teachers": 3,
+      "Source": "School Allocation!A399:I399"
+    },
+    {
+      "School ID": "1253411",
+      "Zone": "Civil",
+      "School": "SANTNAGAR 2nd",
+      "PoC": "Sakshi",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A400:I400"
+    },
+    {
+      "School ID": "1959130",
+      "Zone": "South",
+      "School": "DR AMBEDKAR NAGAR SEC 5 NO 1 (COED)",
+      "PoC": "Sakshi",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A401:I401"
+    },
+    {
+      "School ID": "1959136",
+      "Zone": "South",
+      "School": "KHAN PUR VILLAGE GIRLS",
+      "PoC": "Sakshi",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A402:I402"
+    },
+    {
+      "School ID": "1959137",
+      "Zone": "South",
+      "School": "KHAN PUR CO-ED",
+      "PoC": "Sakshi",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A403:I403"
+    },
+    {
+      "School ID": "1959138",
+      "Zone": "South",
+      "School": "MADANGIR VILLAGE",
+      "PoC": "Sakshi",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A404:I404"
+    },
+    {
+      "School ID": "1959140",
+      "Zone": "South",
+      "School": "DR AMBEDKAR NAGAR SEC 6 NO 1 (COED)",
+      "PoC": "Sakshi",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A405:I405"
+    },
+    {
+      "School ID": "1959142",
+      "Zone": "South",
+      "School": "DR AMBEDKAR NAGAR SEC 6 NO 2 (COED)",
+      "PoC": "Sakshi",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A406:I406"
+    },
+    {
+      "School ID": "1959144",
+      "Zone": "South",
+      "School": "DR AMBEDKAR NAGAR SEC 6 NO 4 (COED)",
+      "PoC": "Sakshi",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A407:I407"
+    },
+    {
+      "School ID": "1959146",
+      "Zone": "South",
+      "School": "DR AMBEDKAR NAGAR SEC 5 NO 3 (COED)",
+      "PoC": "Sakshi",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A408:I408"
+    },
+    {
+      "School ID": "1959151",
+      "Zone": "South",
+      "School": "SHEIKH SARAI",
+      "PoC": "Sakshi",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A409:I409"
+    },
+    {
+      "School ID": "1959154",
+      "Zone": "South",
+      "School": "DR AMBEDKAR NAGAR SEC 6 NO 5 (COED)",
+      "PoC": "Sakshi",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A410:I410"
+    },
+    {
+      "School ID": "1959156",
+      "Zone": "South",
+      "School": "BASANT NAGAR (GIRLS)",
+      "PoC": "Sakshi",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A411:I411"
+    },
+    {
+      "School ID": "1959158",
+      "Zone": "South",
+      "School": "NEB SARAI (BOYS)",
+      "PoC": "Sakshi",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A412:I412"
+    },
+    {
+      "School ID": "1958073",
+      "Zone": "South",
+      "School": "KALKAJI DDA SLUM (Co-Ed)",
+      "PoC": "Shalini",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A413:I413"
+    },
+    {
+      "School ID": "1958075",
+      "Zone": "South",
+      "School": "KALKAJI DDA II (Co-Ed)",
+      "PoC": "Shalini",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A414:I414"
+    },
+    {
+      "School ID": "1958077",
+      "Zone": "South",
+      "School": "JANTA GRAH (COED)",
+      "PoC": "Shalini",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A415:I415"
+    },
+    {
+      "School ID": "1958080",
+      "Zone": "South",
+      "School": "C.R. PARK � HINDI & BENGALI (COED)",
+      "PoC": "Shalini",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A416:I416"
+    },
+    {
+      "School ID": "1958411",
+      "Zone": "South",
+      "School": "SANT NAGAR (COED)",
+      "PoC": "Shalini",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A417:I417"
+    },
+    {
+      "School ID": "1958412",
+      "Zone": "South",
+      "School": "KAILASH COLONY (COED)",
+      "PoC": "Shalini",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A418:I418"
+    },
+    {
+      "School ID": "1958413",
+      "Zone": "South",
+      "School": "JAMROOD PUR (COED)",
+      "PoC": "Shalini",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A419:I419"
+    },
+    {
+      "School ID": "1959001",
+      "Zone": "South",
+      "School": "CHIRAG (COED)",
+      "PoC": "Shalini",
+      "Grade 3 teachers": 3,
+      "Source": "School Allocation!A420:I420"
+    },
+    {
+      "School ID": "1959003",
+      "Zone": "South",
+      "School": "KHIRKI VILLAGE BOYS",
+      "PoC": "Shalini",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A421:I421"
+    },
+    {
+      "School ID": "1959004",
+      "Zone": "South",
+      "School": "SAVITRI NAGAR (GIRLS)",
+      "PoC": "Shalini",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A422:I422"
+    },
+    {
+      "School ID": "1959005",
+      "Zone": "South",
+      "School": "HAUZ RANI HINDI (G)",
+      "PoC": "Shalini",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A423:I423"
+    },
+    {
+      "School ID": "1959006",
+      "Zone": "South",
+      "School": "HAUZ RANI HINDI (BOYS)",
+      "PoC": "Shalini",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A424:I424"
+    },
+    {
+      "School ID": "1959029",
+      "Zone": "South",
+      "School": "HAUZ KHAS POLICE COLONY (COED)",
+      "PoC": "Sheetal",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A425:I425"
+    },
+    {
+      "School ID": "1959030",
+      "Zone": "South",
+      "School": "HAUZ KHAS ENCLAVE (COED)",
+      "PoC": "Sheetal",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A426:I426"
+    },
+    {
+      "School ID": "1959032",
+      "Zone": "South",
+      "School": "SARVPRIYA VIHAR (COED)",
+      "PoC": "Sheetal",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A427:I427"
+    },
+    {
+      "School ID": "1959033",
+      "Zone": "South",
+      "School": "BEGUM PUR (COED)",
+      "PoC": "Sheetal",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A428:I428"
+    },
+    {
+      "School ID": "1959034",
+      "Zone": "South",
+      "School": "ADHCHINI (COED)",
+      "PoC": "Sheetal",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A429:I429"
+    },
+    {
+      "School ID": "1959043",
+      "Zone": "South",
+      "School": "R K PURAM SEC 9 (COED)",
+      "PoC": "Sheetal",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A430:I430"
+    },
+    {
+      "School ID": "1959044",
+      "Zone": "South",
+      "School": "R K PURAM SEC 12 (COED)",
+      "PoC": "Sheetal",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A431:I431"
+    },
+    {
+      "School ID": "1959050",
+      "Zone": "South",
+      "School": "MUNIRIKA (COED)",
+      "PoC": "Sheetal",
+      "Grade 3 teachers": 3,
+      "Source": "School Allocation!A432:I432"
+    },
+    {
+      "School ID": "1959054",
+      "Zone": "South",
+      "School": "CPWD VASANT VIHAR -I",
+      "PoC": "Sheetal",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A433:I433"
+    },
+    {
+      "School ID": "1959056",
+      "Zone": "South",
+      "School": "INDIA AIRLINE COLONY (COED)",
+      "PoC": "Sheetal",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A434:I434"
+    },
+    {
+      "School ID": "1959071",
+      "Zone": "South",
+      "School": "NEW MANGLA PURI (COED)",
+      "PoC": "Sheetal",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A435:I435"
+    },
+    {
+      "School ID": "1959108",
+      "Zone": "South",
+      "School": "DEVLI NO 1 (GIRLS)",
+      "PoC": "Sheetal",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A436:I436"
+    },
+    {
+      "School ID": "1959110",
+      "Zone": "South",
+      "School": "DEVLI NO 2 (GIRLS)",
+      "PoC": "Sheetal",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A437:I437"
+    },
+    {
+      "School ID": "1959112",
+      "Zone": "South",
+      "School": "DEVLI NO-3-Co-Ed",
+      "PoC": "Sheetal",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A438:I438"
+    },
+    {
+      "School ID": "1959118",
+      "Zone": "South",
+      "School": "SANGAM VIHAR LBLOCK (GIRLS)",
+      "PoC": "Sheetal",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A439:I439"
+    },
+    {
+      "School ID": "1253180",
+      "Zone": "Civil",
+      "School": "JAHANGIR PURI B1",
+      "PoC": "Sakshi",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A440:I440"
+    },
+    {
+      "School ID": "1253123",
+      "Zone": "Civil",
+      "School": "GOPAL NAGAR",
+      "PoC": "Swagata",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A441:I441"
+    },
+    {
+      "School ID": "1959058",
+      "Zone": "South",
+      "School": "MEHRAULI MAIN (BOYS)",
+      "PoC": "Swagata",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A442:I442"
+    },
+    {
+      "School ID": "1959059",
+      "Zone": "South",
+      "School": "MEHRAULI VILLAGE (GIRLS)",
+      "PoC": "Swagata",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A443:I443"
+    },
+    {
+      "School ID": "1959060",
+      "Zone": "South",
+      "School": "MEHRAULI KOTHI KALE KHAN (COED)",
+      "PoC": "Swagata",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A444:I444"
+    },
+    {
+      "School ID": "1959061",
+      "Zone": "South",
+      "School": "MEHRAULI DARGAH (BOYS)",
+      "PoC": "Swagata",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A445:I445"
+    },
+    {
+      "School ID": "1959063",
+      "Zone": "South",
+      "School": "LADO SARAI (GIRLS)",
+      "PoC": "Swagata",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A446:I446"
+    },
+    {
+      "School ID": "1959064",
+      "Zone": "South",
+      "School": "LADO SARAI (BOYS)",
+      "PoC": "Swagata",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A447:I447"
+    },
+    {
+      "School ID": "1959065",
+      "Zone": "South",
+      "School": "KATWARIA SARAI (GIRLS)",
+      "PoC": "Swagata",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A448:I448"
+    },
+    {
+      "School ID": "1959066",
+      "Zone": "South",
+      "School": "KATWARIA SARAI (BOYS)",
+      "PoC": "Swagata",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A449:I449"
+    },
+    {
+      "School ID": "1959067",
+      "Zone": "South",
+      "School": "SAIDULAJAB (COED)",
+      "PoC": "Swagata",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A450:I450"
+    },
+    {
+      "School ID": "1959068",
+      "Zone": "South",
+      "School": "NEB SARAI (GIRLS)",
+      "PoC": "Swagata",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A451:I451"
+    },
+    {
+      "School ID": "1959069",
+      "Zone": "South",
+      "School": "BER SARAI (COED)",
+      "PoC": "Swagata",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A452:I452"
+    },
+    {
+      "School ID": "1959088",
+      "Zone": "South",
+      "School": "CHANDAN HULLA (COED)",
+      "PoC": "Swagata",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A453:I453"
+    },
+    {
+      "School ID": "1959116",
+      "Zone": "South",
+      "School": "SANGAM VIHAR K II (GIRLS)",
+      "PoC": "Swagata",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A454:I454"
+    },
+    {
+      "School ID": "1959120",
+      "Zone": "South",
+      "School": "SANGAM VIHAR G-BLK",
+      "PoC": "Swagata",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A455:I455"
+    },
+    {
+      "School ID": "1959070",
+      "Zone": "South",
+      "School": "MAIDAN GARI (COED)",
+      "PoC": "Kavya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A456:I456"
+    },
+    {
+      "School ID": "1959079",
+      "Zone": "South",
+      "School": "CHATTARPUR MANDIR (GIRLS)",
+      "PoC": "Kavya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A457:I457"
+    },
+    {
+      "School ID": "1959080",
+      "Zone": "South",
+      "School": "CHATTARPUR MANDIR (BOYS)",
+      "PoC": "Kavya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A458:I458"
+    },
+    {
+      "School ID": "1959081",
+      "Zone": "South",
+      "School": "CHATTARPUR VILLAGE (GIRLS)",
+      "PoC": "Kavya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A459:I459"
+    },
+    {
+      "School ID": "1959082",
+      "Zone": "South",
+      "School": "CHATTARPUR VILLAGE (BOYS)",
+      "PoC": "Kavya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A460:I460"
+    },
+    {
+      "School ID": "1959093",
+      "Zone": "South",
+      "School": "SAKET GBLOCK (COED)",
+      "PoC": "Kavya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A461:I461"
+    },
+    {
+      "School ID": "1959094",
+      "Zone": "South",
+      "School": "PUSHP VIHAR SEC 1 NO 1 (COED)",
+      "PoC": "Kavya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A462:I462"
+    },
+    {
+      "School ID": "1959095",
+      "Zone": "South",
+      "School": "PUSHP VIHAR SEC 1 NO 2 (COED)",
+      "PoC": "Kavya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A463:I463"
+    },
+    {
+      "School ID": "1959096",
+      "Zone": "South",
+      "School": "PUSHP VIHAR SEC 3 (COED)",
+      "PoC": "Kavya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A464:I464"
+    },
+    {
+      "School ID": "1959099",
+      "Zone": "South",
+      "School": "PUSHP VIHAR SEC 4 (COED)",
+      "PoC": "Kavya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A465:I465"
+    },
+    {
+      "School ID": "1959100",
+      "Zone": "South",
+      "School": "PUSHP VIHAR SEC 5 (COED)",
+      "PoC": "Kavya",
+      "Grade 3 teachers": null,
+      "Source": "School Allocation!A466:I466"
+    },
+    {
+      "School ID": "1253168",
+      "Zone": "Civil",
+      "School": "SWAROOP NAGAR-I",
+      "PoC": "Veena",
+      "Grade 3 teachers": 5,
+      "Source": "School Allocation!A467:I467"
+    },
+    {
+      "School ID": "1253169",
+      "Zone": "Civil",
+      "School": "SWAROOP NAGAR-II",
+      "PoC": "Veena",
+      "Grade 3 teachers": 3,
+      "Source": "School Allocation!A468:I468"
+    },
+    {
+      "School ID": "1253170",
+      "Zone": "Civil",
+      "School": "ARYAPURA COED",
+      "PoC": "Veena",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A469:I469"
+    },
+    {
+      "School ID": "1959013",
+      "Zone": "South",
+      "School": "SHAHPUR JAT (COED)",
+      "PoC": "Veena",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A470:I470"
+    },
+    {
+      "School ID": "1959016",
+      "Zone": "South",
+      "School": "KRISHI VIHAR (COED)",
+      "PoC": "Veena",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A471:I471"
+    },
+    {
+      "School ID": "1959018",
+      "Zone": "South",
+      "School": "SADHNA ENCLAVE (COED)",
+      "PoC": "Veena",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A472:I472"
+    },
+    {
+      "School ID": "1959019",
+      "Zone": "South",
+      "School": "GREEN PARK (COED)",
+      "PoC": "Veena",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A473:I473"
+    },
+    {
+      "School ID": "1959020",
+      "Zone": "South",
+      "School": "ARJUN NAGAR (COED)",
+      "PoC": "Veena",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A474:I474"
+    },
+    {
+      "School ID": "1959021",
+      "Zone": "South",
+      "School": "HAUZ KHAS VILLAGE",
+      "PoC": "Veena",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A475:I475"
+    },
+    {
+      "School ID": "1959022",
+      "Zone": "South",
+      "School": "BHIM NAGARI (COED)",
+      "PoC": "Veena",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A476:I476"
+    },
+    {
+      "School ID": "1959023",
+      "Zone": "South",
+      "School": "HIMAYUN PUR (COED)",
+      "PoC": "Veena",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A477:I477"
+    },
+    {
+      "School ID": "1959024",
+      "Zone": "South",
+      "School": "MOHMAD PUR (COED)",
+      "PoC": "Veena",
+      "Grade 3 teachers": 2,
+      "Source": "School Allocation!A478:I478"
+    },
+    {
+      "School ID": "1959026",
+      "Zone": "South",
+      "School": "GAUTAM NAGAR (COED)",
+      "PoC": "Veena",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A479:I479"
+    },
+    {
+      "School ID": "1959028",
+      "Zone": "South",
+      "School": "MASJID MOTH (COED)",
+      "PoC": "Veena",
+      "Grade 3 teachers": 1,
+      "Source": "School Allocation!A480:I480"
+    },
+    {
+      "School ID": "1959101",
+      "Zone": "South",
+      "School": "PUSHP VIHAR SEC 7 (COED)",
+      "PoC": "Veena",
+      "Grade 3 teachers": 3,
+      "Source": "School Allocation!A481:I481"
+    }
+  ],
+  "training": [
+    {
+      "Zone": "South",
+      "HoS total": 130,
+      "HoS attended": 110,
+      "Teacher batches completed": 6,
+      "Teacher batches planned": 6,
+      "Source": "Leadership Update 9 Sep!A4:F4"
+    },
+    {
+      "Zone": "Civil",
+      "HoS total": 94,
+      "HoS attended": 76,
+      "Teacher batches completed": 5,
+      "Teacher batches planned": 5,
+      "Source": "Leadership Update 9 Sep!A5:F5"
+    },
+    {
+      "Zone": "Central",
+      "HoS total": 128,
+      "HoS attended": 105,
+      "Teacher batches completed": 1,
+      "Teacher batches planned": 4,
+      "Source": "Leadership Update 9 Sep!A6:F6"
+    },
+    {
+      "Zone": "West",
+      "HoS total": 127,
+      "HoS attended": 117,
+      "Teacher batches completed": 4,
+      "Teacher batches planned": 5,
+      "Source": "Leadership Update 9 Sep!A7:F7"
+    }
+  ],
+  "visit_reach": [
+    {
+      "Period": "Phase 1 (August-September 7th)",
+      "Recorded visits": 71,
+      "Source": "Leadership Update 9 Sep!A14:B14"
+    },
+    {
+      "Period": "September  8-11",
+      "Recorded visits": 19,
+      "Source": "Leadership Update 9 Sep!A15:B15"
+    },
+    {
+      "Period": "September  14-18",
+      "Recorded visits": 79,
+      "Source": "Leadership Update 9 Sep!A16:B16"
+    }
+  ],
+  "visits": [
+    {
+      "Period": "11th September 2026",
+      "Team member": "Megha",
+      "Zone as recorded": "West",
+      "Planned": 1,
+      "Achieved": 1,
+      "EoP": 0,
+      "EoL": 0,
+      "Source": "Manager's Check-in!A4:J4"
+    },
+    {
+      "Period": "11th September 2026",
+      "Team member": "Geeta",
+      "Zone as recorded": "Civil Lines",
+      "Planned": 2,
+      "Achieved": 2,
+      "EoP": 0,
+      "EoL": 0,
+      "Source": "Manager's Check-in!A5:J5"
+    },
+    {
+      "Period": "11th September 2026",
+      "Team member": "Ghazala",
+      "Zone as recorded": "Central",
+      "Planned": 1,
+      "Achieved": 1,
+      "EoP": 0,
+      "EoL": 0,
+      "Source": "Manager's Check-in!A6:J6"
+    },
+    {
+      "Period": "11th September 2026",
+      "Team member": "Shalini",
+      "Zone as recorded": "Not recorded",
+      "Planned": 2,
+      "Achieved": 2,
+      "EoP": 0,
+      "EoL": 0,
+      "Source": "Manager's Check-in!A7:J7"
+    },
+    {
+      "Period": "11th September 2026",
+      "Team member": "Harshita",
+      "Zone as recorded": "Not recorded",
+      "Planned": 4,
+      "Achieved": 2,
+      "EoP": 0,
+      "EoL": 0,
+      "Source": "Manager's Check-in!A8:J8"
+    },
+    {
+      "Period": "11th September 2026",
+      "Team member": "Anshika",
+      "Zone as recorded": "Not recorded",
+      "Planned": 2,
+      "Achieved": 2,
+      "EoP": 1,
+      "EoL": 1,
+      "Source": "Manager's Check-in!A9:J9"
+    },
+    {
+      "Period": "11th September 2026",
+      "Team member": "Arjun",
+      "Zone as recorded": "Not recorded",
+      "Planned": 1,
+      "Achieved": 1,
+      "EoP": 1,
+      "EoL": 0,
+      "Source": "Manager's Check-in!A10:J10"
+    },
+    {
+      "Period": "11th September 2026",
+      "Team member": "Gaurav",
+      "Zone as recorded": "Not recorded",
+      "Planned": 1,
+      "Achieved": 1,
+      "EoP": 0,
+      "EoL": 0,
+      "Source": "Manager's Check-in!A11:J11"
+    },
+    {
+      "Period": "11th September 2026",
+      "Team member": "Sakshi",
+      "Zone as recorded": "West\nSouth",
+      "Planned": 1,
+      "Achieved": 1,
+      "EoP": 0,
+      "EoL": 0,
+      "Source": "Manager's Check-in!A13:J13"
+    },
+    {
+      "Period": "11th September 2026",
+      "Team member": "Anchal",
+      "Zone as recorded": "Central \nSouth",
+      "Planned": 1,
+      "Achieved": 1,
+      "EoP": 0,
+      "EoL": 0,
+      "Source": "Manager's Check-in!A14:J14"
+    },
+    {
+      "Period": "11th September 2026",
+      "Team member": "Veena",
+      "Zone as recorded": "Central \nSouth",
+      "Planned": 1,
+      "Achieved": 1,
+      "EoP": 0,
+      "EoL": 0,
+      "Source": "Manager's Check-in!A15:J15"
+    },
+    {
+      "Period": "11th September 2026",
+      "Team member": "Adiba",
+      "Zone as recorded": "South Zone",
+      "Planned": 2,
+      "Achieved": 2,
+      "EoP": 1,
+      "EoL": 1,
+      "Source": "Manager's Check-in!A16:J16"
+    },
+    {
+      "Period": "11th September 2026",
+      "Team member": "Malya",
+      "Zone as recorded": "NA",
+      "Planned": null,
+      "Achieved": 0,
+      "EoP": null,
+      "EoL": null,
+      "Source": "Manager's Check-in!A17:J17"
+    },
+    {
+      "Period": "11th September 2026",
+      "Team member": "Swagata",
+      "Zone as recorded": "NA",
+      "Planned": null,
+      "Achieved": 0,
+      "EoP": null,
+      "EoL": null,
+      "Source": "Manager's Check-in!A18:J18"
+    },
+    {
+      "Period": "11th September 2026",
+      "Team member": "Kavya",
+      "Zone as recorded": "South Zone",
+      "Planned": 2,
+      "Achieved": 2,
+      "EoP": 2,
+      "EoL": 2,
+      "Source": "Manager's Check-in!A19:J19"
+    },
+    {
+      "Period": "Insights 14th - 18th September 2026",
+      "Team member": "Megha",
+      "Zone as recorded": "Not recorded",
+      "Planned": 6,
+      "Achieved": null,
+      "EoP": null,
+      "EoL": null,
+      "Source": "Manager's Check-in!A27:J27"
+    },
+    {
+      "Period": "Insights 14th - 18th September 2026",
+      "Team member": "Geeta",
+      "Zone as recorded": "Not recorded",
+      "Planned": 2,
+      "Achieved": null,
+      "EoP": null,
+      "EoL": null,
+      "Source": "Manager's Check-in!A28:J28"
+    },
+    {
+      "Period": "Insights 14th - 18th September 2026",
+      "Team member": "Ghazala",
+      "Zone as recorded": "Not recorded",
+      "Planned": 4,
+      "Achieved": null,
+      "EoP": null,
+      "EoL": null,
+      "Source": "Manager's Check-in!A29:J29"
+    },
+    {
+      "Period": "Insights 14th - 18th September 2026",
+      "Team member": "Shalini",
+      "Zone as recorded": "Not recorded",
+      "Planned": 8,
+      "Achieved": null,
+      "EoP": null,
+      "EoL": null,
+      "Source": "Manager's Check-in!A30:J30"
+    },
+    {
+      "Period": "Insights 14th - 18th September 2026",
+      "Team member": "Anshika",
+      "Zone as recorded": "Not recorded",
+      "Planned": 6,
+      "Achieved": null,
+      "EoP": null,
+      "EoL": null,
+      "Source": "Manager's Check-in!A31:J31"
+    },
+    {
+      "Period": "Insights 14th - 18th September 2026",
+      "Team member": "Harshita",
+      "Zone as recorded": "Not recorded",
+      "Planned": 4,
+      "Achieved": null,
+      "EoP": null,
+      "EoL": null,
+      "Source": "Manager's Check-in!A32:J32"
+    },
+    {
+      "Period": "Insights 14th - 18th September 2026",
+      "Team member": "Arjun",
+      "Zone as recorded": "Not recorded",
+      "Planned": 6,
+      "Achieved": null,
+      "EoP": null,
+      "EoL": null,
+      "Source": "Manager's Check-in!A34:J34"
+    },
+    {
+      "Period": "Insights 14th - 18th September 2026",
+      "Team member": "Adiba",
+      "Zone as recorded": "Not recorded",
+      "Planned": 6,
+      "Achieved": null,
+      "EoP": null,
+      "EoL": null,
+      "Source": "Manager's Check-in!A36:J36"
+    },
+    {
+      "Period": "Insights 14th - 18th September 2026",
+      "Team member": "Malya",
+      "Zone as recorded": "Not recorded",
+      "Planned": 7,
+      "Achieved": null,
+      "EoP": null,
+      "EoL": null,
+      "Source": "Manager's Check-in!A37:J37"
+    },
+    {
+      "Period": "Insights 14th - 18th September 2026",
+      "Team member": "Swagata",
+      "Zone as recorded": "Not recorded",
+      "Planned": 8,
+      "Achieved": null,
+      "EoP": null,
+      "EoL": null,
+      "Source": "Manager's Check-in!A38:J38"
+    },
+    {
+      "Period": "Insights 14th - 18th September 2026",
+      "Team member": "Kavya",
+      "Zone as recorded": "Not recorded",
+      "Planned": 2,
+      "Achieved": null,
+      "EoP": null,
+      "EoL": null,
+      "Source": "Manager's Check-in!A39:J39"
+    }
+  ],
+  "competencies": [
+    {
+      "Subject": "Numeracy",
+      "Competency": "Reads/writes numbers to 9999",
+      "Performance %": 50.0,
+      "Target %": 68.0,
+      "Source": "Competency Based Inputs (wip)!F8:I8"
+    },
+    {
+      "Subject": "Numeracy",
+      "Competency": "Reads/writes numbers to 999",
+      "Performance %": 88.0,
+      "Target %": 90.0,
+      "Source": "Competency Based Inputs (wip)!F9:I9"
+    },
+    {
+      "Subject": "Numeracy",
+      "Competency": "Reads/writes numbers to 99",
+      "Performance %": 94.0,
+      "Target %": 95.0,
+      "Source": "Competency Based Inputs (wip)!F10:I10"
+    },
+    {
+      "Subject": "Numeracy",
+      "Competency": "Multiplication tables & division",
+      "Performance %": 45.0,
+      "Target %": 72.0,
+      "Source": "Competency Based Inputs (wip)!F11:I11"
+    },
+    {
+      "Subject": "Numeracy",
+      "Competency": "Add/sub up to 99",
+      "Performance %": 74.0,
+      "Target %": 86.0,
+      "Source": "Competency Based Inputs (wip)!F12:I12"
+    },
+    {
+      "Subject": "Numeracy",
+      "Competency": "Mult as repeated addition",
+      "Performance %": 72.0,
+      "Target %": 82.0,
+      "Source": "Competency Based Inputs (wip)!F13:I13"
+    },
+    {
+      "Subject": "Numeracy",
+      "Competency": "Add/sub up to 9",
+      "Performance %": 76.0,
+      "Target %": 83.0,
+      "Source": "Competency Based Inputs (wip)!F14:I14"
+    },
+    {
+      "Subject": "Numeracy",
+      "Competency": "Add/sub to 999, daily life",
+      "Performance %": 34.0,
+      "Target %": 59.0,
+      "Source": "Competency Based Inputs (wip)!F15:I15"
+    },
+    {
+      "Subject": "Literacy",
+      "Competency": "ORF: % at 60 CWPM benchmark",
+      "Performance %": 28.999999999999996,
+      "Target %": 43.0,
+      "Source": "Competency Based Inputs (wip)!F17:I17"
+    },
+    {
+      "Subject": "Literacy",
+      "Competency": "Reads non-words",
+      "Performance %": 64.0,
+      "Target %": 74.0,
+      "Source": "Competency Based Inputs (wip)!F18:I18"
+    },
+    {
+      "Subject": "Literacy",
+      "Competency": "≥3/4 Qs, unknown story",
+      "Performance %": 60.0,
+      "Target %": 72.0,
+      "Source": "Competency Based Inputs (wip)!F19:I19"
+    },
+    {
+      "Subject": "Literacy",
+      "Competency": "Reads non-words",
+      "Performance %": 77.0,
+      "Target %": 85.0,
+      "Source": "Competency Based Inputs (wip)!F20:I20"
+    },
+    {
+      "Subject": "Literacy",
+      "Competency": "≥2/4 Qs, unknown story",
+      "Performance %": 77.0,
+      "Target %": 84.0,
+      "Source": "Competency Based Inputs (wip)!F21:I21"
+    },
+    {
+      "Subject": "Literacy",
+      "Competency": "Reads small sentences, unknown text",
+      "Performance %": 72.0,
+      "Target %": 84.0,
+      "Source": "Competency Based Inputs (wip)!F22:I22"
+    }
+  ],
+  "practice_targets": [
+    {
+      "Indicator": "% classrooms where LO being taught is aligned with focused competencies",
+      "Weight": "0.3",
+      "Target": "75%",
+      "Actual": "Not available",
+      "Source": "TP adoption KPI and targets!B4:E4"
+    },
+    {
+      "Indicator": "% of classrooms where teacher is giving clear instruction mapped to the LO being taught",
+      "Weight": "0.2",
+      "Target": "80%",
+      "Actual": "Not available",
+      "Source": "TP adoption KPI and targets!B5:E5"
+    },
+    {
+      "Indicator": "% of classrooms where teacher is asking at least 2 LO mapped questions;",
+      "Weight": "0.2",
+      "Target": "70%",
+      "Actual": "Not available",
+      "Source": "TP adoption KPI and targets!B6:E6"
+    },
+    {
+      "Indicator": "% of classrooms where at least 70% students are able to solve questions mapped to month specific focused competency/competencies",
+      "Weight": "0.8",
+      "Target": "80%",
+      "Actual": "Not available",
+      "Source": "TP adoption KPI and targets!B7:E7"
+    },
+    {
+      "Indicator": "% of classrooms where teacher is giving them group/independent LO aligned practice tasks",
+      "Weight": "0.2",
+      "Target": "95%",
+      "Actual": "Not available",
+      "Source": "TP adoption KPI and targets!B9:E9"
+    },
+    {
+      "Indicator": "% of classrooms where teacher is circulating around the class to monitor students' work",
+      "Weight": "0.1",
+      "Target": "80%",
+      "Actual": "Not available",
+      "Source": "TP adoption KPI and targets!B10:E10"
+    },
+    {
+      "Indicator": "% of classrooms where teacher is giving feedback to students based on their work",
+      "Weight": "0.1",
+      "Target": "80%",
+      "Actual": "Not available",
+      "Source": "TP adoption KPI and targets!B11:E11"
+    },
+    {
+      "Indicator": "% of classrooms where students are spending at least 15 min on practice tasks",
+      "Weight": "0.2",
+      "Target": "70%",
+      "Actual": "Not available",
+      "Source": "TP adoption KPI and targets!B12:E12"
+    },
+    {
+      "Indicator": "% of classrooms where students have filled in worksheets for at least previous month’s focused competency",
+      "Weight": "0.3",
+      "Target": "90%",
+      "Actual": "Not available",
+      "Source": "TP adoption KPI and targets!B13:E13"
+    },
+    {
+      "Indicator": "% of classrooms where at least 70% students are engaged during LO based questioning",
+      "Weight": "0.2",
+      "Target": "70%",
+      "Actual": "Not available",
+      "Source": "TP adoption KPI and targets!B15:E15"
+    },
+    {
+      "Indicator": "% of classrooms where at least 70% students are engaged during practice tasks",
+      "Weight": "0.3",
+      "Target": "70%",
+      "Actual": "Not available",
+      "Source": "TP adoption KPI and targets!B16:E16"
+    },
+    {
+      "Indicator": "% classrooms where teachers have shared their classes' FA data prior or during the last check-in call",
+      "Weight": "0.2",
+      "Target": "90%",
+      "Actual": "Not available",
+      "Source": "TP adoption KPI and targets!B18:E18"
+    },
+    {
+      "Indicator": "% classrooms where teachers reported using competency specific remedial measures from competency pack",
+      "Weight": "0.3",
+      "Target": "80%",
+      "Actual": "Not available",
+      "Source": "TP adoption KPI and targets!B19:E19"
+    },
+    {
+      "Indicator": "% classrooms where teachers were observed using at least one remedial strategy for any focused competency",
+      "Weight": "0.5",
+      "Target": "60%",
+      "Actual": "Not available",
+      "Source": "TP adoption KPI and targets!B20:E20"
+    },
+    {
+      "Indicator": "% classrooms where teachers reported having engaged with materials during check-in calls",
+      "Weight": "0.25",
+      "Target": "90%",
+      "Actual": "Not available",
+      "Source": "TP adoption KPI and targets!B22:E22"
+    },
+    {
+      "Indicator": "% classrooms where teachers attend competency focused samvad (to be calculated as a % of samvads which meet quality benchmark)",
+      "Weight": "0.25",
+      "Target": "90%",
+      "Actual": "Not available",
+      "Source": "TP adoption KPI and targets!B23:E23"
+    }
+  ],
+  "risks": [
+    {
+      "Date": "2026-08-28 00:00:00",
+      "Deliverable": "Micro-module development for post-training support (async dissemination): September",
+      "Owner": "Riashree",
+      "Risk": "The quality of animation in PW video is underwhelming",
+      "Type": "Quality Risk",
+      "Severity": "Medium",
+      "Mitigation": "Feedback is being given to PW",
+      "Source": "Accountability & Risk!A9:N9"
+    },
+    {
+      "Date": "2026-08-28 00:00:00",
+      "Deliverable": "Zonal Circular to be drafted and release for CZ",
+      "Owner": "Sonam",
+      "Risk": "•⁠  ⁠No HQ-level campaign permission yet, which may create an accountability/alignment concern.\n•⁠  ⁠September has multiple departmental priorities  Buniyad baseline assessment, and mid-term exams—which may require us to reschedule Batch 3 & 4.",
+      "Type": "Enabling Risk",
+      "Severity": "Medium",
+      "Mitigation": "•⁠  ⁠Continue leveraging existing zonal relationships and coordination, while staying aligned with HQ/departmental directions.\n•⁠  ⁠Reschedule batches as required without affecting the overall implementation plan.",
+      "Source": "Accountability & Risk!A10:N10"
+    },
+    {
+      "Date": "2026-08-28 00:00:00",
+      "Deliverable": "Workbook Printing Decision",
+      "Owner": "Urmila/Sonam",
+      "Risk": "Timeline getting delayed, leading to less time for practice",
+      "Type": "Impact Risk",
+      "Severity": "High",
+      "Mitigation": "We should get it printed and disseminated as soon as possible",
+      "Source": "Accountability & Risk!A12:N12"
+    },
+    {
+      "Date": "2026-08-28 00:00:00",
+      "Deliverable": "Customized Support Sheet/tracker: Launch and Training",
+      "Owner": "Sonam",
+      "Risk": "Team might need support for the initial month until processes streamline especially of competency pack, Samvad.",
+      "Type": "Delivery Risk",
+      "Severity": "High",
+      "Mitigation": "We need to handhold the team by participating in their Samvads for the first month atleast to be that pillar of support and steer the conversation if any.",
+      "Source": "Accountability & Risk!A16:N16"
+    },
+    {
+      "Date": "2026-08-28 00:00:00",
+      "Deliverable": "Central Zone Campaign Mode Activation",
+      "Owner": "Sonam",
+      "Risk": "DDE may not own the NIPUN Campaign, if HQ directive is not there",
+      "Type": "Enabling Risk",
+      "Severity": "High",
+      "Mitigation": "Need to have HQ directive and also a conversation with Urmila to push her to take some steps at the zonal level",
+      "Source": "Accountability & Risk!A18:N18"
+    },
+    {
+      "Date": "2026-08-28 00:00:00",
+      "Deliverable": "Civil Lines  Zone Campaign Mode Activation",
+      "Owner": "Sonam",
+      "Risk": "An HQ order will be expected from zonal officials for the campaign.",
+      "Type": "Enabling Risk",
+      "Severity": "High",
+      "Mitigation": "Take SI into confidence first for pitching campaign",
+      "Source": "Accountability & Risk!A21:N21"
+    }
+  ],
+  "framework": [
+    {
+      "Indicator": "Mention measurable specific indicators (what we can observe/measure) aligned to the outcome listed in Column C. \nCell type: Text \nInstructions: Please enter one indicator per line. It should be SMART (Specific, Measurable, Achievable, Realistic, Timebound)\nLimits: One outcome can be mapped to multiple indicators. We recommend a maximum of 3 indicators per outcome.",
+      "Target as recorded": "Mention the final targets in terms of % for the indicators listed in Column D. \nCell type: Percentages\nInstructions: We recommend the targets setting activity to be performed in collaborations with programme<>MEL teams.",
+      "Timeframe": "Mention the year in which program teams plan to achieve this target.\nCell Type: Dropdown\nWe recommend program teams to initially plan targets for the Year 1 of measurement.",
+      "Result as recorded": "Mention the achievement of Year1 of the Programme in terms of % for the indicators listed in Column D. This achievement is to be compared to the target we had set.",
+      "Baseline as recorded": "Mention the achievement of Year1 of the Programme in terms of % for the indicators listed in Column D. This achievement is to be compared to the target we had set.",
+      "Source": "Result Framework OY4!F7:J7"
+    },
+    {
+      "Indicator": "% of students achieving grade-level proficiency in FLN competencies",
+      "Target as recorded": "Old Zone:",
+      "Timeframe": "Year 4",
+      "Result as recorded": "New Zone:",
+      "Baseline as recorded": "Old Zone: TBD",
+      "Source": "Result Framework OY4!F8:J8"
+    },
+    {
+      "Indicator": "% of students achieving FLN proficiency in Foundational literacy competencies",
+      "Target as recorded": "Old Zone:",
+      "Timeframe": "Year 4",
+      "Result as recorded": "New Zone:",
+      "Baseline as recorded": "Old Zone: TBD",
+      "Source": "Result Framework OY4!F9:J9"
+    },
+    {
+      "Indicator": "% of students achieving FLN proficiency in Numeracy",
+      "Target as recorded": "Old Zone:",
+      "Timeframe": "Year 4",
+      "Result as recorded": "New Zone:",
+      "Baseline as recorded": "Old Zone: TBD",
+      "Source": "Result Framework OY4!F10:J10"
+    },
+    {
+      "Indicator": "% of schools showing improvement in average Foundational Literacy scores between baseline and endline.",
+      "Target as recorded": "Old Zone:",
+      "Timeframe": "Year 4",
+      "Result as recorded": "New Zone:",
+      "Baseline as recorded": "Old Zone: TBD",
+      "Source": "Result Framework OY4!F11:J11"
+    },
+    {
+      "Indicator": "% of students acheiving FLN proficiency in Foundational Literacy in baseline assessment",
+      "Target as recorded": "Old Zone:",
+      "Timeframe": "Year 4",
+      "Result as recorded": "New Zone:",
+      "Baseline as recorded": "Old Zone: 51%",
+      "Source": "Result Framework OY4!F12:J12"
+    },
+    {
+      "Indicator": "% of students acheiving FLN proficiency in Foundational Literacy in endline assessment",
+      "Target as recorded": "Old Zone:",
+      "Timeframe": "Year 4",
+      "Result as recorded": "New Zone:",
+      "Baseline as recorded": "Old Zone: TBD",
+      "Source": "Result Framework OY4!F13:J13"
+    },
+    {
+      "Indicator": "% of schools showing an improvement in grade-level proficiency in FLN competencies from baseline to endline",
+      "Target as recorded": "Old Zone:",
+      "Timeframe": "Year 4",
+      "Result as recorded": "New Zone:",
+      "Baseline as recorded": "Old Zone: TBD",
+      "Source": "Result Framework OY4!F14:J14"
+    },
+    {
+      "Indicator": "% of students acheiving in FLN competencies in baseline assessment",
+      "Target as recorded": "Old Zone:",
+      "Timeframe": "Year 4",
+      "Result as recorded": "New Zone:",
+      "Baseline as recorded": "Old Zone: 51%",
+      "Source": "Result Framework OY4!F15:J15"
+    },
+    {
+      "Indicator": "% of students acheiving in FLN competencies in endline assessment",
+      "Target as recorded": "Old Zone:",
+      "Timeframe": "Year 4",
+      "Result as recorded": "New Zone:",
+      "Baseline as recorded": "Old Zone: TBD",
+      "Source": "Result Framework OY4!F16:J16"
+    },
+    {
+      "Indicator": "% of schools showing improvement in average Numeracy scores between baseline and endline",
+      "Target as recorded": "Old Zone:",
+      "Timeframe": "Year 4",
+      "Result as recorded": "New Zone:",
+      "Baseline as recorded": "Old Zone: TBD",
+      "Source": "Result Framework OY4!F17:J17"
+    },
+    {
+      "Indicator": "% of students acheiving FLN proficiency in Numeracy in baseline assessment",
+      "Target as recorded": "Old Zone:",
+      "Timeframe": "Year 4",
+      "Result as recorded": "New Zone:",
+      "Baseline as recorded": "Old Zone: 44%",
+      "Source": "Result Framework OY4!F18:J18"
+    },
+    {
+      "Indicator": "% of students acheiving grade-level proficiency in Numeracy in endline assessment",
+      "Target as recorded": "Old Zone:",
+      "Timeframe": "Year 4",
+      "Result as recorded": "New Zone:",
+      "Baseline as recorded": "Old Zone: TBD",
+      "Source": "Result Framework OY4!F19:J19"
+    },
+    {
+      "Indicator": "No. of students assessed during the baseline assessment",
+      "Target as recorded": "Old Zone:",
+      "Timeframe": "Year 4",
+      "Result as recorded": "New Zone:",
+      "Baseline as recorded": "Old Zone: 2427 (95%)",
+      "Source": "Result Framework OY4!F20:J20"
+    },
+    {
+      "Indicator": "No. of students assessed during the endline assessment",
+      "Target as recorded": "Old Zone:",
+      "Timeframe": "Year 4",
+      "Result as recorded": "New Zone:",
+      "Baseline as recorded": "Old Zone: 2345 (92%)",
+      "Source": "Result Framework OY4!F21:J21"
+    },
+    {
+      "Indicator": "No. of school covered during the baseline assessment",
+      "Target as recorded": "Old Zone:",
+      "Timeframe": "Year 4",
+      "Result as recorded": "New Zone:",
+      "Baseline as recorded": "Old Zone: 255",
+      "Source": "Result Framework OY4!F22:J22"
+    },
+    {
+      "Indicator": "No. of school covered during the endline assessment",
+      "Target as recorded": "Old Zone:",
+      "Timeframe": "Year 4",
+      "Result as recorded": "New Zone:",
+      "Baseline as recorded": "Old Zone: TBD",
+      "Source": "Result Framework OY4!F23:J23"
+    },
+    {
+      "Indicator": "% of students engaged in practise time throughout the lesson",
+      "Target as recorded": "Old Zone:",
+      "Timeframe": "Year 4",
+      "Result as recorded": "New Zone:",
+      "Baseline as recorded": "New indicator/data not available",
+      "Source": "Result Framework OY4!F24:J24"
+    },
+    {
+      "Indicator": "% of students workbook updated with respect to the lesson being taught in classs",
+      "Target as recorded": "Old Zone:",
+      "Timeframe": "Year 4",
+      "Result as recorded": "New Zone:",
+      "Baseline as recorded": "Old Zone: TBD",
+      "Source": "Result Framework OY4!F25:J25"
+    },
+    {
+      "Indicator": "% of HoS conducting effective classroom observations of at least 10 minutes, with independent use of the checklist or provision of constructive feedback to teachers.",
+      "Target as recorded": "Old Zone: 90%\nNew Zone: 85%",
+      "Timeframe": "Year 4",
+      "Result as recorded": "Old Zone: \nNew Zone:",
+      "Baseline as recorded": "Old Zone: 83%\nNew Zone: 76%",
+      "Source": "Result Framework OY4!F26:J26"
+    },
+    {
+      "Indicator": "% of HoS conducting joint classroom observation independently for atleast 10 minutes.",
+      "Target as recorded": "Old Zone: 100%\nNew Zone: 100%",
+      "Timeframe": "Year 4",
+      "Result as recorded": "Old Zone: \nNew Zone:",
+      "Baseline as recorded": "Old Zone: 94%\nNew Zone: 93%",
+      "Source": "Result Framework OY4!F27:J27"
+    },
+    {
+      "Indicator": "% of HoS that can identify the elements (use of TLM, wait time, questioning mapped to learning outcome and data recording) of CRO checklist independently.",
+      "Target as recorded": "Old Zone: 80%\nNew Zone: 70%",
+      "Timeframe": "Year 4",
+      "Result as recorded": "Old Zone: \nNew Zone:",
+      "Baseline as recorded": "Old Zone: 70%\nNew Zone: 60%",
+      "Source": "Result Framework OY4!F28:J28"
+    },
+    {
+      "Indicator": "% of HoS provided constructive feedback to teachers constituting atleast 1 written glow, grow and actionable feedback to the teacher post CRO.",
+      "Target as recorded": "Old Zone: 75%\nNew Zone: 75%",
+      "Timeframe": "Year 4",
+      "Result as recorded": "Old Zone: \nNew Zone:",
+      "Baseline as recorded": "Old Zone: 67%\nNew Zone: 66%",
+      "Source": "Result Framework OY4!F29:J29"
+    },
+    {
+      "Indicator": "% of HoS asked teachers to self reflect on the teaching practices post CRO",
+      "Target as recorded": "Old Zone: 30%\nNew Zone: 25%",
+      "Timeframe": "Year 4",
+      "Result as recorded": "Old Zone: \nNew Zone:",
+      "Baseline as recorded": "Old Zone: 19%\nNew Zone: 23%",
+      "Source": "Result Framework OY4!F30:J30"
+    },
+    {
+      "Indicator": "% of HoS conducted supplementary CROs (beyond JCROs) and documented in records.",
+      "Target as recorded": "Old Zone: \nNew Zone:",
+      "Timeframe": "Year 4",
+      "Result as recorded": "Old Zone: \nNew Zone:",
+      "Baseline as recorded": "Old Zone: 10%\nNew Zone: 8%",
+      "Source": "Result Framework OY4!F31:J31"
+    },
+    {
+      "Indicator": "Number of JCROs conducted",
+      "Target as recorded": "Old Zone: 262\nNew Zone: 208",
+      "Timeframe": "Year 4",
+      "Result as recorded": "Old Zone: \nNew Zone:",
+      "Baseline as recorded": "Old Zone: 166\nNew Zone: 136",
+      "Source": "Result Framework OY4!F32:J32"
+    },
+    {
+      "Indicator": "Number of schools covered under JCROs intervention",
+      "Target as recorded": "Old Zone: 255\nNew Zone: 224",
+      "Timeframe": "Year 4",
+      "Result as recorded": "Old Zone: \nNew Zone:",
+      "Baseline as recorded": "Old Zone: 162\nNew Zone: 135",
+      "Source": "Result Framework OY4!F33:J33"
+    },
+    {
+      "Indicator": "% of HOS able to discuss on pointers of teacher checklist during self reflection",
+      "Target as recorded": "Old Zone: \nNew Zone:",
+      "Timeframe": "Year 4",
+      "Result as recorded": "Old Zone: \nNew Zone:",
+      "Baseline as recorded": "New indicator/data not available",
+      "Source": "Result Framework OY4!F34:J34"
+    },
+    {
+      "Indicator": "% of questions teacher is asking related to FA strategy",
+      "Target as recorded": "Old Zone: \nNew Zone:",
+      "Timeframe": "Year 4",
+      "Result as recorded": "Old Zone: \nNew Zone:",
+      "Baseline as recorded": "New indicator/data not available",
+      "Source": "Result Framework OY4!F35:J35"
+    },
+    {
+      "Indicator": "% of HOS checking workbooks as a tool to assess student practise in classroom",
+      "Target as recorded": "Old Zone: \nNew Zone:",
+      "Timeframe": "Year 4",
+      "Result as recorded": "Old Zone: \nNew Zone:",
+      "Baseline as recorded": "New indicator/data not available",
+      "Source": "Result Framework OY4!F36:J36"
+    },
+    {
+      "Indicator": "% of HoS conducts effective DDMs with participation from all grade teachers and discussion of assessment data across grades (1-3)",
+      "Target as recorded": "Old Zone: 85%\nNew Zone: 80%",
+      "Timeframe": "Year 4",
+      "Result as recorded": "Old Zone: \nNew Zone:",
+      "Baseline as recorded": "Old Zone: 74%\nNew Zone: 70%",
+      "Source": "Result Framework OY4!F37:J37"
+    },
+    {
+      "Indicator": "% of HoS attended the DDM meeting",
+      "Target as recorded": "Old Zone: 100%\nNew Zone: 100%",
+      "Timeframe": "Year 4",
+      "Result as recorded": "Old Zone: \nNew Zone:",
+      "Baseline as recorded": "Old Zone: 99%\nNew Zone: 99%",
+      "Source": "Result Framework OY4!F38:J38"
+    },
+    {
+      "Indicator": "% of HoS ensures teacher per grade participation in DDMs",
+      "Target as recorded": "Old Zone: 100%\nNew Zone: 100%",
+      "Timeframe": "Year 4",
+      "Result as recorded": "Old Zone: \nNew Zone:",
+      "Baseline as recorded": "Old Zone: 97%\nNew Zone: 98%",
+      "Source": "Result Framework OY4!F39:J39"
+    },
+    {
+      "Indicator": "% of HoS discussed student assessment data of each grade in the DDM",
+      "Target as recorded": "Old Zone: 99%\nNew Zone: 95%",
+      "Timeframe": "Year 4",
+      "Result as recorded": "Old Zone: \nNew Zone:",
+      "Baseline as recorded": "Old Zone: 91%\nNew Zone: 87%",
+      "Source": "Result Framework OY4!F40:J40"
+    },
+    {
+      "Indicator": "% of HoS recording the details in the format",
+      "Target as recorded": "Old Zone: 100%\nNew Zone: 100%",
+      "Timeframe": "Year 4",
+      "Result as recorded": "Old Zone: \nNew Zone:",
+      "Baseline as recorded": "New indicator/data not available",
+      "Source": "Result Framework OY4!F41:J41"
+    },
+    {
+      "Indicator": "% of HoS conducting two DDMs in a year",
+      "Target as recorded": "Old Zone: 100%\nNew Zone: 100%",
+      "Timeframe": "Year 4",
+      "Result as recorded": "Old Zone: \nNew Zone:",
+      "Baseline as recorded": "Old Zone: 100%\nNew Zone: 99%",
+      "Source": "Result Framework OY4!F42:J42"
+    },
+    {
+      "Indicator": "% of HoS conducted supplementary DDMs (beyond two mandated) and documented in records.",
+      "Target as recorded": "Old Zone: 10%\nNew Zone: 10%",
+      "Timeframe": "Year 4",
+      "Result as recorded": "Old Zone: \nNew Zone:",
+      "Baseline as recorded": "Old Zone: 2%\nNew Zone: 0.4%",
+      "Source": "Result Framework OY4!F43:J43"
+    },
+    {
+      "Indicator": "Number of DDMs conducted",
+      "Target as recorded": "Old Zone: 383\nNew Zone: 314",
+      "Timeframe": "Year 4",
+      "Result as recorded": "Old Zone: \nNew Zone:",
+      "Baseline as recorded": "Old Zone: 245\nNew Zone: 208",
+      "Source": "Result Framework OY4!F44:J44"
+    },
+    {
+      "Indicator": "Number of schools covered under DDMs intervention",
+      "Target as recorded": "Old Zone: 255\nNew Zone: 224",
+      "Timeframe": "Year 4",
+      "Result as recorded": "Old Zone: \nNew Zone:",
+      "Baseline as recorded": "Old Zone: 243\nNew Zone: 206",
+      "Source": "Result Framework OY4!F45:J45"
+    },
+    {
+      "Indicator": "% of HOS able to understand effective student practise",
+      "Target as recorded": "Old Zone: \nNew Zone:",
+      "Timeframe": "Year 4",
+      "Result as recorded": "Old Zone: \nNew Zone:",
+      "Baseline as recorded": "New indicator/data not available",
+      "Source": "Result Framework OY4!F46:J46"
+    },
+    {
+      "Indicator": "% of HOS able to understand effective CFU/FA practices",
+      "Target as recorded": "Old Zone: \nNew Zone:",
+      "Timeframe": "Year 4",
+      "Result as recorded": "Old Zone: \nNew Zone:",
+      "Baseline as recorded": "New indicator/data not available",
+      "Source": "Result Framework OY4!F47:J47"
+    },
+    {
+      "Indicator": "% of HOS correctly answering at least 80% of knowledge test items  at the end of the training",
+      "Target as recorded": "Old Zone: \nNew Zone:",
+      "Timeframe": "Year 4",
+      "Result as recorded": "Old Zone: \nNew Zone:",
+      "Baseline as recorded": "Old Zone: Not Available\nNew Zone: Not Available",
+      "Source": "Result Framework OY4!F48:J48"
+    },
+    {
+      "Indicator": "% of HOS able use self reflect checklist for effective student practise with the teacher",
+      "Target as recorded": "Old Zone: \nNew Zone:",
+      "Timeframe": "",
+      "Result as recorded": "Old Zone: \nNew Zone:",
+      "Baseline as recorded": "New indicator/data not available",
+      "Source": "Result Framework OY4!F49:J49"
+    },
+    {
+      "Indicator": "% of HOS able to use self reflection checklist to identify effective CFU/FA practices with the teacher",
+      "Target as recorded": "Old Zone: \nNew Zone:",
+      "Timeframe": "Year 4",
+      "Result as recorded": "Old Zone: \nNew Zone:",
+      "Baseline as recorded": "New indicator/data not available",
+      "Source": "Result Framework OY4!F50:J50"
+    },
+    {
+      "Indicator": "% of HoS exhibited knowledge of conducting effective formative assessment.",
+      "Target as recorded": "Old Zone: \nNew Zone:",
+      "Timeframe": "Year 4",
+      "Result as recorded": "Old Zone: \nNew Zone:",
+      "Baseline as recorded": "Old Zone: Not Available\nNew Zone: Not Available",
+      "Source": "Result Framework OY4!F51:J51"
+    },
+    {
+      "Indicator": "% of Hos trained through inperson training",
+      "Target as recorded": "Old Zone: \nNew Zone:",
+      "Timeframe": "Year 4",
+      "Result as recorded": "Old Zone: \nNew Zone:",
+      "Baseline as recorded": "Old Zone: Not Available\nNew Zone: Not Available",
+      "Source": "Result Framework OY4!F52:J52"
+    },
+    {
+      "Indicator": "% of teachers correctly answering at least 80% of knowledge test items  at the end of the training",
+      "Target as recorded": "Old Zone: \nNew Zone: 70%",
+      "Timeframe": "Year 4",
+      "Result as recorded": "New Zone:",
+      "Baseline as recorded": "Old Zone: 61%\nNew Zone: 61%",
+      "Source": "Result Framework OY4!F53:J53"
+    },
+    {
+      "Indicator": "% of teachers exhibited knowledge of conducting effective formative assessment.",
+      "Target as recorded": "Old Zone: \nNew Zone: 100%",
+      "Timeframe": "Year 4",
+      "Result as recorded": "Old Zone: \nNew Zone:",
+      "Baseline as recorded": "Old Zone: 89%\nNew Zone: 97%",
+      "Source": "Result Framework OY4!F54:J54"
+    },
+    {
+      "Indicator": "% of teachers able to exhibit knowledge of the Hindi remediation strategies to subject-level misconceptions",
+      "Target as recorded": "Old Zone: \nNew Zone:",
+      "Timeframe": "Year 4",
+      "Result as recorded": "Old Zone: \nNew Zone:",
+      "Baseline as recorded": "Old Zone: 54%\nNew Zone: 51%",
+      "Source": "Result Framework OY4!F55:J55"
+    },
+    {
+      "Indicator": "% of teachers able to exhibit knowledge of the Mathematics remediation strategies to subject-level misconceptions",
+      "Target as recorded": "Old Zone: \nNew Zone:",
+      "Timeframe": "Year 4",
+      "Result as recorded": "Old Zone: \nNew Zone:",
+      "Baseline as recorded": "Old Zone: 75%\nNew Zone: 77%",
+      "Source": "Result Framework OY4!F56:J56"
+    },
+    {
+      "Indicator": "Number of teachers trained through inperson training",
+      "Target as recorded": "Old Zone: \nNew Zone: 470",
+      "Timeframe": "Year 4",
+      "Result as recorded": "New Zone:",
+      "Baseline as recorded": "Old Zone: 452\nNew Zone: 290",
+      "Source": "Result Framework OY4!F57:J57"
+    },
+    {
+      "Indicator": "% of teachers implement atleast 1 FA strategies in the classroom to identify student misconceptions of FLN competencies",
+      "Target as recorded": "Old Zone: 70%\nNew Zone: 60%",
+      "Timeframe": "Year 4",
+      "Result as recorded": "Old Zone: \nNew Zone:",
+      "Baseline as recorded": "Old Zone: 63%\nNew Zone: 52%",
+      "Source": "Result Framework OY4!F58:J58"
+    },
+    {
+      "Indicator": "% of teachers able to conduct FA strategies effectively (gives wait time for all questions and all questions are mapped to LO)",
+      "Target as recorded": "Old Zone: 40%\nNew Zone: 35%",
+      "Timeframe": "Year 4",
+      "Result as recorded": "Old Zone: \nNew Zone:",
+      "Baseline as recorded": "Old Zone: 31%\nNew Zone: 25%",
+      "Source": "Result Framework OY4!F59:J59"
+    },
+    {
+      "Indicator": "% of teachers able to implement effective student practise in their classrooms.",
+      "Target as recorded": "Old Zone: 10%\nNew Zone: 10%",
+      "Timeframe": "Year 4",
+      "Result as recorded": "Old Zone: \nNew Zone:",
+      "Baseline as recorded": "Old Zone: 2%\nNew Zone: 8%",
+      "Source": "Result Framework OY4!F60:J60"
+    },
+    {
+      "Indicator": "% of Teacher who are able to gathers trend and explains the misonceptions to the whole class",
+      "Target as recorded": "Old Zone: \nNew Zone:",
+      "Timeframe": "Year 4",
+      "Result as recorded": "Old Zone: \nNew Zone:",
+      "Baseline as recorded": "New indicator/data not available",
+      "Source": "Result Framework OY4!F61:J61"
+    },
+    {
+      "Indicator": "% of students engaged by teachers in the FA strategy",
+      "Target as recorded": "Old Zone: \nNew Zone:",
+      "Timeframe": "Year 4",
+      "Result as recorded": "Old Zone: \nNew Zone:",
+      "Baseline as recorded": "New indicator/data not available",
+      "Source": "Result Framework OY4!F62:J62"
+    },
+    {
+      "Indicator": "% of teachers exhibited knowledge of conducting effective student practise",
+      "Target as recorded": "Old Zone: \nNew Zone:",
+      "Timeframe": "",
+      "Result as recorded": "Old Zone: \nNew Zone:",
+      "Baseline as recorded": "New indicator/data not available",
+      "Source": "Result Framework OY4!F63:J63"
+    },
+    {
+      "Indicator": "% of teachers whose Instructions are clear, concise and uses example to explain at the start of the lesson",
+      "Target as recorded": "Old Zone: \nNew Zone:",
+      "Timeframe": "Year 4",
+      "Result as recorded": "Old Zone: \nNew Zone:",
+      "Baseline as recorded": "New indicator/data not available",
+      "Source": "Result Framework OY4!F64:J64"
+    },
+    {
+      "Indicator": "% of teachers using student workbooks mapped to prioritized FLN competencies during classroom instruction in old zones.",
+      "Target as recorded": "Old Zone:",
+      "Timeframe": "Year 4",
+      "Result as recorded": "Old Zone: \nNew Zone:",
+      "Baseline as recorded": "Old Zone: Not Available",
+      "Source": "Result Framework OY4!F65:J65"
+    },
+    {
+      "Indicator": "% of MTs able to list prioritised competencies for grade 3",
+      "Target as recorded": "Old Zone:",
+      "Timeframe": "Year 4",
+      "Result as recorded": "",
+      "Baseline as recorded": "New indicator/data not available",
+      "Source": "Result Framework OY4!F66:J66"
+    },
+    {
+      "Indicator": "% of MT who observing grade 3 teacher in a month of each of their school",
+      "Target as recorded": "Old Zone:",
+      "Timeframe": "Year 4",
+      "Result as recorded": "Old Zone: \nNew Zone:",
+      "Baseline as recorded": "Old Zone: Not Available",
+      "Source": "Result Framework OY4!F67:J67"
+    },
+    {
+      "Indicator": "% of MT providing actionable feedback to the teachers",
+      "Target as recorded": "Old Zone:",
+      "Timeframe": "Year 4",
+      "Result as recorded": "Old Zone: \nNew Zone:",
+      "Baseline as recorded": "Old Zone: Not Available",
+      "Source": "Result Framework OY4!F68:J68"
+    },
+    {
+      "Indicator": "% of MT codnucting spot checks of atleast 5 students of grade 3 in a month",
+      "Target as recorded": "Old Zone:",
+      "Timeframe": "Year 4",
+      "Result as recorded": "",
+      "Baseline as recorded": "New indicator/data not available",
+      "Source": "Result Framework OY4!F69:J69"
+    }
+  ]
+}

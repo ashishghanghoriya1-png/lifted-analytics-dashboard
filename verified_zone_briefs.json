@@ -1,0 +1,46 @@
+{
+  "model": "qwen3.5:4b-q4_K_M",
+  "source": "LiftED Cohort 2_Program Management Hub.xlsx",
+  "zones": {
+    "Central": {
+      "source_hash": "c5331f913c9fb6677307d19cb81a6f6ce9647c53604b8945e37a369e53ff92b5",
+      "generated_at": "2026-09-17 11:27 UTC",
+      "brief": {
+        "summary": "The Central zone has 128 schools with 105 Heads of School attending training and only 1 out of 4 planned teacher batches completed.",
+        "priority": "Zone learning results, RAG classifications, and actual teacher practice data are missing from the verified evidence.",
+        "action": "Collect missing learning outcomes or complete the remaining recorded pending teacher training sessions."
+      },
+      "reviewed_against_workbook": true
+    },
+    "Civil": {
+      "source_hash": "183243d7e36e6bb659771fbcec6a6e37c6f74879c324df7ec55d6014d7cef1fa",
+      "generated_at": "2026-09-17 11:27 UTC",
+      "brief": {
+        "summary": "The Civil zone has 94 allocated schools, 76 of 94 HoS attended training, and 5 of 5 planned teacher batches are completed.",
+        "priority": "Zone-specific learning results, RAG classifications, and teacher-practice actuals are missing from the verified evidence.",
+        "action": "Collect dated zone learning and classroom-observation evidence; the recorded teacher training batches are already complete."
+      },
+      "reviewed_against_workbook": true
+    },
+    "South": {
+      "source_hash": "9c92723b7b6b5532469e2789339c662ad0ca7e8e91cb2af807cee38f7d3af804",
+      "generated_at": "2026-09-17 11:27 UTC",
+      "brief": {
+        "summary": "The South zone has 130 schools with 110 Heads of School attending training and 6 teacher batches completed out of 6 planned.",
+        "priority": "Zone-specific learning results, RAG classifications, and actual teacher practice data are missing from the verified evidence.",
+        "action": "Collect dated zone learning and classroom-observation evidence; the recorded teacher training batches are already complete."
+      },
+      "reviewed_against_workbook": true
+    },
+    "West": {
+      "source_hash": "02f9cd655b2c1b2283f68934d08f18590b9823f9023a4de9dd86001246f0134f",
+      "generated_at": "2026-09-17 11:27 UTC",
+      "brief": {
+        "summary": "The West zone has 127 schools with 117 Heads of School attending training and 4 out of 5 teacher batches completed.",
+        "priority": "Zone learning results, RAG classifications, and teacher-practice actuals are missing from the verified evidence.",
+        "action": "Complete the one remaining teacher training batch and collect dated zone learning and classroom-observation evidence."
+      },
+      "reviewed_against_workbook": true
+    }
+  }
+}
