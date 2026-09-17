@@ -1,4 +1,4 @@
-import streamlit as st
+﻿import streamlit as st
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
@@ -567,91 +567,94 @@ tabs = st.tabs([
 # TAB 1: EXECUTIVE SUMMARY (DYNAMIC KPIS & CHARTS CONNECTED TO SLICERS)
 # ------------------------------------------------------------------------------
 with tabs[0]:
-    # HEADER SECTION (DEFAULT FIGMA DESIGN MATCHING TAB 6)
+    # HEADER
     st.markdown(f"""
     <div style='display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:18px;'>
         <div>
-            <h2 style='font-size:24px;font-weight:700;color:#0F172A;margin:0 0 4px 0;'>Executive overview</h2>
-            <div style='font-size:13px;color:#64748B;font-weight:400;'>Real-time program reach across {zone_label}, leadership attendance and training completion</div>
+            <h2 style='font-size:24px;font-weight:700;color:#0F172A;margin:0 0 4px 0;'>Programme Overview</h2>
+            <div style='font-size:13px;color:#64748B;font-weight:400;'>A consolidated view of school reach, leadership engagement and teacher training progress across {zone_label} — Week ending 11 Sep 2026</div>
         </div>
         <div style='background:#FFFFFF;border:1px solid #E2E8F0;border-radius:8px;padding:5px 14px;font-size:12px;color:#475569;font-weight:500;box-shadow:0 1px 2px rgba(0,0,0,0.04);'>
-            Cohort 2 · {zone_badge_text} · Week ending 11 Sep 2026
+            Cohort 2 &nbsp;·&nbsp; {zone_badge_text} &nbsp;·&nbsp; Sep 2026
         </div>
     </div>
     """, unsafe_allow_html=True)
 
     if active_filters:
-        st.info("🔍 **Active Slicers Applied:** " + " | ".join(active_filters))
+        st.info("🔍 **Filters active:** " + " | ".join(active_filters))
 
-    # STEPPED FLOW PROGRESS STRIP (MATCHING TAB 6)
+    # PROGRAMME PROGRESS FLOW STRIP
     st.markdown(f"""
-    <div style='display:flex;align-items:center;justify-content:space-between;background:#F8FAFC;border:1px solid #E2E8F0;border-radius:10px;padding:8px 16px;margin-bottom:24px;font-size:12px;'>
-        <div style='display:flex;align-items:center;gap:6px;'>
-            <span style='font-weight:700;color:#0F172A;'>{total_active_schools}</span>
-            <span style='color:#64748B;'>Target Schools</span>
+    <div style='display:flex;align-items:center;justify-content:space-between;background:#F8FAFC;border:1px solid #E2E8F0;border-radius:10px;padding:10px 20px;margin-bottom:24px;font-size:12px;'>
+        <div style='display:flex;flex-direction:column;align-items:center;gap:2px;'>
+            <span style='font-weight:800;color:#0F172A;font-size:18px;'>{total_active_schools}</span>
+            <span style='color:#64748B;font-weight:500;'>Schools in scope</span>
         </div>
-        <span style='color:#94A3B8;font-weight:600;'>&rarr;</span>
-        <div style='display:flex;align-items:center;gap:6px;'>
-            <span style='font-weight:700;color:#0F766E;'>{hos_attendance_pct}%</span>
-            <span style='color:#64748B;'>HoS Attended ({total_hos_att})</span>
+        <span style='color:#CBD5E1;font-size:18px;font-weight:300;'>›</span>
+        <div style='display:flex;flex-direction:column;align-items:center;gap:2px;'>
+            <span style='font-weight:800;color:#0F766E;font-size:18px;'>{hos_attendance_pct}%</span>
+            <span style='color:#64748B;font-weight:500;'>Head of School attendance</span>
         </div>
-        <span style='color:#94A3B8;font-weight:600;'>&rarr;</span>
-        <div style='display:flex;align-items:center;gap:6px;'>
-            <span style='font-weight:700;color:#0F766E;'>{teacher_batch_pct}%</span>
-            <span style='color:#64748B;'>Teacher Batches ({teacher_batches_done}/{teacher_batches_total})</span>
+        <span style='color:#CBD5E1;font-size:18px;font-weight:300;'>›</span>
+        <div style='display:flex;flex-direction:column;align-items:center;gap:2px;'>
+            <span style='font-weight:800;color:#0F766E;font-size:18px;'>{teacher_batch_pct}%</span>
+            <span style='color:#64748B;font-weight:500;'>Teacher batches completed</span>
         </div>
-        <span style='color:#94A3B8;font-weight:600;'>&rarr;</span>
-        <div style='display:flex;align-items:center;gap:6px;'>
-            <span style='font-weight:700;color:#047857;'>47 Schools</span>
-            <span style='color:#64748B;'>Improved Category</span>
+        <span style='color:#CBD5E1;font-size:18px;font-weight:300;'>›</span>
+        <div style='display:flex;flex-direction:column;align-items:center;gap:2px;'>
+            <span style='font-weight:800;color:#047857;font-size:18px;'>47</span>
+            <span style='color:#64748B;font-weight:500;'>Schools improved category</span>
         </div>
     </div>
     """, unsafe_allow_html=True)
 
-    # 4 DYNAMIC MINIMALIST FIGMA-GRADE KPI CARDS (MATCHING TAB 6)
+    # 4 KPI CARDS
     c1, c2, c3, c4 = st.columns(4)
     with c1:
         render_html(f"""
         <div class='figma-card' style='padding:18px 20px;'>
-            <div style='font-size:12px;color:#64748B;font-weight:500;margin-bottom:6px;'>Schools in scope</div>
+            <div style='font-size:12px;color:#64748B;font-weight:500;margin-bottom:6px;letter-spacing:0.02em;'>Schools in scope</div>
             <div style='font-size:34px;font-weight:700;color:#0F172A;line-height:1.1;margin-bottom:6px;'>{total_active_schools}</div>
-            <div style='font-size:12px;color:#059669;font-weight:500;'>Grade 3 FLN · {zone_badge_text}</div>
+            <div style='font-size:12px;color:#059669;font-weight:500;'>Grade 3 FLN &nbsp;·&nbsp; {zone_badge_text}</div>
         </div>
         """)
     with c2:
         render_html(f"""
         <div class='figma-card' style='padding:18px 20px;'>
-            <div style='font-size:12px;color:#64748B;font-weight:500;margin-bottom:6px;'>HoS attendance</div>
+            <div style='font-size:12px;color:#64748B;font-weight:500;margin-bottom:6px;letter-spacing:0.02em;'>Head of School attendance</div>
             <div style='font-size:34px;font-weight:700;color:#0F172A;line-height:1.1;margin-bottom:6px;'>{hos_attendance_pct}%</div>
-            <div style='font-size:12px;color:#059669;font-weight:500;'>{total_hos_att} of {total_hos_target} attended</div>
+            <div style='font-size:12px;color:#059669;font-weight:500;'>{total_hos_att} of {total_hos_target} leaders attended</div>
         </div>
         """)
     with c3:
         render_html(f"""
         <div class='figma-card' style='padding:18px 20px;'>
-            <div style='font-size:12px;color:#64748B;font-weight:500;margin-bottom:6px;'>Teacher batches</div>
+            <div style='font-size:12px;color:#64748B;font-weight:500;margin-bottom:6px;letter-spacing:0.02em;'>Teacher batch completion</div>
             <div style='font-size:34px;font-weight:700;color:#0F172A;line-height:1.1;margin-bottom:6px;'>{teacher_batch_pct}%</div>
-            <div style='font-size:12px;color:#059669;font-weight:500;'>{teacher_batches_done} of {teacher_batches_total} completed</div>
+            <div style='font-size:12px;color:#059669;font-weight:500;'>{teacher_batches_done} of {teacher_batches_total} batches delivered</div>
         </div>
         """)
     with c4:
         render_html(f"""
         <div class='figma-card' style='padding:18px 20px;'>
-            <div style='font-size:12px;color:#64748B;font-weight:500;margin-bottom:6px;'>Priority support (Red)</div>
+            <div style='font-size:12px;color:#64748B;font-weight:500;margin-bottom:6px;letter-spacing:0.02em;'>Schools needing intensive support</div>
             <div style='font-size:34px;font-weight:700;color:#BE123C;line-height:1.1;margin-bottom:6px;'>{total_red_schools}</div>
-            <div style='font-size:12px;color:#BE123C;font-weight:600;'>{round(total_red_schools/total_active_schools*100)}% of schools</div>
+            <div style='font-size:12px;color:#BE123C;font-weight:600;'>{round(total_red_schools/total_active_schools*100)}% of all schools in programme</div>
         </div>
         """)
 
     st.markdown("<br>", unsafe_allow_html=True)
 
-    # MAIN ANALYTICS GRID: ZONAL COLUMN CHART (LEFT) & SUPPORT PIE CHART (RIGHT)
-    col_chart1, col_chart2 = st.columns([1.25, 1.0])
+    # CHARTS ROW
+    col_chart1, col_chart2 = st.columns([1.35, 1.0])
 
     with col_chart1:
-        st.markdown("<h4 style='font-weight:800;color:#0F172A;margin-bottom:4px;'>📍 Zonal Reach & Participation Breakdown</h4>", unsafe_allow_html=True)
-        st.markdown("<p style='font-size:13px;color:#64748B;margin-bottom:14px;'>Comparing Total Target Schools vs. HoS Attended across West, Central, Civil, and South zones.</p>", unsafe_allow_html=True)
-
+        render_html("""
+<div style='margin-bottom:4px;'>
+<div style='font-size:15px;font-weight:700;color:#0F172A;'>Reach and Leadership Engagement by Zone</div>
+<div style='font-size:12px;color:#94A3B8;margin-top:2px;'>Number of target schools per zone against Head of School attendance in the September session</div>
+</div>
+""")
         zone_df = pd.DataFrame([
             {
                 "Zone": z,
@@ -665,119 +668,180 @@ with tabs[0]:
         ])
 
         fig_zone_col = go.Figure()
+
+        # Target schools bars — deep navy
         fig_zone_col.add_trace(go.Bar(
             x=zone_df["Zone"],
             y=zone_df["Target Schools"],
             name="Target Schools",
-            text=zone_df["Target Schools"],
-            textposition="outside",
-            textfont=dict(size=11, family="Inter", color="#334155", weight=600),
             marker=dict(
-                color=["#1E3A8A" if z in active_zones else "#CBD5E1" for z in zone_df["Zone"]],
-                cornerradius=6
+                color=[
+                    "rgba(30,58,138,0.90)" if z in active_zones else "rgba(203,213,225,0.5)"
+                    for z in zone_df["Zone"]
+                ],
+                cornerradius=5,
+                line=dict(width=0)
             ),
+            text=[f"{v}" for v in zone_df["Target Schools"]],
+            textposition="outside",
+            textfont=dict(size=12, family="Inter", color="#1E3A8A", weight=700),
             customdata=zone_df[["HoS Attendance %", "Teacher Batches"]],
-            hovertemplate="<b>%{x} Zone</b><br>🎯 Target Schools: <b>%{y}</b><br>👥 HoS Attendance: <b>%{customdata[0]}</b><br>📚 Teacher Batches: <b>%{customdata[1]}</b><extra></extra>"
+            hovertemplate="<b>%{x} Zone</b><br>Target Schools: <b>%{y}</b><br>HoS Attendance: <b>%{customdata[0]}%</b><extra></extra>",
+            width=0.32,
         ))
+
+        # HoS attended bars — teal
         fig_zone_col.add_trace(go.Bar(
             x=zone_df["Zone"],
             y=zone_df["HoS Attended"],
             name="HoS Attended",
-            text=zone_df["HoS Attended"],
-            textposition="outside",
-            textfont=dict(size=11, family="Inter", color="#059669", weight=600),
             marker=dict(
-                color=["#10B981" if z in active_zones else "#A7F3D0" for z in zone_df["Zone"]],
-                cornerradius=6
+                color=[
+                    "rgba(5,150,105,0.85)" if z in active_zones else "rgba(167,243,208,0.5)"
+                    for z in zone_df["Zone"]
+                ],
+                cornerradius=5,
+                line=dict(width=0)
             ),
+            text=[f"{v}" for v in zone_df["HoS Attended"]],
+            textposition="outside",
+            textfont=dict(size=12, family="Inter", color="#047857", weight=700),
             customdata=zone_df[["HoS Attendance %", "Teacher Batches"]],
-            hovertemplate="<b>%{x} Zone</b><br>✅ HoS Attended: <b>%{y}</b> (%{customdata[0]})<br>📚 Teacher Batches: <b>%{customdata[1]}</b><extra></extra>"
+            hovertemplate="<b>%{x} Zone</b><br>HoS Attended: <b>%{y}</b> (%{customdata[0]}%)<extra></extra>",
+            width=0.32,
         ))
 
         fig_zone_col.update_layout(
             barmode="group",
-            bargap=0.28,
-            bargroupgap=0.12,
-            margin=dict(t=30, b=30, l=30, r=20),
+            bargap=0.30,
+            bargroupgap=0.08,
+            height=320,
+            margin=dict(t=40, b=60, l=10, r=10),
             legend=dict(
                 orientation="h",
-                yanchor="bottom",
-                y=-0.28,
+                yanchor="top",
+                y=-0.22,
                 xanchor="center",
                 x=0.5,
-                font=dict(size=12, family="Inter", color="#475569")
+                font=dict(size=12, family="Inter", color="#475569"),
+                bgcolor="rgba(0,0,0,0)",
+                borderwidth=0,
             ),
             paper_bgcolor="rgba(0,0,0,0)",
             plot_bgcolor="rgba(0,0,0,0)",
             font=dict(family="Inter", color="#0F172A"),
             yaxis=dict(
                 gridcolor="#F1F5F9",
+                gridwidth=1,
                 zeroline=False,
-                tickfont=dict(color="#64748B", size=11, family="Inter"),
-                showline=False
+                showline=False,
+                tickfont=dict(color="#94A3B8", size=11, family="Inter"),
+                range=[0, max(zone_df["Target Schools"].max(), 180) * 1.22],
             ),
             xaxis=dict(
                 tickfont=dict(color="#0F172A", size=13, family="Inter", weight=600),
-                linecolor="#E2E8F0"
-            )
+                linecolor="#E2E8F0",
+                showgrid=False,
+            ),
         )
         st.plotly_chart(fig_zone_col, use_container_width=True)
 
     with col_chart2:
-        st.markdown("<h4 style='font-weight:800;color:#0F172A;margin-bottom:4px;'>🎯 School Support Status (RAG)</h4>", unsafe_allow_html=True)
-        st.markdown("<p style='font-size:13px;color:#64748B;margin-bottom:14px;'>Categorised triage support status across active schools.</p>", unsafe_allow_html=True)
+        render_html("""
+<div style='margin-bottom:4px;'>
+<div style='font-size:15px;font-weight:700;color:#0F172A;'>Support Pathway Distribution</div>
+<div style='font-size:12px;color:#94A3B8;margin-top:2px;'>Classification of active schools by intensity of support required this cycle</div>
+</div>
+""")
+        # Premium donut — muted premium palette, thick ring, clean inner label
+        rag_values = [total_green_schools, total_amber_schools, total_red_schools, total_grey_schools]
+        rag_labels = ["Sustaining (Green)", "Developing (Amber)", "Intensive (Red)", "Paused (Grey)"]
+        rag_colors = ["#0D9488", "#D97706", "#DC2626", "#94A3B8"]
 
         fig_rag_donut = go.Figure(data=[go.Pie(
-            labels=["Green (Exemplar)", "Amber (Coaching)", "Red (Intensive)", "Grey (Vacancy)"],
-            values=[total_green_schools, total_amber_schools, total_red_schools, total_grey_schools],
-            hole=0.62,
-            pull=[0.02, 0.02, 0.02, 0.02],
+            labels=rag_labels,
+            values=rag_values,
+            hole=0.68,
+            rotation=90,
             marker=dict(
-                colors=["#10B981", "#F59E0B", "#F43F5E", "#64748B"],
-                line=dict(color="#FFFFFF", width=3)
+                colors=rag_colors,
+                line=dict(color="#FFFFFF", width=4)
             ),
-            textinfo="percent",
-            textfont=dict(family="Inter", size=12, color="#FFFFFF", weight=700),
-            hovertemplate="<b>%{label}</b><br>Count: <b>%{value} schools</b><br>Share: <b>%{percent}</b><extra></extra>"
+            textinfo="none",
+            hovertemplate="<b>%{label}</b><br>%{value} schools&nbsp; (%{percent})<extra></extra>",
+            direction="clockwise",
         )])
 
+        # Custom legend as annotation rows — cleaner than Plotly legend
         fig_rag_donut.update_layout(
-            margin=dict(t=15, b=25, l=15, r=15),
+            height=320,
+            margin=dict(t=20, b=10, l=10, r=10),
+            showlegend=True,
             legend=dict(
-                orientation="h",
-                yanchor="bottom",
-                y=-0.30,
-                xanchor="center",
-                x=0.5,
-                font=dict(size=11, family="Inter", color="#475569")
+                orientation="v",
+                yanchor="middle",
+                y=0.5,
+                xanchor="left",
+                x=1.02,
+                font=dict(size=12, family="Inter", color="#475569"),
+                bgcolor="rgba(0,0,0,0)",
+                borderwidth=0,
+                itemsizing="constant",
             ),
             paper_bgcolor="rgba(0,0,0,0)",
             plot_bgcolor="rgba(0,0,0,0)",
             font=dict(family="Inter", color="#0F172A"),
-            annotations=[dict(
-                text=f"<span style='font-size:26px;font-weight:800;color:#0F172A;'>{total_active_schools}</span><br><span style='font-size:11px;font-weight:600;color:#64748B;letter-spacing:0.05em;text-transform:uppercase;'>Schools</span>",
-                showarrow=False,
-                font=dict(family="Inter")
-            )]
+            annotations=[
+                dict(
+                    text=f"<b><span style='font-size:28px;font-weight:800;color:#0F172A;'>{total_active_schools}</span></b><br><span style='font-size:11px;color:#94A3B8;font-weight:600;letter-spacing:0.06em;'>ACTIVE</span>",
+                    showarrow=False,
+                    x=0.5, y=0.5,
+                    xanchor="center", yanchor="middle",
+                    font=dict(family="Inter", size=13, color="#0F172A"),
+                )
+            ]
         )
         st.plotly_chart(fig_rag_donut, use_container_width=True)
 
+        # Inline legend pills below chart
+        render_html(f"""
+<div style='display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:-8px;margin-bottom:8px;'>
+    <span style='display:inline-flex;align-items:center;gap:5px;font-size:11px;font-weight:600;color:#0F172A;'>
+        <span style='width:10px;height:10px;border-radius:50%;background:#0D9488;display:inline-block;'></span>Sustaining&nbsp;<span style='color:#64748B;font-weight:400;'>{total_green_schools}</span>
+    </span>
+    <span style='display:inline-flex;align-items:center;gap:5px;font-size:11px;font-weight:600;color:#0F172A;'>
+        <span style='width:10px;height:10px;border-radius:50%;background:#D97706;display:inline-block;'></span>Developing&nbsp;<span style='color:#64748B;font-weight:400;'>{total_amber_schools}</span>
+    </span>
+    <span style='display:inline-flex;align-items:center;gap:5px;font-size:11px;font-weight:600;color:#0F172A;'>
+        <span style='width:10px;height:10px;border-radius:50%;background:#DC2626;display:inline-block;'></span>Intensive&nbsp;<span style='color:#64748B;font-weight:400;'>{total_red_schools}</span>
+    </span>
+    <span style='display:inline-flex;align-items:center;gap:5px;font-size:11px;font-weight:600;color:#0F172A;'>
+        <span style='width:10px;height:10px;border-radius:50%;background:#94A3B8;display:inline-block;'></span>Paused&nbsp;<span style='color:#64748B;font-weight:400;'>{total_grey_schools}</span>
+    </span>
+</div>
+""")
+
     st.markdown("<br>", unsafe_allow_html=True)
 
-    # QWEN DEEP ANALYTICAL SYNTHESIS
+    # PROGRAMME INTELLIGENCE DIGEST (formerly "Qwen 14B")
     st.markdown(f"""
     <div class='qwen-exec-container'>
         <div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;'>
-            <div style='font-weight:800;font-size:17px;color:#1E3A8A;display:flex;align-items:center;gap:8px;'>
-                <span>🤖 Qwen 14B Analytical Synthesis & Diagnostic Brief</span>
-                <span style='font-size:11px;background:#DBEAFE;color:#1E40AF;padding:2px 8px;border-radius:6px;font-family:monospace;'>qwen2.5:14b</span>
+            <div style='font-weight:700;font-size:15px;color:#1E3A8A;display:flex;align-items:center;gap:10px;'>
+                <span>📊 Programme Intelligence Digest</span>
+                <span style='font-size:11px;background:#DBEAFE;color:#1E40AF;padding:2px 10px;border-radius:6px;font-weight:600;'>AI-generated · Updated weekly</span>
             </div>
-            <span class='badge-blue'>Diagnostic Scope: {zone_badge_text}</span>
+            <span class='badge-blue'>Scope: {zone_badge_text}</span>
         </div>
-        {qwen_summary}
+        {qwen_summary if qwen_summary else "<p style='color:#64748B;font-size:13px;'>No programme intelligence digest available for the selected zone and period. Intelligence briefs are generated weekly following data review.</p>"}
     </div>
     """, unsafe_allow_html=True)
 
+
+
+# ------------------------------------------------------------------------------
+# TAB 2: SCHOOL SUPPORT COMMAND CENTRE (SLICER REACTIVE)
+# ------------------------------------------------------------------------------
 # ------------------------------------------------------------------------------
 # TAB 2: SCHOOL SUPPORT COMMAND CENTRE (SLICER REACTIVE)
 # ------------------------------------------------------------------------------
