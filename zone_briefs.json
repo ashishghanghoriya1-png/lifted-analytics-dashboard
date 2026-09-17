@@ -1,0 +1,46 @@
+{
+  "model": "qwen3.5:4b-q4_K_M",
+  "source": "app.py ZONE_FLN_DATA snapshot; week ending 11 September 2026",
+  "zones": {
+    "West": {
+      "source_hash": "37fe8415a5b4b2961c3aa2adf2fcc240e7aa7e23c2f360fb57a66d8a0719b844",
+      "generated_at": "2026-09-17 10:40 UTC",
+      "brief": {
+        "summary": "The West zone has 127 schools, 80% teacher batch completion and a teacher-practice adoption index of 68. Worksheet completion for the previous learning outcome is 69% against a 90% target.",
+        "priority": "Math place value mastery is critically low at 39% with a priority status, while Hindi matra decoding stands at 35%. These competencies require immediate focus alongside addition and subtraction which remain below 60% mastery.",
+        "action": "Schools must increase the frequency of observed remedial strategies for focused learning to meet the 60% target. Teachers need to improve data sharing prior to calls, as current levels are at 57% against a 90% goal."
+      },
+      "reviewed_against_source": true
+    },
+    "Central": {
+      "source_hash": "aa8c648551b4ad18a1894fd38642ad2fc6cb47b2f02a0671c5185f2db7f2bd46",
+      "generated_at": "2026-09-17 10:40 UTC",
+      "brief": {
+        "summary": "The Central zone has 128 schools with 82% Head of School attendance and a teacher-practice adoption index of 59. Teacher training completion is low at 25%, while remedial coverage stands at 58%. School performance varies from 31 red schools to 35 green schools.",
+        "priority": "Math place value mastery is critically low at 32% with minimal change, and Hindi matra decoding is at 28%. Targeted instruction indicators show significant gaps between observed and target levels.",
+        "action": "Increase teacher training batches from the current 1/4 to improve instructional quality. Implement focused remedial strategies for place value and matra decoding based on observed data."
+      },
+      "reviewed_against_source": true
+    },
+    "Civil": {
+      "source_hash": "9a062380233d6b23ca3ae6da7a520bacd3a5f4df5ad97c54677cce240d3955d9",
+      "generated_at": "2026-09-17 10:40 UTC",
+      "brief": {
+        "summary": "The Civil zone has 94 schools and 100% teacher batch completion. The teacher-practice adoption index increased by 10 points to 67, while formative-assessment data sharing and observed remedial strategies remain below their targets.",
+        "priority": "Addressing the 19 red schools and improving low-mastery competencies in Hindi Matra decoding (33%) and Place value (37%) are critical due to their Priority status.",
+        "action": "Implement focused remedial strategies for students with mastery below 50% while ensuring teachers share FA data prior to calls, as current observed rates of 56% and 49% fall short of 90% and 60% targets respectively."
+      },
+      "reviewed_against_source": true
+    },
+    "South": {
+      "source_hash": "58c7d56c9dc1659371e0ccca7f5f53d14cb3d950c0862f1d3bd5cbcc685f49b5",
+      "generated_at": "2026-09-17 10:41 UTC",
+      "brief": {
+        "summary": "The South zone has 130 schools with 84.6% Head of School attendance and a teacher batch completion rate of 100%. Implementation gaps exist in targeted instruction questions and dedicated practice feedback, while competency mastery varies significantly across subjects.",
+        "priority": "Math place value and Hindi matra decoding are the lowest mastery areas at 35% and 31% respectively, both marked as priority with minimal change.",
+        "action": "Focus on observed remedial strategies for focused learning outcomes and increase two LO-linked questions to meet the 70 target. Teachers need to share FA data prior to calls to improve the current 50% observation rate."
+      },
+      "reviewed_against_source": true
+    }
+  }
+}

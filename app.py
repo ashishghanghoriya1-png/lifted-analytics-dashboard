@@ -4,6 +4,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import json
 import os
+from lifted_digest import load_briefs, render_digest
 
 # 1. PAGE CONFIGURATION
 st.set_page_config(
@@ -20,7 +21,6 @@ st.markdown("""
 
     .stApp {
         background-color: #F8FAFC !important;
-        color: #0F172A !important;
         font-family: 'Inter', sans-serif !important;
     }
     .main .block-container {
@@ -100,34 +100,60 @@ st.markdown("""
         line-height: 1.7;
         margin-bottom: 28px;
     }
+    /* The custom dashboard uses light surfaces. Pair their native labels with
+       dark text even when Streamlit's System setting resolves to dark mode.
+       Input fields, menus, dialogs and buttons retain their native theme pairs. */
+    [data-testid="stWidgetLabel"],
+    [data-testid="stWidgetLabel"] p,
+    [data-testid="stCaptionContainer"],
+    [data-testid="stCaptionContainer"] p,
+    [data-testid="stHeading"],
+    [data-testid="stHeading"] h1,
+    [data-testid="stHeading"] h2,
+    [data-testid="stHeading"] h3,
+    [data-testid="stMetricLabel"],
+    [data-testid="stMetricValue"],
+    [data-testid="stTabs"] [role="tab"],
+    [data-testid="stTabs"] [role="tab"] p {
+        color: #0F172A !important;
+    }
+    [data-testid="stTabs"] [role="tablist"] {
+        background-color: #F8FAFC;
+    }
+    [data-testid="stTabs"] [role="tab"][aria-selected="true"] {
+        color: #1D4ED8 !important;
+    }
+    [data-testid="stTabs"] [role="tab"][aria-selected="true"] p {
+        color: inherit !important;
+    }
+    [data-testid="stSliderTickBarMin"],
+    [data-testid="stSliderTickBarMax"],
+    [data-testid="stSliderThumbValue"] {
+        color: #334155 !important;
+    }
+    [data-testid="stMarkdownContainer"] {
+        color: #0F172A;
+    }
+    /* Keep native dark notifications, buttons and expandable panels coherent. */
+    [data-testid="stAlert"] [data-testid="stMarkdownContainer"],
+    button [data-testid="stMarkdownContainer"],
+    [data-testid="stExpander"] [data-testid="stMarkdownContainer"] {
+        color: inherit;
+    }
+    [data-testid="stPlotlyChart"] {
+        background-color: #FFFFFF;
+        border-radius: 12px;
+    }
 </style>
 """, unsafe_allow_html=True)
 
-# 3. DATA LOADERS
-BRAIN_BASE = os.path.expanduser(r"~/.gemini/antigravity/brain/df2429a0-bd91-4e90-9450-30ec2b42f88b/scratch")
-QWEN_PATH = os.path.join(BRAIN_BASE, "deep_qwen_analysis.json")
-DASH_PATH = os.path.join(BRAIN_BASE, "dashboard_data.json")
-
-# Fallback check
-if not os.path.exists(QWEN_PATH):
-    QWEN_PATH = r"C:\Users\Ashish\.gemini\antigravity\brain\df2429a0-bd91-4e90-9450-30ec2b42f88b\scratch\deep_qwen_analysis.json"
-    DASH_PATH = r"C:\Users\Ashish\.gemini\antigravity\brain\df2429a0-bd91-4e90-9450-30ec2b42f88b\scratch\dashboard_data.json"
-
-@st.cache_data
-def load_data():
-    qwen_text = ""
-    if os.path.exists(QWEN_PATH):
-        with open(QWEN_PATH, "r", encoding="utf-8") as f:
-            data = json.load(f)
-            qwen_text = data.get("executive_summary", "")
-    return qwen_text
-
+# 3. PORTABLE ZONE INTELLIGENCE
 def render_html(html_str: str):
     """Clean all leading whitespace from every line so Streamlit markdown never interprets HTML as a code block."""
     cleaned = "\n".join(line.strip() for line in html_str.strip().split("\n"))
     st.markdown(cleaned, unsafe_allow_html=True)
 
-qwen_summary = load_data()
+zone_briefs = load_briefs()
 # 4. SIDEBAR MULTI-LEVEL SLICERS & EXCEL DATA MODEL
 EXCEL_PATH = r"c:\Users\Ashish\OneDrive - Absolute Return For Kids\LIFTed\LiftED Cohort 2_Program Management Hub.xlsx"
 
@@ -744,7 +770,7 @@ with tabs[0]:
                 showgrid=False,
             ),
         )
-        st.plotly_chart(fig_zone_col, use_container_width=True)
+        st.plotly_chart(fig_zone_col, use_container_width=True, theme=None)
 
     with col_chart2:
         render_html("""
@@ -801,7 +827,7 @@ with tabs[0]:
                 )
             ]
         )
-        st.plotly_chart(fig_rag_donut, use_container_width=True)
+        st.plotly_chart(fig_rag_donut, use_container_width=True, theme=None)
 
         # Inline legend pills below chart
         render_html(f"""
@@ -823,21 +849,14 @@ with tabs[0]:
 
     st.markdown("<br>", unsafe_allow_html=True)
 
-    # PROGRAMME INTELLIGENCE DIGEST (formerly "Qwen 14B")
-    st.markdown(f"""
-    <div class='qwen-exec-container'>
-        <div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;'>
-            <div style='font-weight:700;font-size:15px;color:#1E3A8A;display:flex;align-items:center;gap:10px;'>
-                <span>📊 Programme Intelligence Digest</span>
-                <span style='font-size:11px;background:#DBEAFE;color:#1E40AF;padding:2px 10px;border-radius:6px;font-weight:600;'>AI-generated · Updated weekly</span>
-            </div>
-            <span class='badge-blue'>Scope: {zone_badge_text}</span>
-        </div>
-        {qwen_summary if qwen_summary else "<p style='color:#64748B;font-size:13px;'>No programme intelligence digest available for the selected zone and period. Intelligence briefs are generated weekly following data review.</p>"}
-    </div>
-    """, unsafe_allow_html=True)
-
-
+    # Zone selection applies immediately; persisted Qwen briefs also work on hosting.
+    render_html(f"""
+<div class='qwen-exec-container'>
+<div style='font-weight:700;font-size:15px;color:#1E3A8A;'>📊 Programme Intelligence Digest</div>
+<p style='font-size:12px;color:#475569;'>Scope: {zone_badge_text} · Programme snapshot: week ending 11 Sep 2026. Zone-level analysis; other slicers do not change this brief. Recommendations require programme review.</p>
+{render_digest(active_zones, ZONE_FLN_DATA, zone_briefs)}
+</div>
+""")
 
 # ------------------------------------------------------------------------------
 # TAB 2: SCHOOL SUPPORT COMMAND CENTRE (SLICER REACTIVE)
