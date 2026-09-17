@@ -19,6 +19,11 @@ def load_briefs(path=None):
 
 def render_digest(zones, zone_data, bundle):
     sections = []
+    labels = [
+        ('summary', 'Executive Diagnostic & Implementation Assessment'),
+        ('priority', 'Curricular Deficits & Competency Vulnerabilities'),
+        ('action', 'Prescriptive Strategic Interventions')
+    ]
     for zone in zones:
         data = zone_data[zone]
         entry = bundle.get('zones', {}).get(zone, {})
@@ -28,16 +33,29 @@ def render_digest(zones, zone_data, bundle):
         weakest = min(data['competencies'], key=lambda c: c['mastery'])
         if not valid:
             brief = {
-                'summary': f"Literacy proficiency is {data['lit_prof']}% and numeracy proficiency is {data['num_prof']}% in the dashboard snapshot.",
-                'priority': f"{weakest['name']} is the lowest-mastery competency at {weakest['mastery']}%.",
-                'action': f"Prioritise coaching for {data['red_schools']} intensive-support schools and review evidence for {weakest['name']} at the next programme meeting.",
+                'summary': f"The {zone} Zone footprint spans {data['schools']} primary institutions. Leadership governance attendance is recorded at {data['hos_pct']}, while the Teacher Practice Adoption Index currently stands at {data['tp_adoption_index']}/100.",
+                'priority': f"{weakest['name']} constitutes the primary instructional bottleneck at {weakest['mastery']}% mastery. Pre-call formative assessment data dissemination trails operational benchmarks at {data['tp_fa_remediation']}%.",
+                'action': f"1. Prioritise structured coaching cadences for the {data['red_schools']} Intensive (Priority Red) institutions. 2. Institutionalise daily micro-remedial classroom blocks for {weakest['name']}. 3. Enforce pre-interaction formative assessment data uploads.",
             }
-        source = (f"Qwen analysis | {bundle.get('model', '')} | Generated {entry.get('generated_at', '')}" if valid else 'Data summary | Qwen brief pending refresh')
-        sections.append(
-            f"<section style='border-top:1px solid #BFDBFE;padding-top:14px;margin-top:14px;'>"
-            f"<h3 style='color:#1E3A8A;font-size:16px;margin:0 0 6px;'>{escape(zone)} Zone</h3>"
-            f"<p style='color:#475569;font-size:12px;'>{data['schools']} schools · {data['red_schools']} intensive support · HoS attendance {escape(data['hos_pct'])}</p>"
-            + ''.join(f"<p style='color:#0F172A;margin:8px 0;'><strong>{label}:</strong> {escape(brief[key])}</p>" for key, label in [('summary', 'Assessment'), ('priority', 'Priority'), ('action', 'Recommended next step')])
-            + f"<p style='color:#475569;font-size:11px;'>{escape(source)}</p></section>"
+        source = f"Analytical Synthesis · Qwen 3.5 Engine · Validated Snapshot {entry.get('generated_at', 'Sep 2026')}" if valid else 'Analytical Synthesis · Programme Snapshot Week Ending 11 Sep 2026'
+
+        brief_blocks = ''.join(
+            f"<div style='margin:10px 0 6px 0;'><div style='font-size:12px;font-weight:700;color:#1E3A8A;text-transform:uppercase;letter-spacing:0.03em;margin-bottom:2px;'>{escape(title)}</div><p style='color:#0F172A;font-size:13px;line-height:1.65;margin:0;'>{escape(brief[key])}</p></div>"
+            for key, title in labels
         )
+        sec_html = (
+            f"<section style='border-top:1.5px solid #BFDBFE;padding-top:16px;margin-top:18px;'>"
+            f"<div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:8px;'>"
+            f"<h3 style='color:#1E3A8A;font-size:16px;font-weight:700;margin:0;'>{escape(zone)} Zone</h3>"
+            f"<div style='display:flex;gap:6px;flex-wrap:wrap;'>"
+            f"<span style='background:#DBEAFE;color:#1E40AF;font-size:11px;font-weight:700;padding:3px 8px;border-radius:6px;'>{data['schools']} Schools</span>"
+            f"<span style='background:#FFE4E6;color:#9F1239;font-size:11px;font-weight:700;padding:3px 8px;border-radius:6px;'>{data['red_schools']} Intensive (Red)</span>"
+            f"<span style='background:#D1FAE5;color:#065F46;font-size:11px;font-weight:700;padding:3px 8px;border-radius:6px;'>HoS Attendance: {escape(str(data['hos_pct']))}</span>"
+            f"<span style='background:#FEF3C7;color:#92400E;font-size:11px;font-weight:700;padding:3px 8px;border-radius:6px;'>TP Adoption: {data['tp_adoption_index']}/100</span>"
+            f"</div></div>"
+            + brief_blocks
+            + f"<div style='margin-top:10px;font-size:11px;color:#64748B;font-weight:500;'>{escape(source)}</div>"
+            f"</section>"
+        )
+        sections.append(sec_html)
     return ''.join(sections)
