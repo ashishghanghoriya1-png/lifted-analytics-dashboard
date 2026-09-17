@@ -9,7 +9,7 @@ from lifted_digest import load_briefs, render_digest
 # 1. PAGE CONFIGURATION
 st.set_page_config(
     page_title="LIFTed Analytics Dashboard",
-    page_icon="❖",
+    page_icon="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -578,15 +578,15 @@ if mastery_slider != (0, 100):
 
 # HORIZONTAL TOP NAVIGATION BAR
 tabs = st.tabs([
-    "📊 Executive Summary",
-    "🛡️ School support command centre",
-    "📈 Student Learning & SLOs",
-    "👩‍🏫 Teacher Practice Adoption",
-    "🗓️ Field Operations Cadence",
-    "📦 Competency pack analytics",
-    "🎯 Impact and evaluation",
-    "⚠️ Risks and Decisions",
-    "🤖 School AI Brief"
+    "Executive Summary",
+    "School support command centre",
+    "Student Learning & SLOs",
+    "Teacher Practice Adoption",
+    "Field Operations Cadence",
+    "Competency pack analytics",
+    "Impact and evaluation",
+    "Risks and Decisions",
+    "School AI Brief"
 ])
 
 # ------------------------------------------------------------------------------
