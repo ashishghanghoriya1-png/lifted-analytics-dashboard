@@ -45,6 +45,11 @@
             border: 1px solid #CBD5E1;
             transition: all 0.2s ease;
             cursor: pointer;
+            white-space: nowrap;
+        }
+        .nav-pill:hover {
+            background: #E2E8F0;
+            color: #0F172A;
         }
         .nav-pill.active {
             background: #0F172A;
@@ -52,6 +57,11 @@
             border-color: #0F172A;
             box-shadow: 0 4px 12px rgba(15, 23, 42, 0.15);
         }
+
+        .badge-red { background: #FFE4E6; color: #9F1239; font-weight: 800; font-size: 11px; padding: 4px 10px; border-radius: 9999px; border: 1px solid #FECDD3; text-transform: uppercase; }
+        .badge-amber { background: #FEF3C7; color: #92400E; font-weight: 800; font-size: 11px; padding: 4px 10px; border-radius: 9999px; border: 1px solid #FDE68A; text-transform: uppercase; }
+        .badge-green { background: #D1FAE5; color: #065F46; font-weight: 800; font-size: 11px; padding: 4px 10px; border-radius: 9999px; border: 1px solid #A7F3D0; text-transform: uppercase; }
+        .badge-grey { background: #F1F5F9; color: #475569; font-weight: 800; font-size: 11px; padding: 4px 10px; border-radius: 9999px; border: 1px solid #E2E8F0; text-transform: uppercase; }
     </style>
 </head>
 <body class="min-h-screen p-6 md:p-10">
@@ -61,26 +71,27 @@
         <div>
             <div class="flex items-center gap-2 mb-1">
                 <span class="px-2.5 py-1 text-xs font-extrabold uppercase tracking-wider bg-blue-100 text-blue-800 rounded-full border border-blue-200">❖ Cohort 2</span>
-                <span class="px-2.5 py-1 text-xs font-extrabold uppercase tracking-wider bg-emerald-100 text-emerald-800 rounded-full border border-emerald-200">Figma & Emil Kowalski UX</span>
+                <span class="px-2.5 py-1 text-xs font-extrabold uppercase tracking-wider bg-emerald-100 text-emerald-800 rounded-full border border-emerald-200">Executive Decision Engine</span>
             </div>
             <h1 class="serif-title text-3xl font-semibold text-slate-900 tracking-tight">LIFTed Analytics Dashboard</h1>
             <p class="text-sm font-medium text-slate-600">Empowered by Ollama Qwen Deep Intelligence & DiD Evaluation Framework</p>
         </div>
         <div class="flex items-center gap-3">
             <span class="text-xs font-bold text-slate-500">Live Status:</span>
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-emerald-50 text-emerald-700 border border-emerald-200">● 479 Active Schools Syncing</span>
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-emerald-50 text-emerald-700 border border-emerald-200">● 420 Active Schools Syncing</span>
         </div>
     </header>
 
-    <!-- HORIZONTAL NAV PILLS -->
+    <!-- HORIZONTAL NAV PILLS (ALL 8 TABS) -->
     <div class="max-w-7xl mx-auto mb-8 flex items-center gap-2 overflow-x-auto pb-2 border-b border-slate-200">
         <button onclick="switchTab('exec')" id="tab-exec" class="nav-pill active">Executive Overview & Qwen Brief</button>
         <button onclick="switchTab('support')" id="tab-support" class="nav-pill">School support command centre</button>
         <button onclick="switchTab('learning')" id="tab-learning" class="nav-pill">Student Learning & SLOs</button>
         <button onclick="switchTab('practice')" id="tab-practice" class="nav-pill">Teacher Practice Adoption</button>
         <button onclick="switchTab('field')" id="tab-field" class="nav-pill">Field Operations Cadence</button>
-        <button onclick="switchTab('packs')" id="tab-packs" class="nav-pill">Competency pack analytics</button>
-        <button onclick="switchTab('impact')" id="tab-impact" class="nav-pill">Impact and evaluation</button>
+        <button onclick="switchTab('risks')" id="tab-risks" class="nav-pill">Risk & Accountability Register</button>
+        <button onclick="switchTab('roadmap')" id="tab-roadmap" class="nav-pill">Activity Roadmap & Inputs</button>
+        <button onclick="switchTab('brief')" id="tab-brief" class="nav-pill">AI School Diagnostic Brief</button>
     </div>
 
     <!-- MAIN CONTAINER -->
@@ -88,9 +99,7 @@
 
         <!-- TAB 1: EXECUTIVE OVERVIEW -->
         <div id="content-exec" class="space-y-8">
-
-            <!-- DEEP QWEN EXECUTIVE BRIEF CONTAINER -->
-            <div class="bg-gradient-to-br from-slate-50 to-blue-50/50 border-1.5 border-blue-200 rounded-2xl p-6 text-slate-900 shadow-sm">
+            <div class="bg-gradient-to-br from-slate-50 to-blue-50/50 border border-blue-200 rounded-2xl p-6 text-slate-900 shadow-sm">
                 <div class="flex items-center gap-2 mb-3">
                     <span class="px-3 py-1 bg-blue-600 text-white font-extrabold text-xs uppercase tracking-wider rounded-full">🤖 Qwen Deep LLM Synthesis</span>
                     <span class="text-xs font-semibold text-slate-500">420 Schools • Grade 3 FLN Hindi & Math • 6 Field Zones</span>
@@ -107,80 +116,61 @@
                 </div>
             </div>
 
-            <!-- STEPPED FLOW PROGRESS STRIP -->
-            <div class="flex items-center justify-between bg-slate-50 border border-slate-200 rounded-xl px-4 py-2.5 text-xs">
-                <div class="flex items-center gap-1.5">
-                    <span class="font-bold text-slate-900">479</span>
-                    <span class="text-slate-500">Target Schools</span>
-                </div>
-                <span class="text-slate-400 font-semibold">&rarr;</span>
-                <div class="flex items-center gap-1.5">
-                    <span class="font-bold text-teal-700">85.2%</span>
-                    <span class="text-slate-500">HoS Attended (408)</span>
-                </div>
-                <span class="text-slate-400 font-semibold">&rarr;</span>
-                <div class="flex items-center gap-1.5">
-                    <span class="font-bold text-teal-700">80.0%</span>
-                    <span class="text-slate-500">Teacher Batches (16/20)</span>
-                </div>
-                <span class="text-slate-400 font-semibold">&rarr;</span>
-                <div class="flex items-center gap-1.5">
-                    <span class="font-bold text-emerald-700">47 Schools</span>
-                    <span class="text-slate-500">Improved Category</span>
-                </div>
-            </div>
-
-            <!-- 4 EMIL KOWALSKI / UI-UX PRO MAX METRIC CARDS -->
+            <!-- 4 METRIC CARDS -->
             <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
                 <div class="figma-card p-6 border-navy-glow">
-                    <div class="flex justify-between items-center">
-                        <span class="px-2.5 py-1 text-xs font-bold bg-blue-100 text-blue-800 rounded-full border border-blue-200 uppercase">Total Scope</span>
-                        <span class="text-xs text-slate-500 font-semibold">Grade 3 FLN</span>
-                    </div>
-                    <div class="text-4xl font-black text-slate-900 my-3">479</div>
-                    <div class="text-xs font-bold text-slate-700 uppercase">Schools in Programme</div>
-                    <p class="text-xs text-slate-500 mt-2">West (127), Central (128), Civil (94), South (130).</p>
+                    <span class="px-2.5 py-1 text-xs font-bold bg-blue-100 text-blue-800 rounded-full border border-blue-200 uppercase">Total Scope</span>
+                    <div class="text-4xl font-black text-slate-900 my-3">420</div>
+                    <div class="text-xs font-bold text-slate-700 uppercase">Active Schools</div>
+                    <p class="text-xs text-slate-500 mt-2">Across 6 active field zones in Grade 3 FLN.</p>
                 </div>
                 <div class="figma-card p-6 border-green-glow">
-                    <div class="flex justify-between items-center">
-                        <span class="px-2.5 py-1 text-xs font-bold bg-emerald-100 text-emerald-800 rounded-full border border-emerald-200 uppercase">Leadership Reach</span>
-                        <span class="text-xs text-emerald-700 font-bold">12/12 Batches</span>
-                    </div>
-                    <div class="text-4xl font-black text-slate-900 my-3">85.2%</div>
-                    <div class="text-xs font-bold text-slate-700 uppercase">HoS Attendance</div>
-                    <p class="text-xs text-slate-500 mt-2">408 out of 479 Head of Schools trained.</p>
+                    <span class="px-2.5 py-1 text-xs font-bold bg-emerald-100 text-emerald-800 rounded-full border border-emerald-200 uppercase">DiD Readiness</span>
+                    <div class="text-4xl font-black text-slate-900 my-3">7.8 <span class="text-xl text-emerald-600">/ 10</span></div>
+                    <div class="text-xs font-bold text-slate-700 uppercase">DiD Readiness Index</div>
+                    <p class="text-xs text-slate-500 mt-2">High lead indicator performance.</p>
                 </div>
-                <div class="figma-card p-6 border-blue-glow">
-                    <div class="flex justify-between items-center">
-                        <span class="px-2.5 py-1 text-xs font-bold bg-blue-100 text-blue-800 rounded-full border border-blue-200 uppercase">Capacity Building</span>
-                        <span class="text-xs text-blue-700 font-bold">80.0% Rate</span>
-                    </div>
-                    <div class="text-4xl font-black text-slate-900 my-3">16 <span class="text-2xl text-blue-600 font-bold">/ 20</span></div>
-                    <div class="text-xs font-bold text-slate-700 uppercase">Teacher Batches Completed</div>
-                    <p class="text-xs text-slate-500 mt-2">South (6/6) & Civil (5/5) 100%; West (4/5), Central (1/4).</p>
+                <div class="figma-card p-6 border-amber-glow">
+                    <span class="px-2.5 py-1 text-xs font-bold bg-amber-100 text-amber-800 rounded-full border border-amber-200 uppercase">FLN Bottleneck</span>
+                    <div class="text-4xl font-black text-amber-600 my-3">32%</div>
+                    <div class="text-xs font-bold text-slate-700 uppercase">Hindi Matra Mastery</div>
+                    <p class="text-xs text-slate-500 mt-2">Primary foundational decoding gap.</p>
                 </div>
-                <div class="figma-card p-6 border-red-glow">
-                    <div class="flex justify-between items-center">
-                        <span class="px-2.5 py-1 text-xs font-bold bg-rose-100 text-rose-800 rounded-full border border-rose-200 uppercase">Immediate Support</span>
-                        <span class="text-xs text-rose-700 font-bold">21% of Cohort</span>
-                    </div>
-                    <div class="text-4xl font-black text-rose-600 my-3">101</div>
-                    <div class="text-xs font-bold text-slate-700 uppercase">Priority Schools (Red)</div>
-                    <p class="text-xs text-slate-500 mt-2">Intensive bi-weekly physical coaching + 201 Amber.</p>
+                <div class="figma-card p-6 border-purple-glow">
+                    <span class="px-2.5 py-1 text-xs font-bold bg-purple-100 text-purple-800 rounded-full border border-purple-200 uppercase">Practice Adoption</span>
+                    <div class="text-4xl font-black text-purple-600 my-3">66.8%</div>
+                    <div class="text-xs font-bold text-slate-700 uppercase">Teacher Practice Rate</div>
+                    <p class="text-xs text-slate-500 mt-2">+8.4% MoM classroom improvement.</p>
                 </div>
             </div>
 
-            <!-- MAIN ANALYTICS GRID: ZONAL COLUMN CHART (LEFT) & SUPPORT PIE CHART (RIGHT) -->
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
-                <div class="figma-card p-6 lg:col-span-7">
-                    <h3 class="font-bold text-slate-900 text-base mb-1">📍 Zonal Reach & Participation Breakdown</h3>
-                    <p class="text-xs text-slate-500 mb-4">Comparing Target Schools vs. HoS Attended across West, Central, Civil Lines, and South.</p>
-                    <div id="chart-zone" class="w-full h-80"></div>
+            <!-- ANALYTICS CHARTS GRID -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="figma-card p-6">
+                    <h3 class="font-bold text-slate-900 text-base mb-4">📍 Student Mastery by Zone & Subject</h3>
+                    <div id="chart-zone" class="w-full h-72"></div>
                 </div>
-                <div class="figma-card p-6 lg:col-span-5">
-                    <h3 class="font-bold text-slate-900 text-base mb-1">🎯 School Support Status (RAG)</h3>
-                    <p class="text-xs text-slate-500 mb-4">Categorised triage distribution across all schools in the program.</p>
-                    <div id="chart-donut" class="w-full h-80"></div>
+                <div class="figma-card p-6">
+                    <h3 class="font-bold text-slate-900 text-base mb-4">📈 Monthly Progress Trajectory</h3>
+                    <div id="chart-trend" class="w-full h-72"></div>
+                </div>
+            </div>
+
+            <!-- CSS MATRIX TABLE -->
+            <div class="figma-card p-6 space-y-4">
+                <h3 class="text-base font-bold text-slate-900">🧭 Strategic Customised Support (CSS) Matrix</h3>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left border-collapse text-xs">
+                        <thead>
+                            <tr class="border-b-2 border-slate-300 bg-slate-100 text-slate-900">
+                                <th class="p-3 font-bold">Dimension</th>
+                                <th class="p-3 font-bold">WHAT</th>
+                                <th class="p-3 font-bold">SO WHAT</th>
+                                <th class="p-3 font-bold">NOW WHAT</th>
+                            </tr>
+                        </thead>
+                        <tbody id="cssBody" class="divide-y divide-slate-200 text-slate-900 font-medium"></tbody>
+                    </table>
                 </div>
             </div>
         </div>
@@ -192,863 +182,230 @@
                 <p class="text-blue-600 font-bold text-base">Prioritise schools and match support intensity to need</p>
             </div>
 
-            <!-- STEPPED SUPPORT TRIAGE STRIP -->
-            <div class="flex items-center justify-between bg-slate-50 border border-slate-200 rounded-xl px-4 py-2.5 text-xs">
-                <div class="flex items-center gap-1.5">
-                    <span class="font-bold text-slate-900">479</span>
-                    <span class="text-slate-500">Active Schools</span>
-                </div>
-                <span class="text-slate-400 font-semibold">&rarr;</span>
-                <div class="flex items-center gap-1.5">
-                    <span class="font-bold text-rose-700">101 Red</span>
-                    <span class="text-slate-500">Intensive Coaching</span>
-                </div>
-                <span class="text-slate-400 font-semibold">&rarr;</span>
-                <div class="flex items-center gap-1.5">
-                    <span class="font-bold text-amber-700">201 Amber</span>
-                    <span class="text-slate-500">Targeted Coaching</span>
-                </div>
-                <span class="text-slate-400 font-semibold">&rarr;</span>
-                <div class="flex items-center gap-1.5">
-                    <span class="font-bold text-emerald-700">163 Green</span>
-                    <span class="text-slate-500">Light Touch</span>
-                </div>
-                <span class="text-slate-400 font-semibold">&rarr;</span>
-                <div class="flex items-center gap-1.5">
-                    <span class="font-bold text-slate-600">29 Grey</span>
-                    <span class="text-slate-500">Vacancy Protocol</span>
-                </div>
-            </div>
-
-            <!-- 4 EXACT SPECIFICATION CARDS -->
+            <!-- 4 EXACT KPI CARDS -->
             <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
                 <div class="figma-card p-6 border-red-glow">
-                    <span class="px-2.5 py-1 text-xs font-extrabold bg-rose-100 text-rose-800 rounded-full uppercase">Red schools</span>
+                    <span class="badge-red">Red schools</span>
                     <div class="text-4xl font-black text-rose-700 my-3">101</div>
                     <div class="text-xs font-bold text-slate-900">21% of schools</div>
-                    <p class="text-xs text-slate-600 mt-2 leading-relaxed">
-                        <strong>Qwen Analysis:</strong> Severe gaps (&lt;30% mastery) in Hindi matra decoding. Requires bi-weekly physical coaching.
-                    </p>
+                    <p class="text-xs text-slate-600 mt-2">Requires physical coaching & misconception diagnosis.</p>
                 </div>
-
                 <div class="figma-card p-6 border-amber-glow">
-                    <span class="px-2.5 py-1 text-xs font-extrabold bg-amber-100 text-amber-800 rounded-full uppercase">Visits overdue</span>
+                    <span class="badge-amber">Visits overdue</span>
                     <div class="text-4xl font-black text-amber-700 my-3">34</div>
                     <div class="text-xs font-bold text-slate-900">Needs scheduling</div>
-                    <p class="text-xs text-slate-600 mt-2 leading-relaxed">
-                        <strong>Qwen Analysis:</strong> Pending physical observation &gt;21 days. Prioritised for Week 2 visit cycle.
-                    </p>
+                    <p class="text-xs text-slate-600 mt-2">Prioritised for Week 2 Batch A scheduling.</p>
                 </div>
-
                 <div class="figma-card p-6 border-blue-glow">
                     <span class="px-2.5 py-1 text-xs font-extrabold bg-blue-100 text-blue-800 rounded-full uppercase">Follow-ups open</span>
                     <div class="text-4xl font-black text-blue-700 my-3">86</div>
                     <div class="text-xs font-bold text-slate-900">Across 4 zones</div>
-                    <p class="text-xs text-slate-600 mt-2 leading-relaxed">
-                        <strong>Qwen Analysis:</strong> Formative assessment & remediation logs requiring telephonic verification call.
-                    </p>
+                    <p class="text-xs text-slate-600 mt-2">Telephonic check-in & FA verification open.</p>
                 </div>
-
                 <div class="figma-card p-6 border-green-glow">
-                    <span class="px-2.5 py-1 text-xs font-extrabold bg-emerald-100 text-emerald-800 rounded-full uppercase">Schools improving</span>
+                    <span class="badge-green">Schools improving</span>
                     <div class="text-4xl font-black text-emerald-700 my-3">47</div>
                     <div class="text-xs font-bold text-slate-900">Moved category this month</div>
-                    <p class="text-xs text-slate-600 mt-2 leading-relaxed">
-                        <strong>Qwen Analysis:</strong> Transitioned Red &rarr; Amber or Amber &rarr; Green following 15-min daily practice.
-                    </p>
+                    <p class="text-xs text-slate-600 mt-2">Progressed following 15-min daily practice.</p>
                 </div>
             </div>
 
             <!-- RECOMMENDED SUPPORT QUEUE TABLE -->
-            <div class="figma-card p-6">
-                <h3 class="text-lg font-bold text-slate-900 mb-4">Recommended support queue</h3>
+            <div class="figma-card p-6 space-y-4">
+                <h3 class="text-lg font-bold text-slate-900">Recommended support queue</h3>
                 <div class="overflow-x-auto">
                     <table class="w-full text-left border-collapse text-xs">
                         <thead>
                             <tr class="bg-slate-100 text-slate-700 border-b border-slate-200">
-                                <th class="p-3 font-bold uppercase">School</th>
-                                <th class="p-3 font-bold uppercase">Category</th>
-                                <th class="p-3 font-bold uppercase">Evidence</th>
-                                <th class="p-3 font-bold uppercase">Next recommended action</th>
-                                <th class="p-3 font-bold uppercase">Owner</th>
-                                <th class="p-3 font-bold uppercase">Qwen Diagnostic Description</th>
+                                <th class="p-3.5 font-bold uppercase text-[11px]">School</th>
+                                <th class="p-3.5 font-bold uppercase text-[11px]">Category</th>
+                                <th class="p-3.5 font-bold uppercase text-[11px]">Evidence</th>
+                                <th class="p-3.5 font-bold uppercase text-[11px]">Next recommended action</th>
+                                <th class="p-3.5 font-bold uppercase text-[11px]">Owner</th>
                             </tr>
                         </thead>
                         <tbody class="divide-y divide-slate-200">
                             <tr class="hover:bg-slate-50">
-                                <td class="p-3 font-bold text-slate-900">RK Puram Sec 2</td>
-                                <td class="p-3"><span class="px-2 py-0.5 rounded font-extrabold bg-rose-100 text-rose-800">Red</span></td>
-                                <td class="p-3 font-medium">Spot check mastery 24%</td>
-                                <td class="p-3 font-bold text-blue-700">Physical coaching + misconception diagnosis</td>
-                                <td class="p-3 font-semibold text-slate-700">Geeta</td>
-                                <td class="p-3 text-slate-600">Critical decoding bottleneck. PoC Geeta conducts in-person demonstration on matra combinations.</td>
+                                <td class="p-3.5 font-bold text-slate-900 text-sm">RK Puram Sec 2</td>
+                                <td class="p-3.5"><span class="badge-red">Red</span></td>
+                                <td class="p-3.5 font-semibold text-slate-800">Spot check mastery 24%</td>
+                                <td class="p-3.5 font-bold text-rose-900">Physical coaching + misconception diagnosis</td>
+                                <td class="p-3.5 font-bold text-indigo-800">Geeta</td>
                             </tr>
                             <tr class="hover:bg-slate-50">
-                                <td class="p-3 font-bold text-slate-900">Begumpur CoEd</td>
-                                <td class="p-3"><span class="px-2 py-0.5 rounded font-extrabold bg-amber-100 text-amber-800">Amber</span></td>
-                                <td class="p-3 font-medium">Mastery 48%, weak FA</td>
-                                <td class="p-3 font-bold text-blue-700">FA demonstration + phone follow-up</td>
-                                <td class="p-3 font-semibold text-slate-700">Ghazala</td>
-                                <td class="p-3 text-slate-600">Emerging student mastery but weak formative assessment logging. PoC Ghazala demonstrates FA logging.</td>
+                                <td class="p-3.5 font-bold text-slate-900 text-sm">Begumpur CoEd</td>
+                                <td class="p-3.5"><span class="badge-amber">Amber</span></td>
+                                <td class="p-3.5 font-semibold text-slate-800">Mastery 48%, weak FA</td>
+                                <td class="p-3.5 font-bold text-amber-900">FA demonstration + phone follow-up</td>
+                                <td class="p-3.5 font-bold text-indigo-800">Ghazala</td>
                             </tr>
                             <tr class="hover:bg-slate-50">
-                                <td class="p-3 font-bold text-slate-900">Janak Puri A-1 A</td>
-                                <td class="p-3"><span class="px-2 py-0.5 rounded font-extrabold bg-emerald-100 text-emerald-800">Green</span></td>
-                                <td class="p-3 font-medium">Mastery 78%, strong practice</td>
-                                <td class="p-3 font-bold text-blue-700">Nudge + recognise practice</td>
-                                <td class="p-3 font-semibold text-slate-700">Megha</td>
-                                <td class="p-3 text-slate-600">High mastery (>75%) and consistent practice routines. PoC Megha features teacher in monthly Samvad.</td>
+                                <td class="p-3.5 font-bold text-slate-900 text-sm">Janak Puri A-1 A</td>
+                                <td class="p-3.5"><span class="badge-green">Green</span></td>
+                                <td class="p-3.5 font-semibold text-slate-800">Mastery 78%, strong practice</td>
+                                <td class="p-3.5 font-bold text-emerald-900">Nudge + recognise practice</td>
+                                <td class="p-3.5 font-bold text-indigo-800">Megha</td>
                             </tr>
                             <tr class="hover:bg-slate-50">
-                                <td class="p-3 font-bold text-slate-900">GPS East Extension</td>
-                                <td class="p-3"><span class="px-2 py-0.5 rounded font-extrabold bg-slate-200 text-slate-800">Grey</span></td>
-                                <td class="p-3 font-medium">Teacher vacancy logged (48h protocol)</td>
-                                <td class="p-3 font-bold text-blue-700">Escalate vacancy to PM & Zonal Officer</td>
-                                <td class="p-3 font-semibold text-slate-700">Vatan</td>
-                                <td class="p-3 text-slate-600">Structural Grade 3 teacher vacancy. PoC Vatan executes 48-hour Grey protocol to identify interim teaching.</td>
+                                <td class="p-3.5 font-bold text-slate-900 text-sm">GPS East Extension</td>
+                                <td class="p-3.5"><span class="badge-grey">Grey</span></td>
+                                <td class="p-3.5 font-semibold text-slate-800">Teacher vacancy logged (48h protocol)</td>
+                                <td class="p-3.5 font-bold text-slate-900">Escalate vacancy to PM & Zonal Officer</td>
+                                <td class="p-3.5 font-bold text-indigo-800">Vatan</td>
                             </tr>
                             <tr class="hover:bg-slate-50">
-                                <td class="p-3 font-bold text-slate-900">GPS Sector 14 Model</td>
-                                <td class="p-3"><span class="px-2 py-0.5 rounded font-extrabold bg-emerald-100 text-emerald-800">Green</span></td>
-                                <td class="p-3 font-medium">Mastery 82%, 20 min practice</td>
-                                <td class="p-3 font-bold text-blue-700">Feature teacher in Samvad exemplar list</td>
-                                <td class="p-3 font-semibold text-slate-700">Rohan</td>
-                                <td class="p-3 text-slate-600">Exemplary student practice completion (20 min/day). PoC Rohan maintains light touchpoints.</td>
+                                <td class="p-3.5 font-bold text-slate-900 text-sm">GPS Sector 14 Model</td>
+                                <td class="p-3.5"><span class="badge-green">Green</span></td>
+                                <td class="p-3.5 font-semibold text-slate-800">Mastery 82%, 20 min practice</td>
+                                <td class="p-3.5 font-bold text-emerald-900">Feature teacher in Samvad exemplar list</td>
+                                <td class="p-3.5 font-bold text-indigo-800">Rohan</td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
             </div>
-        </div>
 
-        <!-- TAB 3: STUDENT LEARNING (EXACT CHATGPT / FIGMA REPLICATION) -->
-        <div id="content-learning" class="space-y-6 hidden">
-            <!-- HEADER -->
-            <div class="flex justify-between items-start">
-                <div>
-                    <h2 class="text-2xl font-bold text-slate-900 tracking-tight">Student learning</h2>
-                    <p class="text-sm font-normal text-slate-500">Competency mastery, misconceptions and progression</p>
-                </div>
-                <div class="bg-white border border-slate-200 rounded-lg px-3.5 py-1.5 text-xs font-medium text-slate-600 shadow-sm">
-                    September · Grade 3
-                </div>
-            </div>
-
-            <!-- STEPPED LEARNING MASTERY FLOW STRIP -->
-            <div class="flex items-center justify-between bg-slate-50 border border-slate-200 rounded-xl px-4 py-2.5 text-xs">
-                <div class="flex items-center gap-1.5">
-                    <span class="font-bold text-slate-900">24,190</span>
-                    <span class="text-slate-500">Assessed</span>
-                </div>
-                <span class="text-slate-400 font-semibold">&rarr;</span>
-                <div class="flex items-center gap-1.5">
-                    <span class="font-bold text-teal-700">58%</span>
-                    <span class="text-slate-500">Literacy FLN</span>
-                </div>
-                <span class="text-slate-400 font-semibold">&rarr;</span>
-                <div class="flex items-center gap-1.5">
-                    <span class="font-bold text-teal-700">51%</span>
-                    <span class="text-slate-500">Numeracy FLN</span>
-                </div>
-                <span class="text-slate-400 font-semibold">&rarr;</span>
-                <div class="flex items-center gap-1.5">
-                    <span class="font-bold text-rose-700">19%</span>
-                    <span class="text-slate-500">Risk Flagged</span>
-                </div>
-                <span class="text-slate-400 font-semibold">&rarr;</span>
-                <div class="flex items-center gap-1.5">
-                    <span class="font-bold text-emerald-700">64%</span>
-                    <span class="text-slate-500">Remedial Follow-through</span>
-                </div>
-            </div>
-
-            <!-- 4 MINIMALIST FIGMA-GRADE KPI CARDS -->
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-5">
-                <div class="figma-card p-5">
-                    <div class="text-xs font-medium text-slate-500 mb-1">Literacy proficiency</div>
-                    <div class="text-3xl font-bold text-slate-900 leading-tight mb-1">58%</div>
-                    <div class="text-xs font-semibold text-emerald-600">+7 pts from baseline</div>
-                </div>
-                <div class="figma-card p-5">
-                    <div class="text-xs font-medium text-slate-500 mb-1">Numeracy proficiency</div>
-                    <div class="text-3xl font-bold text-slate-900 leading-tight mb-1">51%</div>
-                    <div class="text-xs font-semibold text-emerald-600">+5 pts from baseline</div>
-                </div>
-                <div class="figma-card p-5">
-                    <div class="text-xs font-medium text-slate-500 mb-1">Students at risk</div>
-                    <div class="text-3xl font-bold text-slate-900 leading-tight mb-1">18%</div>
-                    <div class="text-xs font-normal text-slate-500">85,000 assessed</div>
-                </div>
-                <div class="figma-card p-5">
-                    <div class="text-xs font-medium text-slate-500 mb-1">Remedial follow-through</div>
-                    <div class="text-3xl font-bold text-slate-900 leading-tight mb-1">63%</div>
-                    <div class="text-xs font-normal text-slate-500">Target: 80%</div>
-                </div>
-            </div>
-
-            <!-- 2-COLUMN GRID: COMPETENCY MASTERY (LEFT) & MISCONCEPTIONS (RIGHT) -->
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
-                <!-- LEFT: COMPETENCY MASTERY TABLE -->
-                <div class="figma-card p-6 lg:col-span-7">
-                    <h3 class="font-bold text-slate-900 text-base mb-4">Competency mastery</h3>
-                    <div class="overflow-x-auto">
-                        <table class="w-full text-left border-collapse text-xs">
-                            <thead>
-                                <tr class="border-b border-slate-200 text-slate-500 font-medium text-[11px]">
-                                    <th class="py-2.5 px-0">Competency</th>
-                                    <th class="py-2.5 px-4">Mastery</th>
-                                    <th class="py-2.5 px-4">Change</th>
-                                    <th class="py-2.5 px-0">Priority</th>
-                                </tr>
-                            </thead>
-                            <tbody class="divide-y divide-slate-100 font-medium">
-                                <tr>
-                                    <td class="py-3.5 px-0 font-medium text-slate-900">Number sense</td>
-                                    <td class="py-3.5 px-4">
-                                        <!-- COMPACT HORIZONTAL BAR GRAPH (AS SHOWN IN MOCKUP) -->
-                                        <div class="bg-[#EEF2F6] rounded-full h-[10px] w-[85px] overflow-hidden" title="72% Mastery">
-                                            <div class="bg-[#0F766E] h-full rounded-full" style="width: 72%;"></div>
-                                        </div>
-                                    </td>
-                                    <td class="py-3.5 px-4 text-slate-600 text-xs font-medium">+11 pts</td>
-                                    <td class="py-3.5 px-0">
-                                        <span class="px-3 py-0.5 rounded-full text-[11px] font-semibold bg-[#DEF7EC] text-[#03543F]">Stable</span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="py-3.5 px-0 font-medium text-slate-900">Addition and subtraction</td>
-                                    <td class="py-3.5 px-4">
-                                        <!-- COMPACT HORIZONTAL BAR GRAPH -->
-                                        <div class="bg-[#EEF2F6] rounded-full h-[10px] w-[85px] overflow-hidden" title="51% Mastery">
-                                            <div class="bg-[#0F766E] h-full rounded-full" style="width: 51%;"></div>
-                                        </div>
-                                    </td>
-                                    <td class="py-3.5 px-4 text-slate-600 text-xs font-medium">+5 pts</td>
-                                    <td class="py-3.5 px-0">
-                                        <span class="px-3 py-0.5 rounded-full text-[11px] font-semibold bg-[#FEF3C7] text-[#92400E]">Focus</span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="py-3.5 px-0 font-medium text-slate-900">ORF</td>
-                                    <td class="py-3.5 px-4">
-                                        <!-- COMPACT HORIZONTAL BAR GRAPH -->
-                                        <div class="bg-[#EEF2F6] rounded-full h-[10px] w-[85px] overflow-hidden" title="46% Mastery">
-                                            <div class="bg-[#0F766E] h-full rounded-full" style="width: 46%;"></div>
-                                        </div>
-                                    </td>
-                                    <td class="py-3.5 px-4 text-slate-600 text-xs font-medium">+3 pts</td>
-                                    <td class="py-3.5 px-0">
-                                        <span class="px-3 py-0.5 rounded-full text-[11px] font-semibold bg-[#FEE2E2] text-[#991B1B]">Priority</span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="py-3.5 px-0 font-medium text-slate-900">Reading comprehension</td>
-                                    <td class="py-3.5 px-4">
-                                        <!-- COMPACT HORIZONTAL BAR GRAPH -->
-                                        <div class="bg-[#EEF2F6] rounded-full h-[10px] w-[85px] overflow-hidden" title="42% Mastery">
-                                            <div class="bg-[#0F766E] h-full rounded-full" style="width: 42%;"></div>
-                                        </div>
-                                    </td>
-                                    <td class="py-3.5 px-4 text-slate-600 text-xs font-medium">+2 pts</td>
-                                    <td class="py-3.5 px-0">
-                                        <span class="px-3 py-0.5 rounded-full text-[11px] font-semibold bg-[#FEE2E2] text-[#991B1B]">Priority</span>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+            <!-- GREY ZONE PROTOCOL -->
+            <div class="figma-card p-6 space-y-4">
+                <h3 class="text-base font-bold text-slate-900">⚪ Grey Zone (Teacher Vacancy Protocol Framework)</h3>
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-4 text-xs">
+                    <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-1">
+                        <span class="font-extrabold text-blue-700">1. Detection (Within 24h)</span>
+                        <p class="text-slate-800">PoC logs single-teacher vacancy on MIS & notifies Zonal PM.</p>
                     </div>
-                </div>
-
-                <!-- RIGHT: MOST COMMON MISCONCEPTIONS -->
-                <div class="figma-card p-6 lg:col-span-5">
-                    <h3 class="font-bold text-slate-900 text-base mb-4">Most common misconceptions</h3>
-                    <div class="bg-[#F0FDFA] border-l-[3px] border-[#0D9488] rounded-r p-4 text-slate-900 text-xs leading-relaxed mb-4">
-                        Students can perform two-digit addition procedurally but frequently misplace the carry value.
+                    <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-1">
+                        <span class="font-extrabold text-blue-700">2. Joint Verification (48h)</span>
+                        <p class="text-slate-800">Zonal PM and HoS verify section consolidation options.</p>
                     </div>
-                    <div class="flex gap-2 flex-wrap mb-4">
-                        <span class="px-3 py-1 text-[11px] font-medium bg-[#F8FAFC] border border-slate-200 text-slate-600 rounded-full">Place value</span>
-                        <span class="px-3 py-1 text-[11px] font-medium bg-[#F8FAFC] border border-slate-200 text-slate-600 rounded-full">ORF pacing</span>
-                        <span class="px-3 py-1 text-[11px] font-medium bg-[#F8FAFC] border border-slate-200 text-slate-600 rounded-full">Inference</span>
+                    <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-1">
+                        <span class="font-extrabold text-blue-700">3. District Escalation</span>
+                        <p class="text-slate-800">Escalation to DEO for guest teacher deputation.</p>
                     </div>
-                    <div class="text-xs text-slate-500 leading-relaxed">
-                        Recommended: model the error, use worked examples, then repeat a five-student spot check.
+                    <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-1">
+                        <span class="font-extrabold text-blue-700">4. Interim Support</span>
+                        <p class="text-slate-800">Provide self-paced student worksheets and blended video packs.</p>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- TAB 4: TEACHER PRACTICE (EXACT CHATGPT / FIGMA REPLICATION) -->
-        <div id="content-practice" class="space-y-6 hidden">
-            <!-- HEADER -->
-            <div class="flex justify-between items-start">
-                <div>
-                    <h2 class="text-2xl font-bold text-slate-900 tracking-tight">Teacher practice adoption</h2>
-                    <p class="text-sm font-normal text-slate-500">Observed classroom practice and evidence of sustained implementation</p>
-                </div>
-                <div>
-                    <select id="tp-filter-select" onchange="filterTpTable(this.value)" class="bg-white border border-slate-200 rounded-lg px-3.5 py-1.5 text-xs font-medium text-slate-700 shadow-sm cursor-pointer hover:bg-slate-50 focus:outline-none focus:ring-2 focus:ring-slate-900">
-                        <option value="all">All practice indicators</option>
-                        <option value="ti">Targeted instruction</option>
-                        <option value="dp">Dedicated practice time</option>
-                        <option value="fa">FA and remediation</option>
-                        <option value="eng">Classroom engagement</option>
-                    </select>
+        <!-- TAB 3: STUDENT LEARNING -->
+        <div id="content-learning" class="space-y-8 hidden">
+            <div class="figma-card p-6 space-y-4">
+                <h2 class="text-2xl font-black text-slate-900">Student Learning & SLO Analytics</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="p-5 rounded-xl bg-rose-50 border border-rose-200 space-y-2">
+                        <h3 class="font-extrabold text-rose-900 text-sm">Hindi Matra Decoding (32% Mastery)</h3>
+                        <p class="text-xs text-slate-800 leading-relaxed">Students struggle with vowel matra signs in complex words. Target: 15 min daily notebook practice.</p>
+                    </div>
+                    <div class="p-5 rounded-xl bg-amber-50 border border-amber-200 space-y-2">
+                        <h3 class="font-extrabold text-amber-900 text-sm">Math Place Value (36% Mastery)</h3>
+                        <p class="text-xs text-slate-800 leading-relaxed">Students calculate procedural addition but misplace values in carry operations.</p>
+                    </div>
                 </div>
             </div>
-
-            <!-- STEPPED PRACTICE ADOPTION FLOW STRIP -->
-            <div class="flex items-center justify-between bg-slate-50 border border-slate-200 rounded-xl px-4 py-2.5 text-xs">
-                <div class="flex items-center gap-1.5">
-                    <span class="font-bold text-slate-900">67%</span>
-                    <span class="text-slate-500">Practice Index</span>
-                </div>
-                <span class="text-slate-400 font-semibold">&rarr;</span>
-                <div class="flex items-center gap-1.5">
-                    <span class="font-bold text-teal-700">71%</span>
-                    <span class="text-slate-500">Targeted Instruction</span>
-                </div>
-                <span class="text-slate-400 font-semibold">&rarr;</span>
-                <div class="flex items-center gap-1.5">
-                    <span class="font-bold text-teal-700">68%</span>
-                    <span class="text-slate-500">Dedicated Practice</span>
-                </div>
-                <span class="text-slate-400 font-semibold">&rarr;</span>
-                <div class="flex items-center gap-1.5">
-                    <span class="font-bold text-rose-700">58%</span>
-                    <span class="text-slate-500">FA & Remediation</span>
+            <div class="figma-card p-6 space-y-2">
+                <h3 class="text-base font-bold text-slate-900">🧮 Student Practice Target Dosage Calculator</h3>
+                <p class="text-xs text-slate-600">Minimum requirement: <strong>15 minutes/subject/day</strong>.</p>
+                <div class="p-4 rounded-xl bg-emerald-50 border border-emerald-200 text-xs font-semibold text-emerald-900">
+                    Target per Classroom (35 Students × 15 min × 22 days) = <strong>192.5 Student-Practice Hours / Month</strong>.
                 </div>
             </div>
+        </div>
 
-            <!-- 4 KPI CARDS -->
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-5">
-                <div class="figma-card p-5">
-                    <div class="text-xs font-medium text-slate-500 mb-1">Practice adoption index</div>
-                    <div id="tp-kpi-1" class="text-3xl font-bold text-slate-900 leading-tight mb-1">64%</div>
-                    <div class="text-xs font-semibold text-emerald-600">+9 pts this cycle</div>
-                </div>
-                <div class="figma-card p-5">
-                    <div class="text-xs font-medium text-slate-500 mb-1">Targeted instruction</div>
-                    <div id="tp-kpi-2" class="text-3xl font-bold text-slate-900 leading-tight mb-1">71%</div>
-                    <div class="text-xs font-normal text-slate-500">Target: 75% (-4 pts)</div>
-                </div>
-                <div class="figma-card p-5">
-                    <div class="text-xs font-medium text-slate-500 mb-1">Dedicated practice time</div>
-                    <div id="tp-kpi-3" class="text-3xl font-bold text-slate-900 leading-tight mb-1">58%</div>
-                    <div class="text-xs font-normal text-slate-500">Target: 70% (-12 pts)</div>
-                </div>
-                <div class="figma-card p-5">
-                    <div class="text-xs font-medium text-slate-500 mb-1">FA and remediation</div>
-                    <div id="tp-kpi-4" class="text-3xl font-bold text-slate-900 leading-tight mb-1">49%</div>
-                    <div class="text-xs font-semibold text-rose-600">Largest gap (-26 pts)</div>
-                </div>
-            </div>
-
-            <!-- INDICATOR PERFORMANCE TABLE -->
-            <div class="figma-card p-6">
-                <h3 class="font-bold text-slate-900 text-base mb-4">Indicator performance</h3>
+        <!-- TAB 4: TEACHER PRACTICE -->
+        <div id="content-practice" class="space-y-8 hidden">
+            <div class="figma-card p-6 space-y-4">
+                <h2 class="text-2xl font-black text-slate-900">Teacher Practice Adoption (15 CRO Indicators)</h2>
                 <div class="overflow-x-auto">
                     <table class="w-full text-left border-collapse text-xs">
                         <thead>
-                            <tr class="border-b border-slate-200 text-slate-500 font-medium text-[11px]">
-                                <th class="py-2.5 px-0 w-[40%]">Practice</th>
-                                <th class="py-2.5 px-3 w-[20%]">Observed classrooms</th>
-                                <th class="py-2.5 px-3 w-[15%]">Target</th>
-                                <th class="py-2.5 px-3 w-[10%]">Gap</th>
-                                <th class="py-2.5 px-0 w-[15%]">Interpretation</th>
+                            <tr class="border-b-2 border-slate-300 bg-slate-100 text-slate-900">
+                                <th class="p-3 font-bold">ID</th>
+                                <th class="p-3 font-bold">Category</th>
+                                <th class="p-3 font-bold">Classroom Indicator</th>
+                                <th class="p-3 font-bold">Data Collection Method</th>
                             </tr>
                         </thead>
-                        <tbody id="tp-table-body" class="divide-y divide-slate-100 font-medium">
-                            <tr data-cat="ti">
-                                <td class="py-3.5 px-0 font-medium text-slate-900">LO aligned to focused competency</td>
-                                <td class="py-3.5 px-3 font-semibold text-slate-900">71%</td>
-                                <td class="py-3.5 px-3 text-slate-500">75%</td>
-                                <td class="py-3.5 px-3 text-slate-500">-4 pts</td>
-                                <td class="py-3.5 px-0">
-                                    <span class="px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-[#FEF3C7] text-[#B45309]">Near target</span>
-                                </td>
-                            </tr>
-                            <tr data-cat="ti">
-                                <td class="py-3.5 px-0 font-medium text-slate-900">Clear competency-linked instruction</td>
-                                <td class="py-3.5 px-3 font-semibold text-slate-900">68%</td>
-                                <td class="py-3.5 px-3 text-slate-500">80%</td>
-                                <td class="py-3.5 px-3 text-slate-500">-12 pts</td>
-                                <td class="py-3.5 px-0">
-                                    <span class="px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-[#FEF3C7] text-[#B45309]">Coach</span>
-                                </td>
-                            </tr>
-                            <tr data-cat="ti">
-                                <td class="py-3.5 px-0 font-medium text-slate-900">Two LO-linked questions</td>
-                                <td class="py-3.5 px-3 font-semibold text-slate-900">54%</td>
-                                <td class="py-3.5 px-3 text-slate-500">70%</td>
-                                <td class="py-3.5 px-3 text-slate-500">-16 pts</td>
-                                <td class="py-3.5 px-0">
-                                    <span class="px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-[#FEE2E2] text-[#BE123C]">Priority</span>
-                                </td>
-                            </tr>
-                            <tr data-cat="dp">
-                                <td class="py-3.5 px-0 font-medium text-slate-900">Students receive feedback</td>
-                                <td class="py-3.5 px-3 font-semibold text-slate-900">61%</td>
-                                <td class="py-3.5 px-3 text-slate-500">80%</td>
-                                <td class="py-3.5 px-3 text-slate-500">-19 pts</td>
-                                <td class="py-3.5 px-0">
-                                    <span class="px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-[#FEE2E2] text-[#BE123C]">Priority</span>
-                                </td>
-                            </tr>
-                            <tr data-cat="dp">
-                                <td class="py-3.5 px-0 font-medium text-slate-900">Students spend at least 15 min on practice</td>
-                                <td class="py-3.5 px-3 font-semibold text-slate-900">58%</td>
-                                <td class="py-3.5 px-3 text-slate-500">70%</td>
-                                <td class="py-3.5 px-3 text-slate-500">-12 pts</td>
-                                <td class="py-3.5 px-0">
-                                    <span class="px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-[#FEF3C7] text-[#B45309]">Coach</span>
-                                </td>
-                            </tr>
-                            <tr data-cat="fa">
-                                <td class="py-3.5 px-0 font-medium text-slate-900">Teachers shared FA data prior/during call</td>
-                                <td class="py-3.5 px-3 font-semibold text-slate-900">52%</td>
-                                <td class="py-3.5 px-3 text-slate-500">90%</td>
-                                <td class="py-3.5 px-3 text-slate-500">-38 pts</td>
-                                <td class="py-3.5 px-0">
-                                    <span class="px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-[#FEE2E2] text-[#BE123C]">Priority</span>
-                                </td>
-                            </tr>
-                            <tr data-cat="eng">
-                                <td class="py-3.5 px-0 font-medium text-slate-900">Active student engagement in questioning</td>
-                                <td class="py-3.5 px-3 font-semibold text-slate-900">72%</td>
-                                <td class="py-3.5 px-3 text-slate-500">70%</td>
-                                <td class="py-3.5 px-3 text-emerald-600">+2 pts</td>
-                                <td class="py-3.5 px-0">
-                                    <span class="px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-[#DEF7EC] text-[#03543F]">On track</span>
-                                </td>
-                            </tr>
-                        </tbody>
+                        <tbody id="croBody" class="divide-y divide-slate-200 text-slate-900 font-medium"></tbody>
                     </table>
                 </div>
             </div>
         </div>
 
-        <!-- TAB 5: FIELD OPS (EXACT CHATGPT / FIGMA REPLICATION) -->
-        <div id="content-field" class="space-y-6 hidden">
-            <!-- HEADER -->
-            <div class="flex justify-between items-start">
-                <div>
-                    <h2 class="text-2xl font-bold text-slate-900 tracking-tight">Field operations</h2>
-                    <p class="text-sm font-normal text-slate-500">Planned versus achieved activity, evidence quality and workload</p>
-                </div>
-                <div class="bg-white border border-slate-200 rounded-lg px-3.5 py-1.5 text-xs font-medium text-slate-600 shadow-sm">
-                    Week ending 11 Sep 2026
-                </div>
+        <!-- TAB 5: FIELD CADENCE -->
+        <div id="content-field" class="space-y-8 hidden">
+            <div class="figma-card p-6 space-y-4">
+                <h2 class="text-2xl font-black text-slate-900">4-Week Monthly Field Cadence</h2>
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-4 text-xs" id="cadenceGrid"></div>
             </div>
-
-            <!-- STEPPED FIELD EXECUTION FLOW STRIP -->
-            <div class="flex items-center justify-between bg-slate-50 border border-slate-200 rounded-xl px-4 py-2.5 text-xs">
-                <div class="flex items-center gap-1.5">
-                    <span class="font-bold text-slate-900">42</span>
-                    <span class="text-slate-500">Planned Visits</span>
-                </div>
-                <span class="text-slate-400 font-semibold">&rarr;</span>
-                <div class="flex items-center gap-1.5">
-                    <span class="font-bold text-teal-700">34</span>
-                    <span class="text-slate-500">Achieved (81%)</span>
-                </div>
-                <span class="text-slate-400 font-semibold">&rarr;</span>
-                <div class="flex items-center gap-1.5">
-                    <span class="font-bold text-teal-700">21</span>
-                    <span class="text-slate-500">Schools with SoP</span>
-                </div>
-                <span class="text-slate-400 font-semibold">&rarr;</span>
-                <div class="flex items-center gap-1.5">
-                    <span class="font-bold text-emerald-700">67%</span>
-                    <span class="text-slate-500">Actions Closed (11 pending)</span>
-                </div>
-            </div>
-
-            <!-- 4 FIELD OPS CARDS -->
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-5">
-                <div class="figma-card p-5">
-                    <div class="text-xs font-medium text-slate-500 mb-1">Visits planned</div>
-                    <div class="text-3xl font-bold text-slate-900 leading-tight mb-1">42</div>
-                    <div class="text-xs font-normal text-slate-500">All team members</div>
-                </div>
-                <div class="figma-card p-5">
-                    <div class="text-xs font-medium text-slate-500 mb-1">Visits achieved</div>
-                    <div class="text-3xl font-bold text-slate-900 leading-tight mb-1">34</div>
-                    <div class="text-xs font-semibold text-emerald-600">81% achievement</div>
-                </div>
-                <div class="figma-card p-5">
-                    <div class="text-xs font-medium text-slate-500 mb-1">Schools with SoP</div>
-                    <div class="text-3xl font-bold text-slate-900 leading-tight mb-1">21</div>
-                    <div class="text-xs font-normal text-slate-500">Evidence of practice</div>
-                </div>
-                <div class="figma-card p-5">
-                    <div class="text-xs font-medium text-slate-500 mb-1">Actions closed</div>
-                    <div class="text-3xl font-bold text-slate-900 leading-tight mb-1">67%</div>
-                    <div class="text-xs font-normal text-slate-500">16 pending</div>
-                </div>
-            </div>
-
-            <!-- TEAM EXECUTION TABLE -->
-            <div class="figma-card p-6">
-                <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-4">
-                    <div>
-                        <h3 class="font-bold text-slate-900 text-base">Team execution</h3>
-                        <span class="text-xs text-slate-500 font-medium">17 team members · Week ending 11 Sep 2026</span>
+            <div class="figma-card p-6 space-y-4">
+                <h3 class="text-base font-bold text-slate-900">🗣️ 5-Step Teacher Coaching Conversation Framework</h3>
+                <div class="grid grid-cols-1 md:grid-cols-5 gap-3 text-xs">
+                    <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-1">
+                        <span class="font-extrabold text-indigo-900">1. Affirmation</span>
+                        <p class="text-slate-700">Acknowledge 1-2 positive practices observed.</p>
                     </div>
-                    <div class="flex items-center gap-2">
-                        <label for="field-support-select" class="text-xs font-semibold text-slate-500">Filter by Support:</label>
-                        <select id="field-support-select" onchange="filterSupportTable(this.value)" class="text-xs font-semibold border border-slate-200 rounded-lg px-3 py-1.5 bg-slate-50 text-slate-700 outline-none hover:bg-slate-100 cursor-pointer shadow-sm">
-                            <option value="all">All support tiers</option>
-                            <option value="On track">On track</option>
-                            <option value="Review constraints">Review constraints</option>
-                            <option value="Coaching">Coaching required</option>
-                        </select>
+                    <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-1">
+                        <span class="font-extrabold text-indigo-900">2. Reflection</span>
+                        <p class="text-slate-700">Review student error patterns collaboratively.</p>
                     </div>
-                </div>
-                <div class="overflow-x-auto">
-                    <table class="w-full text-left border-collapse text-xs">
-                        <thead>
-                            <tr class="border-b border-slate-200 text-slate-500 font-medium text-[11px]">
-                                <th class="py-2.5 px-0 w-[24%]">Team member</th>
-                                <th class="py-2.5 px-3 w-[15%]">Zone</th>
-                                <th class="py-2.5 px-3 w-[12%]">Planned</th>
-                                <th class="py-2.5 px-3 w-[12%]">Achieved</th>
-                                <th class="py-2.5 px-3 w-[18%]">Evidence quality</th>
-                                <th class="py-2.5 px-0 w-[19%]">Support</th>
-                            </tr>
-                        </thead>
-                        <tbody id="team-exec-body" class="divide-y divide-slate-100 font-medium">
-                            <tr data-support="On track">
-                                <td class="py-3.5 px-0 font-medium text-slate-900">Megha</td>
-                                <td class="py-3.5 px-3 text-slate-500">West</td>
-                                <td class="py-3.5 px-3 font-semibold text-slate-900">4</td>
-                                <td class="py-3.5 px-3 font-semibold text-slate-900">4</td>
-                                <td class="py-3.5 px-3 text-slate-600">High</td>
-                                <td class="py-3.5 px-0">
-                                    <span class="px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-[#DEF7EC] text-[#03543F]">On track</span>
-                                </td>
-                            </tr>
-                            <tr data-support="Review constraints">
-                                <td class="py-3.5 px-0 font-medium text-slate-900">Harshita</td>
-                                <td class="py-3.5 px-3 text-slate-500">Central</td>
-                                <td class="py-3.5 px-3 font-semibold text-slate-900">4</td>
-                                <td class="py-3.5 px-3 font-semibold text-slate-900">2</td>
-                                <td class="py-3.5 px-3 text-slate-600">Medium</td>
-                                <td class="py-3.5 px-0">
-                                    <span class="px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-[#FEF3C7] text-[#92400E]">Review constraints</span>
-                                </td>
-                            </tr>
-                            <tr data-support="Coaching">
-                                <td class="py-3.5 px-0 font-medium text-slate-900">Ghazala</td>
-                                <td class="py-3.5 px-3 text-slate-500">Central</td>
-                                <td class="py-3.5 px-3 font-semibold text-slate-900">1</td>
-                                <td class="py-3.5 px-3 font-semibold text-slate-900">1</td>
-                                <td class="py-3.5 px-3 text-slate-600">Low</td>
-                                <td class="py-3.5 px-0">
-                                    <span class="px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-[#FEE2E2] text-[#991B1B]">Coaching</span>
-                                </td>
-                            </tr>
-                            <tr data-support="On track">
-                                <td class="py-3.5 px-0 font-medium text-slate-900">Geeta</td>
-                                <td class="py-3.5 px-3 text-slate-500">Central</td>
-                                <td class="py-3.5 px-3 font-semibold text-slate-900">4</td>
-                                <td class="py-3.5 px-3 font-semibold text-slate-900">4</td>
-                                <td class="py-3.5 px-3 text-slate-600">High</td>
-                                <td class="py-3.5 px-0">
-                                    <span class="px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-[#DEF7EC] text-[#03543F]">On track</span>
-                                </td>
-                            </tr>
-                            <tr data-support="On track">
-                                <td class="py-3.5 px-0 font-medium text-slate-900">Sakshi</td>
-                                <td class="py-3.5 px-3 text-slate-500">South</td>
-                                <td class="py-3.5 px-3 font-semibold text-slate-900">3</td>
-                                <td class="py-3.5 px-3 font-semibold text-slate-900">3</td>
-                                <td class="py-3.5 px-3 text-slate-600">High</td>
-                                <td class="py-3.5 px-0">
-                                    <span class="px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-[#DEF7EC] text-[#03543F]">On track</span>
-                                </td>
-                            </tr>
-                            <tr data-support="On track">
-                                <td class="py-3.5 px-0 font-medium text-slate-900">Swagata</td>
-                                <td class="py-3.5 px-3 text-slate-500">West</td>
-                                <td class="py-3.5 px-3 font-semibold text-slate-900">4</td>
-                                <td class="py-3.5 px-3 font-semibold text-slate-900">3</td>
-                                <td class="py-3.5 px-3 text-slate-600">High</td>
-                                <td class="py-3.5 px-0">
-                                    <span class="px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-[#DEF7EC] text-[#03543F]">On track</span>
-                                </td>
-                            </tr>
-                            <tr data-support="Review constraints">
-                                <td class="py-3.5 px-0 font-medium text-slate-900">Anshika</td>
-                                <td class="py-3.5 px-3 text-slate-500">Civil</td>
-                                <td class="py-3.5 px-3 font-semibold text-slate-900">3</td>
-                                <td class="py-3.5 px-3 font-semibold text-slate-900">2</td>
-                                <td class="py-3.5 px-3 text-slate-600">Medium</td>
-                                <td class="py-3.5 px-0">
-                                    <span class="px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-[#FEF3C7] text-[#92400E]">Review constraints</span>
-                                </td>
-                            </tr>
-                            <tr data-support="On track">
-                                <td class="py-3.5 px-0 font-medium text-slate-900">Malya</td>
-                                <td class="py-3.5 px-3 text-slate-500">West</td>
-                                <td class="py-3.5 px-3 font-semibold text-slate-900">3</td>
-                                <td class="py-3.5 px-3 font-semibold text-slate-900">3</td>
-                                <td class="py-3.5 px-3 text-slate-600">High</td>
-                                <td class="py-3.5 px-0">
-                                    <span class="px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-[#DEF7EC] text-[#03543F]">On track</span>
-                                </td>
-                            </tr>
-                            <tr data-support="Review constraints">
-                                <td class="py-3.5 px-0 font-medium text-slate-900">Sheetal</td>
-                                <td class="py-3.5 px-3 text-slate-500">South</td>
-                                <td class="py-3.5 px-3 font-semibold text-slate-900">3</td>
-                                <td class="py-3.5 px-3 font-semibold text-slate-900">2</td>
-                                <td class="py-3.5 px-3 text-slate-600">Medium</td>
-                                <td class="py-3.5 px-0">
-                                    <span class="px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-[#FEF3C7] text-[#92400E]">Review constraints</span>
-                                </td>
-                            </tr>
-                            <tr data-support="Coaching">
-                                <td class="py-3.5 px-0 font-medium text-slate-900">Riya</td>
-                                <td class="py-3.5 px-3 text-slate-500">Civil</td>
-                                <td class="py-3.5 px-3 font-semibold text-slate-900">2</td>
-                                <td class="py-3.5 px-3 font-semibold text-slate-900">1</td>
-                                <td class="py-3.5 px-3 text-slate-600">Low</td>
-                                <td class="py-3.5 px-0">
-                                    <span class="px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-[#FEE2E2] text-[#991B1B]">Coaching</span>
-                                </td>
-                            </tr>
-                            <tr data-support="On track">
-                                <td class="py-3.5 px-0 font-medium text-slate-900">Anchal</td>
-                                <td class="py-3.5 px-3 text-slate-500">South</td>
-                                <td class="py-3.5 px-3 font-semibold text-slate-900">3</td>
-                                <td class="py-3.5 px-3 font-semibold text-slate-900">3</td>
-                                <td class="py-3.5 px-3 text-slate-600">High</td>
-                                <td class="py-3.5 px-0">
-                                    <span class="px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-[#DEF7EC] text-[#03543F]">On track</span>
-                                </td>
-                            </tr>
-                            <tr data-support="On track">
-                                <td class="py-3.5 px-0 font-medium text-slate-900">Veena</td>
-                                <td class="py-3.5 px-3 text-slate-500">Civil</td>
-                                <td class="py-3.5 px-3 font-semibold text-slate-900">2</td>
-                                <td class="py-3.5 px-3 font-semibold text-slate-900">2</td>
-                                <td class="py-3.5 px-3 text-slate-600">High</td>
-                                <td class="py-3.5 px-0">
-                                    <span class="px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-[#DEF7EC] text-[#03543F]">On track</span>
-                                </td>
-                            </tr>
-                            <tr data-support="On track">
-                                <td class="py-3.5 px-0 font-medium text-slate-900">Manish</td>
-                                <td class="py-3.5 px-3 text-slate-500">West</td>
-                                <td class="py-3.5 px-3 font-semibold text-slate-900">1</td>
-                                <td class="py-3.5 px-3 font-semibold text-slate-900">1</td>
-                                <td class="py-3.5 px-3 text-slate-600">Medium</td>
-                                <td class="py-3.5 px-0">
-                                    <span class="px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-[#DEF7EC] text-[#03543F]">On track</span>
-                                </td>
-                            </tr>
-                            <tr data-support="Coaching">
-                                <td class="py-3.5 px-0 font-medium text-slate-900">Shalini</td>
-                                <td class="py-3.5 px-3 text-slate-500">South</td>
-                                <td class="py-3.5 px-3 font-semibold text-slate-900">1</td>
-                                <td class="py-3.5 px-3 font-semibold text-slate-900">0</td>
-                                <td class="py-3.5 px-3 text-slate-600">Low</td>
-                                <td class="py-3.5 px-0">
-                                    <span class="px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-[#FEE2E2] text-[#991B1B]">Coaching</span>
-                                </td>
-                            </tr>
-                            <tr data-support="Review constraints">
-                                <td class="py-3.5 px-0 font-medium text-slate-900">Aditya</td>
-                                <td class="py-3.5 px-3 text-slate-500">Civil</td>
-                                <td class="py-3.5 px-3 font-semibold text-slate-900">1</td>
-                                <td class="py-3.5 px-3 font-semibold text-slate-900">0</td>
-                                <td class="py-3.5 px-3 text-slate-600">Medium</td>
-                                <td class="py-3.5 px-0">
-                                    <span class="px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-[#FEF3C7] text-[#92400E]">Review constraints</span>
-                                </td>
-                            </tr>
-                            <tr data-support="On track">
-                                <td class="py-3.5 px-0 font-medium text-slate-900">Kavya</td>
-                                <td class="py-3.5 px-3 text-slate-500">Central</td>
-                                <td class="py-3.5 px-3 font-semibold text-slate-900">1</td>
-                                <td class="py-3.5 px-3 font-semibold text-slate-900">1</td>
-                                <td class="py-3.5 px-3 text-slate-600">High</td>
-                                <td class="py-3.5 px-0">
-                                    <span class="px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-[#DEF7EC] text-[#03543F]">On track</span>
-                                </td>
-                            </tr>
-                            <tr data-support="On track">
-                                <td class="py-3.5 px-0 font-medium text-slate-900">Keerthi</td>
-                                <td class="py-3.5 px-3 text-slate-500">South</td>
-                                <td class="py-3.5 px-3 font-semibold text-slate-900">2</td>
-                                <td class="py-3.5 px-3 font-semibold text-slate-900">2</td>
-                                <td class="py-3.5 px-3 text-slate-600">High</td>
-                                <td class="py-3.5 px-0">
-                                    <span class="px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-[#DEF7EC] text-[#03543F]">On track</span>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-1">
+                        <span class="font-extrabold text-indigo-900">3. Modeling</span>
+                        <p class="text-slate-700">Demonstrate a 3-minute CFU check routine.</p>
+                    </div>
+                    <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-1">
+                        <span class="font-extrabold text-indigo-900">4. Co-Design</span>
+                        <p class="text-slate-700">Set 15-min daily workbook targets for 10 days.</p>
+                    </div>
+                    <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-1">
+                        <span class="font-extrabold text-indigo-900">5. Close Loop</span>
+                        <p class="text-slate-700">Log commitment & schedule Week 3 call.</p>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <!-- TAB 6: COMPETENCY PACKS (EXACT CHATGPT / FIGMA REPLICATION) -->
-        <div id="content-packs" class="space-y-6 hidden">
-            <!-- HEADER -->
-            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
-                <div>
-                    <h2 class="text-2xl font-bold text-slate-900 tracking-tight">Competency pack analytics</h2>
-                    <p class="text-sm font-normal text-slate-500">From dissemination to classroom adoption and student mastery</p>
-                </div>
-                <div class="flex items-center gap-2">
-                    <label for="pack-select" class="text-xs font-semibold text-slate-500">Select Pack:</label>
-                    <select id="pack-select" onchange="filterPackData(this.value)" class="text-xs font-semibold border border-slate-200 rounded-lg px-3 py-1.5 bg-slate-50 text-slate-700 outline-none hover:bg-slate-100 cursor-pointer shadow-sm">
-                        <option value="sep">September · Number Operations + ORF</option>
-                        <option value="aug">August · Word Reading & Place Value</option>
-                        <option value="oct">October · Reading Comprehension & Multi-digit Operations</option>
-                        <option value="all">All Competency Packs</option>
-                    </select>
-                </div>
-            </div>
-
-            <!-- 4 COMPETENCY PACK CARDS -->
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-5">
-                <div class="figma-card p-5">
-                    <div class="text-xs font-medium text-slate-500 mb-1">Teachers reached</div>
-                    <div id="pack-kpi-reached" class="text-3xl font-bold text-slate-900 leading-tight mb-1">86%</div>
-                    <div class="text-xs font-semibold text-emerald-600">Across active schools</div>
-                </div>
-                <div class="figma-card p-5">
-                    <div class="text-xs font-medium text-slate-500 mb-1">Material engagement</div>
-                    <div id="pack-kpi-material" class="text-3xl font-bold text-slate-900 leading-tight mb-1">69%</div>
-                    <div class="text-xs font-semibold text-emerald-600">Self-reported</div>
-                </div>
-                <div class="figma-card p-5">
-                    <div class="text-xs font-medium text-slate-500 mb-1">Classroom adoption</div>
-                    <div id="pack-kpi-adopt" class="text-3xl font-bold text-slate-900 leading-tight mb-1">57%</div>
-                    <div class="text-xs font-semibold text-emerald-600">Observed</div>
-                </div>
-                <div class="figma-card p-5">
-                    <div class="text-xs font-medium text-slate-500 mb-1">Student mastery</div>
-                    <div id="pack-kpi-mastery" class="text-3xl font-bold text-slate-900 leading-tight mb-1">51%</div>
-                    <div class="text-xs font-semibold text-emerald-600">Spot checks</div>
-                </div>
-            </div>
-
-            <!-- COMPETENCY PACK CONVERSION FUNNEL (EXECUTIVE AGENCY DESIGN) -->
-            <div class="figma-card p-6">
-                <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-5">
-                    <div>
-                        <h3 class="font-bold text-slate-900 text-base">Competency pack conversion funnel</h3>
-                        <p class="text-xs text-slate-500">Throughput from school dissemination to validated student mastery</p>
-                    </div>
-                    <div class="flex items-center gap-2">
-                        <span id="funnel-retention-badge" class="bg-teal-50 border border-teal-200 text-teal-800 text-[11px] font-semibold px-2.5 py-0.5 rounded-full">Funnel Retention: 51%</span>
-                        <span id="funnel-sub" class="text-xs text-slate-500 font-medium">479 Active Schools · September Cohort Scope</span>
-                    </div>
-                </div>
-
-                <!-- STEPPED FLOW INDICATORS -->
-                <div class="flex items-center justify-between bg-slate-50 border border-slate-200 rounded-xl px-4 py-2 mb-6 text-xs">
-                    <div class="flex items-center gap-1.5">
-                        <span class="font-bold text-slate-900">100%</span>
-                        <span class="text-slate-500">Disseminated</span>
-                    </div>
-                    <span class="text-slate-400 font-semibold">&rarr;</span>
-                    <div class="flex items-center gap-1.5">
-                        <span id="flow-pct-eng" class="font-bold text-teal-700">86%</span>
-                        <span class="text-slate-500">Engaged</span>
-                    </div>
-                    <span class="text-slate-400 font-semibold">&rarr;</span>
-                    <div class="flex items-center gap-1.5">
-                        <span id="flow-pct-imp" class="font-bold text-teal-700">69%</span>
-                        <span class="text-slate-500">Implemented</span>
-                    </div>
-                    <span class="text-slate-400 font-semibold">&rarr;</span>
-                    <div class="flex items-center gap-1.5">
-                        <span id="flow-pct-mas" class="font-bold text-emerald-700">51%</span>
-                        <span class="text-slate-500">Mastered</span>
-                    </div>
-                </div>
-
-                <!-- GRADIENT FUNNEL COLUMNS -->
-                <div class="flex items-end justify-between gap-5 h-64 pb-3 border-b border-slate-200">
-                    <div class="flex-1 flex flex-col items-center h-full justify-end">
-                        <span id="funnel-val-rec" class="text-sm font-bold text-slate-900 mb-2">479</span>
-                        <div id="funnel-bar-rec" title="Received: 479 schools" style="background:linear-gradient(180deg, #A7F3D0 0%, #5EEAD4 40%, #14B8A6 100%);box-shadow:0 4px 14px -2px rgba(20, 184, 166, 0.3);" class="w-full h-[190px] rounded-t-xl transition-all duration-300 hover:opacity-95"></div>
-                    </div>
-                    <div class="flex-1 flex flex-col items-center h-full justify-end">
-                        <span id="funnel-val-eng" class="text-sm font-bold text-slate-900 mb-2">411</span>
-                        <div id="funnel-bar-eng" title="Engaged: 411 schools (86%)" style="background:linear-gradient(180deg, #5EEAD4 0%, #2DD4BF 40%, #0D9488 100%);box-shadow:0 4px 14px -2px rgba(13, 148, 136, 0.3);" class="w-full h-[163px] rounded-t-xl transition-all duration-300 hover:opacity-95"></div>
-                    </div>
-                    <div class="flex-1 flex flex-col items-center h-full justify-end">
-                        <span id="funnel-val-imp" class="text-sm font-bold text-slate-900 mb-2">330</span>
-                        <div id="funnel-bar-imp" title="Implemented: 330 schools (69%)" style="background:linear-gradient(180deg, #2DD4BF 0%, #14B8A6 40%, #0F766E 100%);box-shadow:0 4px 14px -2px rgba(15, 118, 110, 0.35);" class="w-full h-[131px] rounded-t-xl transition-all duration-300 hover:opacity-95"></div>
-                    </div>
-                    <div class="flex-1 flex flex-col items-center h-full justify-end">
-                        <span id="funnel-val-mas" class="text-sm font-bold text-slate-900 mb-2">247</span>
-                        <div id="funnel-bar-mas" title="Mastery evidence: 247 schools (51%)" style="background:linear-gradient(180deg, #14B8A6 0%, #0D9488 40%, #115E59 100%);box-shadow:0 4px 14px -2px rgba(17, 94, 89, 0.4);" class="w-full h-[98px] rounded-t-xl transition-all duration-300 hover:opacity-95"></div>
-                    </div>
-                </div>
-                <div class="flex justify-between gap-5 mt-3.5 text-center">
-                    <div class="flex-1">
-                        <div class="text-xs font-semibold text-slate-900">Received</div>
-                        <div class="text-[11px] text-slate-500">100% of schools</div>
-                    </div>
-                    <div class="flex-1">
-                        <div class="text-xs font-semibold text-slate-900">Engaged</div>
-                        <div id="funnel-lbl-eng" class="text-[11px] text-teal-700 font-medium">86% retention</div>
-                    </div>
-                    <div class="flex-1">
-                        <div class="text-xs font-semibold text-slate-900">Implemented</div>
-                        <div id="funnel-lbl-imp" class="text-[11px] text-teal-700 font-medium">69% retention</div>
-                    </div>
-                    <div class="flex-1">
-                        <div class="text-xs font-semibold text-slate-900">Mastery evidence</div>
-                        <div id="funnel-lbl-mas" class="text-[11px] text-emerald-700 font-semibold">51% achieved</div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- COMPETENCY FOCUS IN SELECTED PACK TABLE -->
-            <div class="figma-card p-6">
-                <div class="flex justify-between items-center mb-4">
-                    <h3 class="font-bold text-slate-900 text-base">Competency focus in selected pack</h3>
-                    <span class="text-xs text-slate-500 font-medium">Program Scope · Cohort 2</span>
-                </div>
+        <!-- TAB 6: RISKS -->
+        <div id="content-risks" class="space-y-8 hidden">
+            <div class="figma-card p-6 space-y-4">
+                <h2 class="text-2xl font-black text-slate-900">Accountability & Risk Register</h2>
                 <div class="overflow-x-auto">
                     <table class="w-full text-left border-collapse text-xs">
                         <thead>
-                            <tr class="border-b border-slate-200 text-slate-500 font-medium text-[11px]">
-                                <th class="py-2.5 px-0 w-[35%]">Competency Area</th>
-                                <th class="py-2.5 px-3 w-[15%]">Subject</th>
-                                <th class="py-2.5 px-3 w-[12%]">Reach</th>
-                                <th class="py-2.5 px-3 w-[12%]">Practice</th>
-                                <th class="py-2.5 px-3 w-[12%]">Mastery</th>
-                                <th class="py-2.5 px-0 w-[14%]">Cycle Status</th>
+                            <tr class="border-b-2 border-slate-300 bg-slate-100 text-slate-900">
+                                <th class="p-3 font-bold">Risk Item</th>
+                                <th class="p-3 font-bold">Category</th>
+                                <th class="p-3 font-bold">Severity</th>
+                                <th class="p-3 font-bold">Owner</th>
+                                <th class="p-3 font-bold">Mitigation Protocol</th>
+                                <th class="p-3 font-bold">Status</th>
                             </tr>
                         </thead>
-                        <tbody id="pack-comp-tbody" class="divide-y divide-slate-100 font-medium">
+                        <tbody class="divide-y divide-slate-200 text-slate-900 font-medium">
                             <tr>
-                                <td class="py-3.5 px-0 font-medium text-slate-900">Number sense & addition</td>
-                                <td class="py-3.5 px-3 text-slate-500">Math</td>
-                                <td class="py-3.5 px-3 font-semibold text-slate-900">88%</td>
-                                <td class="py-3.5 px-3 font-semibold text-slate-900">58%</td>
-                                <td class="py-3.5 px-3 font-semibold text-slate-900">51%</td>
-                                <td class="py-3.5 px-0">
-                                    <span class="px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-[#DEF7EC] text-[#03543F]">Active cycle</span>
-                                </td>
+                                <td class="p-3 font-bold text-rose-900">Teacher Vacancy in Grade 3</td>
+                                <td class="p-3">Structural</td>
+                                <td class="p-3"><span class="badge-red">High</span></td>
+                                <td class="p-3 font-bold">PoC + HoS</td>
+                                <td class="p-3">Activate 48h Grey protocol & escalate to PM / DEO</td>
+                                <td class="p-3 font-bold text-rose-700">Open</td>
                             </tr>
                             <tr>
-                                <td class="py-3.5 px-0 font-medium text-slate-900">Oral Reading Fluency (ORF)</td>
-                                <td class="py-3.5 px-3 text-slate-500">Hindi</td>
-                                <td class="py-3.5 px-3 font-semibold text-slate-900">84%</td>
-                                <td class="py-3.5 px-3 font-semibold text-slate-900">54%</td>
-                                <td class="py-3.5 px-3 font-semibold text-slate-900">46%</td>
-                                <td class="py-3.5 px-0">
-                                    <span class="px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-[#DEF7EC] text-[#03543F]">Active cycle</span>
-                                </td>
+                                <td class="p-3 font-bold text-amber-900">Competency Pack Dissemination Delay</td>
+                                <td class="p-3">Content</td>
+                                <td class="p-3"><span class="badge-amber">Medium</span></td>
+                                <td class="p-3 font-bold">Content Lead</td>
+                                <td class="p-3">Disseminate PW micro-videos on WhatsApp cluster groups</td>
+                                <td class="p-3 font-bold text-amber-700">At Risk</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-indigo-900">Formative Assessment Data Logging Delay</td>
+                                <td class="p-3">Operations</td>
+                                <td class="p-3"><span class="badge-amber">Medium</span></td>
+                                <td class="p-3 font-bold">PoC Owner</td>
+                                <td class="p-3">Conduct phone check-in during Week 2 Batch B cadence</td>
+                                <td class="p-3 font-bold text-slate-700">Open</td>
                             </tr>
                         </tbody>
                     </table>
@@ -1056,525 +413,198 @@
             </div>
         </div>
 
-        <!-- TAB 7: IMPACT AND EVALUATION (EXACT CHATGPT / FIGMA REPLICATION) -->
-        <div id="content-impact" class="space-y-6 hidden">
-            <!-- HEADER WITH EVALUATION WINDOW SELECT -->
-            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
-                <div>
-                    <h2 class="text-2xl font-bold text-slate-900 tracking-tight">Impact and evaluation</h2>
-                    <p class="text-sm font-normal text-slate-500">Outcome trends and pathways from support to learning</p>
+        <!-- TAB 7: ACTIVITY ROADMAP -->
+        <div id="content-roadmap" class="space-y-8 hidden">
+            <div class="figma-card p-6 space-y-4">
+                <h2 class="text-2xl font-black text-slate-900">Activity Roadmap & Cohort-Input Mapping</h2>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left border-collapse text-xs">
+                        <thead>
+                            <tr class="border-b-2 border-slate-300 bg-slate-100 text-slate-900">
+                                <th class="p-3 font-bold">Year</th>
+                                <th class="p-3 font-bold">Cohort Scope</th>
+                                <th class="p-3 font-bold">Key Academic Inputs</th>
+                                <th class="p-3 font-bold">Evaluation Milestone</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-slate-200 text-slate-900 font-medium">
+                            <tr>
+                                <td class="p-3 font-bold text-slate-900">2023 - 2024</td>
+                                <td class="p-3 font-semibold text-blue-800">Old Zones (Pilot)</td>
+                                <td class="p-3">Foundational training for Grades 1-3 teachers & HoS on DDM/JCRO tools.</td>
+                                <td class="p-3 font-bold text-emerald-800">Baseline established</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-slate-900">2025</td>
+                                <td class="p-3 font-semibold text-blue-800">Expansion Phase</td>
+                                <td class="p-3">Cascaded HoS/AC training, student workbook dissemination, monthly Samvad.</td>
+                                <td class="p-3 font-bold text-emerald-800">Midline Evaluation</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-slate-900">2026 (Current)</td>
+                                <td class="p-3 font-semibold text-indigo-800">New Zones (Full Scale)</td>
+                                <td class="p-3">Intensive 3-day direct training, PW micro-videos on WA, 15-min practice packs.</td>
+                                <td class="p-3 font-bold text-purple-800">DiD Endline Readiness (7.8/10)</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
-                <div class="flex items-center gap-2">
-                    <label for="eval-window-select" class="text-xs font-semibold text-slate-500">Evaluation Window:</label>
-                    <select id="eval-window-select" onchange="filterEvalWindow(this.value)" class="text-xs font-semibold border border-slate-200 rounded-lg px-3 py-1.5 bg-slate-50 text-slate-700 outline-none hover:bg-slate-100 cursor-pointer shadow-sm">
-                        <option value="baseline">Baseline to current</option>
-                        <option value="cycle">Cycle 1 to Cycle 2</option>
-                        <option value="endline">Projected endline</option>
+            </div>
+        </div>
+
+        <!-- TAB 8: AI BRIEF BUILDER -->
+        <div id="content-brief" class="space-y-8 hidden">
+            <div class="figma-card p-6 space-y-4">
+                <h2 class="text-2xl font-black text-slate-900">🤖 AI School Diagnostic Brief Builder</h2>
+                <div class="flex items-center gap-3">
+                    <label class="text-xs font-bold text-slate-700">Select School:</label>
+                    <select id="schoolSelect" onchange="updateBrief()" class="px-3 py-1.5 rounded-lg border border-slate-300 text-xs font-bold bg-white text-slate-900">
+                        <option value="RK Puram Sec 2">RK Puram Sec 2 (Red)</option>
+                        <option value="Begumpur CoEd">Begumpur CoEd (Amber)</option>
+                        <option value="Janak Puri A-1 A">Janak Puri A-1 A (Green)</option>
+                        <option value="GPS East Extension">GPS East Extension (Grey)</option>
+                        <option value="GPS Sector 14 Model">GPS Sector 14 Model (Green)</option>
                     </select>
                 </div>
-            </div>
-
-            <!-- STEPPED PROGRAMME PATHWAY STRIP -->
-            <div class="flex items-center justify-between bg-slate-50 border border-slate-200 rounded-xl px-4 py-2.5 text-xs">
-                <div class="flex items-center gap-1.5">
-                    <span id="impact-strip-dosage" class="font-bold text-slate-900">86%</span>
-                    <span class="text-slate-500">Support Dosage</span>
-                </div>
-                <span class="text-slate-400 font-semibold">&rarr;</span>
-                <div class="flex items-center gap-1.5">
-                    <span id="impact-strip-teacher" class="font-bold text-teal-700">64%</span>
-                    <span class="text-slate-500">Teacher Practice</span>
-                </div>
-                <span class="text-slate-400 font-semibold">&rarr;</span>
-                <div class="flex items-center gap-1.5">
-                    <span id="impact-strip-student" class="font-bold text-teal-700">58%</span>
-                    <span class="text-slate-500">Student Practice</span>
-                </div>
-                <span class="text-slate-400 font-semibold">&rarr;</span>
-                <div class="flex items-center gap-1.5">
-                    <span id="impact-strip-mastery" class="font-bold text-emerald-700">51%</span>
-                    <span class="text-slate-500">Competency Mastery</span>
-                </div>
-            </div>
-
-            <!-- 4 IMPACT CARDS -->
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-5">
-                <div class="figma-card p-5">
-                    <div class="text-xs font-medium text-slate-500 mb-1">Learning gain</div>
-                    <div id="imp-kpi-learning" class="text-3xl font-bold text-slate-900 leading-tight mb-1">+6.1 pts</div>
-                    <div class="text-xs font-semibold text-emerald-600">Weighted across competencies</div>
-                </div>
-                <div class="figma-card p-5">
-                    <div class="text-xs font-medium text-slate-500 mb-1">School improvement</div>
-                    <div id="imp-kpi-schools" class="text-3xl font-bold text-slate-900 leading-tight mb-1">47</div>
-                    <div class="text-xs font-semibold text-emerald-600">Category movement</div>
-                </div>
-                <div class="figma-card p-5">
-                    <div class="text-xs font-medium text-slate-500 mb-1">Teacher adoption gain</div>
-                    <div id="imp-kpi-adoption" class="text-3xl font-bold text-slate-900 leading-tight mb-1">+9 pts</div>
-                    <div id="imp-sub-adoption" class="text-xs font-semibold text-emerald-600">baseline to current</div>
-                </div>
-                <div class="figma-card p-5">
-                    <div class="text-xs font-medium text-slate-500 mb-1">Evidence confidence</div>
-                    <div id="imp-kpi-confidence" class="text-3xl font-bold text-slate-900 leading-tight mb-1">72%</div>
-                    <div class="text-xs font-semibold text-emerald-600">Triangulated records</div>
-                </div>
-            </div>
-
-            <!-- TWO COLUMN LAYOUT: PROGRAMME THEORY PATHWAY & EQUITY LENS -->
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
-                <!-- LEFT: PROGRAMME THEORY PATHWAY -->
-                <div class="lg:col-span-7 figma-card p-6">
-                    <div class="flex items-center justify-between mb-4">
-                        <h3 class="font-bold text-slate-900 text-base">Programme theory pathway</h3>
-                        <span id="pathway-badge-window" class="text-[11px] bg-slate-100 text-slate-600 font-semibold px-2.5 py-0.5 rounded-full">Baseline to current</span>
-                    </div>
-                    <div class="bg-teal-50/60 border-l-4 border-teal-700 rounded-r-lg p-3.5 mb-5">
-                        <div class="text-xs font-semibold text-teal-800 leading-relaxed">
-                            Support dosage &rarr; teacher practice adoption &rarr; student practice &rarr; competency mastery
-                        </div>
-                    </div>
-                    <div class="overflow-x-auto">
-                        <table class="w-full text-left border-collapse text-xs">
-                            <thead>
-                                <tr class="border-b border-slate-200 text-slate-500 font-medium text-[11px]">
-                                    <th class="py-2.5 px-0 w-[38%]">Stage</th>
-                                    <th class="py-2.5 px-3 w-[42%]">Current rate & Progress</th>
-                                    <th class="py-2.5 px-0 w-[20%]">Change</th>
-                                </tr>
-                            </thead>
-                            <tbody class="divide-y divide-slate-100 font-medium">
-                                <tr>
-                                    <td class="py-3.5 px-0 font-semibold text-slate-900">
-                                        <div class="flex items-center gap-1.5">
-                                            <span class="bg-sky-100 text-sky-800 text-[10px] font-bold px-1.5 py-0.5 rounded">1</span>
-                                            Support received
-                                        </div>
-                                    </td>
-                                    <td class="py-3.5 px-3">
-                                        <div class="flex items-center gap-2.5">
-                                            <span id="pathway-rate-sup" class="font-bold text-slate-900 min-w-[32px]">86%</span>
-                                            <div class="flex-1 max-w-[130px] bg-slate-100 rounded-full h-2 overflow-hidden shadow-inner">
-                                                <div id="pathway-bar-sup" style="background:linear-gradient(90deg, #38BDF8, #0284C7);width:86%;" class="h-full rounded-full transition-all duration-300"></div>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td id="pathway-chg-sup" class="py-3.5 px-0 font-semibold text-emerald-600">+12 pts</td>
-                                </tr>
-                                <tr>
-                                    <td class="py-3.5 px-0 font-semibold text-slate-900">
-                                        <div class="flex items-center gap-1.5">
-                                            <span class="bg-teal-100 text-teal-800 text-[10px] font-bold px-1.5 py-0.5 rounded">2</span>
-                                            Practice adoption
-                                        </div>
-                                    </td>
-                                    <td class="py-3.5 px-3">
-                                        <div class="flex items-center gap-2.5">
-                                            <span id="pathway-rate-pra" class="font-bold text-slate-900 min-w-[32px]">64%</span>
-                                            <div class="flex-1 max-w-[130px] bg-slate-100 rounded-full h-2 overflow-hidden shadow-inner">
-                                                <div id="pathway-bar-pra" style="background:linear-gradient(90deg, #2DD4BF, #0D9488);width:64%;" class="h-full rounded-full transition-all duration-300"></div>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td id="pathway-chg-pra" class="py-3.5 px-0 font-semibold text-emerald-600">+9 pts</td>
-                                </tr>
-                                <tr>
-                                    <td class="py-3.5 px-0 font-semibold text-slate-900">
-                                        <div class="flex items-center gap-1.5">
-                                            <span class="bg-amber-100 text-amber-800 text-[10px] font-bold px-1.5 py-0.5 rounded">3</span>
-                                            Student practice
-                                        </div>
-                                    </td>
-                                    <td class="py-3.5 px-3">
-                                        <div class="flex items-center gap-2.5">
-                                            <span id="pathway-rate-stu" class="font-bold text-slate-900 min-w-[32px]">58%</span>
-                                            <div class="flex-1 max-w-[130px] bg-slate-100 rounded-full h-2 overflow-hidden shadow-inner">
-                                                <div id="pathway-bar-stu" style="background:linear-gradient(90deg, #FBBF24, #D97706);width:58%;" class="h-full rounded-full transition-all duration-300"></div>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td id="pathway-chg-stu" class="py-3.5 px-0 font-semibold text-emerald-600">+6 pts</td>
-                                </tr>
-                                <tr>
-                                    <td class="py-3.5 px-0 font-semibold text-slate-900">
-                                        <div class="flex items-center gap-1.5">
-                                            <span class="bg-emerald-100 text-emerald-800 text-[10px] font-bold px-1.5 py-0.5 rounded">4</span>
-                                            Competency mastery
-                                        </div>
-                                    </td>
-                                    <td class="py-3.5 px-3">
-                                        <div class="flex items-center gap-2.5">
-                                            <span id="pathway-rate-mas" class="font-bold text-slate-900 min-w-[32px]">51%</span>
-                                            <div class="flex-1 max-w-[130px] bg-slate-100 rounded-full h-2 overflow-hidden shadow-inner">
-                                                <div id="pathway-bar-mas" style="background:linear-gradient(90deg, #4ADE80, #16A34A);width:51%;" class="h-full rounded-full transition-all duration-300"></div>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td id="pathway-chg-mas" class="py-3.5 px-0 font-semibold text-emerald-600">+6 pts</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-
-                <!-- RIGHT: EQUITY LENS -->
-                <div class="lg:col-span-5 figma-card p-6">
-                    <div class="flex items-center justify-between mb-2">
-                        <h3 class="font-bold text-slate-900 text-base">Equity lens</h3>
-                        <span id="equity-badge-window" class="text-[11px] bg-emerald-50 border border-emerald-200 text-emerald-800 font-semibold px-2 py-0.5 rounded-full">Baseline to current</span>
-                    </div>
-                    <p class="text-xs text-slate-500 mb-4 leading-relaxed">
-                        Compare gains by baseline, zone, school category, teacher availability and school type.
-                    </p>
-                    <div class="flex flex-wrap gap-2 mb-4">
-                        <span class="px-2.5 py-1 rounded-full text-xs font-medium bg-slate-100 text-slate-700 border border-slate-200 cursor-pointer hover:bg-slate-200">Low baseline</span>
-                        <span class="px-2.5 py-1 rounded-full text-xs font-medium bg-slate-100 text-slate-700 border border-slate-200 cursor-pointer hover:bg-slate-200">Teacher vacancies</span>
-                        <span class="px-2.5 py-1 rounded-full text-xs font-medium bg-slate-100 text-slate-700 border border-slate-200 cursor-pointer hover:bg-slate-200">Red schools</span>
-                    </div>
-                    <div class="bg-slate-50 border border-slate-200 rounded-xl p-4 space-y-3.5 text-xs">
-                        <div>
-                            <div class="flex justify-between items-center mb-1">
-                                <span class="font-semibold text-slate-900">Low baseline schools</span>
-                                <span id="equity-val-low" class="font-bold text-emerald-600">+7.4 pts</span>
-                            </div>
-                            <div class="w-full bg-slate-200 h-1.5 rounded-full overflow-hidden">
-                                <div id="equity-bar-low" style="background:linear-gradient(90deg, #34D399, #059669);width:74%;" class="h-full rounded-full transition-all duration-300"></div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="flex justify-between items-center mb-1">
-                                <span class="font-semibold text-slate-900">Teacher vacancies</span>
-                                <span id="equity-val-vac" class="font-bold text-amber-600">+2.1 pts</span>
-                            </div>
-                            <div class="w-full bg-slate-200 h-1.5 rounded-full overflow-hidden">
-                                <div id="equity-bar-vac" style="background:linear-gradient(90deg, #FBBF24, #D97706);width:21%;" class="h-full rounded-full transition-all duration-300"></div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="flex justify-between items-center mb-1">
-                                <span class="font-semibold text-slate-900">Category Red schools</span>
-                                <span id="equity-val-red" class="font-bold text-emerald-600">+8.2 pts</span>
-                            </div>
-                            <div class="w-full bg-slate-200 h-1.5 rounded-full overflow-hidden">
-                                <div id="equity-bar-red" style="background:linear-gradient(90deg, #10B981, #047857);width:82%;" class="h-full rounded-full transition-all duration-300"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <div id="briefCard" class="p-5 rounded-xl bg-slate-50 border border-slate-200 text-xs space-y-3"></div>
             </div>
         </div>
 
     </main>
 
     <script>
-        function switchTab(tabKey) {
-            ['exec', 'support', 'learning', 'practice', 'field', 'packs', 'impact'].forEach(k => {
-                const btn = document.getElementById('tab-' + k);
-                const content = document.getElementById('content-' + k);
-                if (k === tabKey) {
-                    btn.classList.add('active');
-                    content.classList.remove('hidden');
-                } else {
-                    btn.classList.remove('active');
-                    content.classList.add('hidden');
-                }
-            });
-        }
+        const DATA = {"css_matrix": [{"dimension": "1. Student Learning & SLOs", "what": "\u2022 Common learning gaps are emerging across schools rather than completely different issues everywhere.\n\u2022 Foundational skills are visible: Students are showing progress on simpler competencies such as swar/vyanjan recognition, simple words without matra, counting and two-digit operations without carry\n\u2022 Hindi gaps are concentrated around decoding, matras and reading.\n\u2022 Math gaps are concentrated around number concepts, place value and operations.\n\u2022 Worksheets, flashcards, toolkit cards and TLMs are being shared, and phone/WhatsApp follow-ups are happening regularly\n\u2022 Learning evidence is beginning to emerge but is still uneven.", "so_what": "We can begin to focus the academic support more sharply instead of treating every school as having a completely different need. Categorization and customizing support is the way to go\n\nThe risk is spreading support across too many competencies and not creating enough intensity to improve SLOs.", "now_what": "\u2022 Identify and track a small number of high-frequency priority competencies across the program. (aligned with our plan)\n\u2022 Track improvement in priority competencies across successive learning checks."}, {"dimension": "2. Teacher Practice Adoption", "what": "\u2022 PoCs are increasingly identifying specific practice gaps. \n\u2022 Common issues include limited student participation, weak CFUs, teacher not doing FA (in some classes) and remediation. \n\u2022 Demos and targeted support are happening.", "so_what": "A resource, demo or Samvad has no value unless it changes what teachers consistently do. \nFollow up remains the critical step to ensure.", "now_what": "\u2022 Need to ensure follow up of feedback, closing the loop, activate WA to share best practices/small posters. \n\u2022 Focus coaching on sustained adoption, not one-time demonstration."}, {"dimension": "3. Student Practice & Evidence", "what": "\u2022 Evidence of workbook/notebook practice, FA and spot checks is emerging in some schools.\n\u2022 The quality and consistency of evidence varies significantly across schools and PoCs.", "so_what": "Teacher support will not improve SLOs unless students get sufficient opportunities to practise.", "now_what": "\u2022 Track expected student practice against priority competencies.\n\u2022 Use workbook/notebook work and quick checks as evidence of practice.\n\u2022 Ensure every priority competency has a clear student practice expectation. (what constitutes adequate student practice?: 15 min/subject/day?)"}, {"dimension": "4. Customised School Support & Differentiation", "what": "\u2022 Teams are increasingly identifying academic, practice and structural barriers.\n\u2022 Schools clearly require different kinds and intensity of support.", "so_what": "The biggest gains are likely where (significant) learning gaps exist but conditions for improvement are workable.", "now_what": "\u2022 Intensify support for high-potential, addressable schools.\n\u2022 Provide minimum viable support for Green schols and escalation to zone for structural/Grey schools. \n(define high potential schools even within the categories)"}, {"dimension": "5. Team Execution & PoC Support", "what": "\u2022 PoCs show significant variation in academic diagnosis, prioritisation, support quality and evidence use.\n\u2022 Some are stronger at diagnosis and classroom support; others remain more context/planning focused.\n\u2022 A common next step across is closing the loop after support.", "so_what": "The team does not need the same support.\nGeneric capacity building will be inefficient and may not address the actual execution bottleneck. \n(what does need-based capacity building for team looks like?)", "now_what": "\u2022 Differentiate team support: prioritisation, academic diagnosis, coaching, follow-through, workload or accountability.\n\u2022 Use strong PoCs/schools to identify effective execution practices.\n\u2022 Managers should review quality of change/learning movement, not just activity completion."}, {"dimension": "6. DiD Readiness", "what": "\u2022 Early lead indicators of change are emerging, particularly targeted support and some practice/learning evidence.\n\u2022 However, intensity and consistency vary significantly across schools and PoCs.", "so_what": "A positive DiD requires treatment schools to experience a sufficiently better learning environment. \nThe concepts with highest weightage in endline needs to be prioritised on field for all interactions and closing the loop.", "now_what": "\u2022 Manage leading indicators of DiD: priority competency coverage, practice adoption, student practice, learning checks, remediation and closed-loop support.\n\u2022 Focus intensity on schools where change is feasible and evidence can move quickly. (define this)"}], "cro_indicators": [{"id": 1, "category": "General", "indicator": "% classrooms where LO being taught is aligned with focused competencies", "method": "Classroom observation"}, {"id": 2, "category": "General", "indicator": "% of classrooms where teacher is giving clear instructions mapped to the LO being taught", "method": "Classroom observation"}, {"id": 3, "category": "General", "indicator": "% of classrooms where teacher is asking at least 2 LO mapped questions; AND at least one of the questions is open-ended", "method": "Classroom observation"}, {"id": 4, "category": "General", "indicator": "% of classrooms where at least 70% students are able to solve questions mapped to focused competencies", "method": "Spot-check"}, {"id": 1, "category": "General", "indicator": "% of classrooms where teacher is giving them group/independent LO aligned practice tasks", "method": "Classroom observation"}, {"id": 2, "category": "General", "indicator": "% of classrooms where teacher is circulating around the class to monitor students' work", "method": "Classroom observation"}, {"id": 3, "category": "General", "indicator": "% of classrooms where teacher is giving feedback to students based on their work", "method": "Classroom observation"}, {"id": 4, "category": "General", "indicator": "% of classrooms where students are spending at least 15 min on practice tasks", "method": "Classroom observation"}, {"id": 5, "category": "General", "indicator": "% of classrooms where students have filled in worksheets shared in the competency pack", "method": "sample based check during classroom observation"}, {"id": 1, "category": "General", "indicator": "% of classrooms where at least 70% students are engaged during LO based questioning", "method": "Classroom observation"}, {"id": 2, "category": "General", "indicator": "% of classrooms where at least 70% students are engaged during practice tasks", "method": "Classroom observation"}, {"id": 1, "category": "General", "indicator": "% classrooms where teachers have shared their classes' FA data prior or during the last check-in call", "method": "document/record verification during classroom observation"}, {"id": 2, "category": "General", "indicator": "% classrooms where teachers reported using competency specific remedial measures from competency pack", "method": "check-in call records"}, {"id": 1, "category": "General", "indicator": "% classrooms where teachers reported having engged with materials during checkin calls", "method": "self-reported in check-in conversation"}, {"id": 2, "category": "General", "indicator": "% classrooms where teachers attend competency focused samvad (to be calculated as a % of samvads which meet quality benchmark)", "method": "samvad attendance record"}], "field_calendar": [{"week": "", "teacher_experience": "Week 1", "poc_focus": "Competency Pack received through WA \nCompetency pack  launch, overview and discussion through online Samvad", "hos_focus": "Launch, clarify, model", "tools_plans": "", "time_allocation": "Finalised list of videos that will go into each competency pack\nCompetency pack calendar (PW video delivery and WA Disemmination date)\nCompetency pack prototype - what will the package look like? \nSamvad session plan template (60-90 min duration) - some sections will be starndard across all PoCs (eg the competency pack overview segment and RnR titles), other segmnets like discsussion on adoption, FA will vary with each cluster, \nTracking tool - for attendance/enagement etc (MEL is in the process of defining inidcators)", "date": "Planning -"}, {"week": "", "teacher_experience": "Week 2", "poc_focus": "Classroom implementation", "hos_focus": "School Visits (Batch A) + Calls (Batch B)\nassumption- batches are formed school wise (each batch would have approx 10-15 schools?): yes!", "tools_plans": "", "time_allocation": "Template for PoCs to manage and tracking the batches ? \nA checking call template for PoCs, nudge posters prior to the call so the teacchers show up prepared with basic infor and know what the call will be about ?\n\nBatch A- Classroom observations, spot checks, followed by feedback and discussion about the next steps. The spot checks should model how the PoCs should be conducting the FA, followed by walking them through the FA template which will be discussed over the checkin call with them next week)\n\nBatch B- Discussion of the Fortnightly FA data that the teacher may have shared, take feedback on the competency pack (to guage if they have seen the videos), prep them on what they shoul focus on - (practice and engagement) so you can reinforce practices ahead of the visit", "date": "time alloc"}, {"week": "", "teacher_experience": "Week 3", "poc_focus": "Continued implementation", "hos_focus": "School Visits (Batch B) + Calls (Batch A)", "tools_plans": "Will need to pressure test the schedulig of this with team once, this seems to be manageable in a school having 2-3 teachers, but will need a different plan for more teachers in a school.", "time_allocation": "", "date": ""}, {"week": "", "teacher_experience": "Week 4", "poc_focus": "Spot Check + DDM (I/P) + Recognition", "hos_focus": "Analyse evidence, identify escalations", "tools_plans": "the data will be looked at every week on Friday, difference is the kind of data. Please see the daily plan, I've prepared a draft for first 3 weeks\n\nOn second point, we do have customized support tracker, sharing that fyr. Consider it a draft as hers is still under review. We'll also need to build on this basis the plan now: https://absolutereturnforkids-my.sharepoint.com/:x:/g/personal/megha_verma_peepulindia_org/IQCdT2xoVdSORYtWQ8-g0zx2AUVrlhYPsl41QWM56OjpNIU?e=67AFcf", "time_allocation": "TBD with MEL\n\nFA Cycle- fortnightly by teachers ? \nSpot Checks- monthly on school visit by PoC ? \nTool- LLF tool for Spot checks?   \nIdeal scenario- Same questions and process for the SC and FA (questions included in the Competency pack) so the data sets speak to eachother and give a coherent view of the ongoing competency progress\nThis data set will also be used to customize the school support dosage .\nData and progression is discussed on the checkin calls and remedials discussed on Samvad.", "date": ""}, {"week": "", "teacher_experience": "Monthly Priorities", "poc_focus": "", "hos_focus": "", "tools_plans": "", "time_allocation": "", "date": ""}, {"week": "", "teacher_experience": "Month", "poc_focus": "Target Competencies", "hos_focus": "Suggestive topics (for Samvad)", "tools_plans": "", "time_allocation": "", "date": ""}, {"week": "", "teacher_experience": "August", "poc_focus": "Number Sense + Decoding/Reading Comprehension", "hos_focus": "How do I ensure every child participates?", "tools_plans": "", "time_allocation": "", "date": ""}, {"week": "", "teacher_experience": "September", "poc_focus": "Number Operations (Add+Sub) + ORF", "hos_focus": "How do I know every child has understood?", "tools_plans": "", "time_allocation": "", "date": ""}, {"week": "", "teacher_experience": "October", "poc_focus": "Number Operations (Mul+Div) + Decoding/Reading Comprehension", "hos_focus": "How do I help children explain their thinking?", "tools_plans": "", "time_allocation": "", "date": ""}], "grey_protocols": [], "support_model_rows": [["Timeline", "Phase", "Focus", "Primary Question", "Key Data Available and Purpose", "Key Inputs", "School/Teacher level support and corresponding activities", "Coaching Support to teachers", "Output"], ["10 September \u2013 30 September", "Phase 1: Evidence Building\n\nVisits ALL schools", "Visits ALL schools\n\n- Build an initial school-level evidence base for the Customised School Support (CSS) sheet\n- Bringing together key information on student learning, teacher implementation and relevant school-level factors for each school.\n- Validate priority learning and implementation gaps through classroom evidence, and use these insights to identify need-based teacher support and define the customised support actions captured in the CSS sheet.", "What is happening?", "Student learning Outcomes Data\n1. Latest available MCD FLN data: School categorization (triangulated with MT's perception and Peepul team members' perception) to be completed by 11th \n\n2. Spot checks: Progress in competencies/interim checks with teachers\n3. Teacher FA for SLOs: Classroom immediate next step\n2 & 3 will inform the coaching support for the teachers.\n4. EI data Collection in-process: Misconception and remedial steps\n\nTeacher and Student Practice Data (source: classroom observation)\n1. Student's practice data  \n2. Teacher practice adoption tool questions piloted and refined (form to be live by 10th sep)", "Visit\nCompetency pack\nFA questions\nSpot check questions for HOS/MTs\nTelephonic conversation\nSamvaad\nWhatsapp support", "1. School Visits to ALL schools for \u2026..SSIs, profiling ? \n2. JCRO/CRO \n3. Spot checks (one on one, 5 students per class?)\n4. FA Demo + FA done by teacher\n5. In-person coaching conversation\n6. RnR? \n7. EI assessments", "Use emerging evidence to identify priority teacher/classroom needs and inform the coaching focus for Phase 2", "Consolidated school evidence profile and initial support needs"], ["October\u2013 November-December", "Phase 2: Customized Support\n\nRepeat visit to RED schools and prioritised schools in AMBER category. \n\nVirtual support and check-ins with Green schools,\n\nVirtual refreshers for all teachers through online samwad/academic charcha \n\nCohort 2 Baseline Schools to be prioritised (in all categories) and flag if any major concern in those schools impacting SLOs", "Strengthen implementation of the identified priority practices through differentiated coaching and follow-up, while using ongoing spot checks, teacher FA and student evidence to assess whether changes in teacher practice are translating into improved student learning.", "What support does this school need?", "Student Learning Outcome Data \nCategorization remains static.\n1. Spot checks: Progress in competencies/interim checks with teachers\n2. EI: Misconception + remedial steps \n3. Teacher FA data for SLOs: Classroom immediate next step\n4. List of Baseline Schools and zonal LO performance: for ensuring we prioritise these schools during our visits \n\nTeacher and Student Practice Data (from CRO)\n1. Students' practice data \n2. Teacher practice data: ongoing support to teachers", "Workbooks\nCompetency pack\nFA questions\nSpot check questions for HOS/MTs\nVisit\nTelephonic conversation\nSamvaad\nWhatsapp support", "1. Samvad\n2. CRO PA\n3. Spot Checks\n4. DDMs & JCROs\n5. Classroom demo of struggling competencies\n6. FA demo and follow up for practice adoption by teachers", "Differentiate support based on the school's identified need through Green / Amber / Red / Grey pathways. Differentiate both mode/frequency of support and coaching content", "Green/Amber/Red/Grey support plan which is customized support plan for 9 weeks"], ["January-February", "Phase 3: Targeted Support\n\nLast Mile Remedial inputs basis data insights from Phase 2\n\nFocus on exam prep for Sample schools", "Provide targeted and intensive support to identified priority/sample schools based on the learning and implementation evidence emerging from Phases 1 and 2. Support will focus on specific competencies, misconceptions and teacher-practice gaps, with closer follow-up to assess whether the intervention is translating into student learning and to prepare schools for the February EI assessment/endline.", "What targeted intervention will move learning?", "Student Learning Outcomes\nEI: Progress across competencies and understand how baseline schools have performed\n\n\nEndline School Selection Data: To prepare school for CGI endline and provide last mile push\n\n\nUpdated student learning evidence + implementation evidence", "Workbooks\nCompetency pack\nFA questions\nSpot check questions for HOS/MTs\nVisit\nTelephonic conversation\nSamvaad\nWhatsapp support", "1. DDMs & JCROs\n2. Repeat visits to endline schools", "More targeted, nuanced and intensive coaching to priority schools based on specific teacher, competency and student needs to close the persistent gaps. Close follow-up to assess whether intervention is translating into learning and provide last-mile push.", "School-specific intervention and progress tracking, with evidence for February EI assessment/endline"], ["Not every school should receive the same intervention."], ["Support Level", "When to use", "PoC action"], ["Level 1: Nudge", "Practice broadly working", "Reminder + resource + follow-up"], ["Level 2: Targeted Coaching", "Specific practice gap", "Conversation + modelling + practice"], ["Level 3: Intensive Coaching", "Significant gap + receptive teacher", "Demonstration + observation + repeated coaching"], ["Level 4: Escalation", "Structural/leadership barrier", "Manager/HoS/zone intervention"], ["Level 5: Sustain", "Strong learning + practice", "Monitor + replicate"]], "schools": [{"id": "SCH-101", "name": "GPS Balika Central", "zone": "Central Zone", "cohort": "Old Zone (Cohort 2)", "category": "Red", "poc": "Rohan Sharma", "hos": "Sunita Verma", "teachers_count": 3, "student_mastery_pct": 28, "hindi_decoding_pct": 24, "math_operations_pct": 32, "teacher_adoption_score": 42, "student_practice_mins": 10, "cro_lo_aligned": false, "cro_open_ended_q": false, "cro_circulating_feedback": true, "grey_vacancy_status": "None", "last_visit_date": "2026-09-02", "support_dose": {"visits": 3, "calls": 5, "samvad": 2}, "recommended_action": "Conduct immediate physical visit & classroom demonstration on Hindi matras decoding."}, {"id": "SCH-102", "name": "GMS North Cantonment", "zone": "North Zone", "cohort": "New Zone (Cohort 2)", "category": "Amber", "poc": "Ananya Roy", "hos": "Rajesh Kumar", "teachers_count": 4, "student_mastery_pct": 52, "hindi_decoding_pct": 58, "math_operations_pct": 46, "teacher_adoption_score": 68, "student_practice_mins": 15, "cro_lo_aligned": true, "cro_open_ended_q": true, "cro_circulating_feedback": false, "grey_vacancy_status": "None", "last_visit_date": "2026-09-10", "support_dose": {"visits": 2, "calls": 4, "samvad": 3}, "recommended_action": "Focus coaching on circulating feedback & checking student practice notebooks during math time."}, {"id": "SCH-103", "name": "GPS Sector 14 Model", "zone": "Central Zone", "cohort": "Old Zone (Cohort 2)", "category": "Green", "poc": "Rohan Sharma", "hos": "Meenakshi Joshi", "teachers_count": 2, "student_mastery_pct": 78, "hindi_decoding_pct": 82, "math_operations_pct": 74, "teacher_adoption_score": 88, "student_practice_mins": 20, "cro_lo_aligned": true, "cro_open_ended_q": true, "cro_circulating_feedback": true, "grey_vacancy_status": "None", "last_visit_date": "2026-09-12", "support_dose": {"visits": 1, "calls": 3, "samvad": 4}, "recommended_action": "Maintain minimum viable support (monthly call + Samvad); feature teacher as practice exemplar in Samvad."}, {"id": "SCH-104", "name": "GPS East Extension", "zone": "East Zone", "cohort": "New Zone (Cohort 2)", "category": "Grey", "poc": "Vatan Singh", "hos": "Hariom Prasad", "teachers_count": 1, "student_mastery_pct": 19, "hindi_decoding_pct": 18, "math_operations_pct": 20, "teacher_adoption_score": 25, "student_practice_mins": 5, "cro_lo_aligned": false, "cro_open_ended_q": false, "cro_circulating_feedback": false, "grey_vacancy_status": "No Grade 3 Teacher", "last_visit_date": "2026-08-28", "support_dose": {"visits": 1, "calls": 2, "samvad": 1}, "recommended_action": "Activate Grey Protocol: Escalate Grade 3 vacancy to PM & Zonal Officials; identify interim teaching arrangement."}, {"id": "SCH-105", "name": "GPS West Market", "zone": "West Zone", "cohort": "Old Zone (Cohort 2)", "category": "Red", "poc": "Priya Nair", "hos": "Kavita Rani", "teachers_count": 2, "student_mastery_pct": 31, "hindi_decoding_pct": 35, "math_operations_pct": 27, "teacher_adoption_score": 45, "student_practice_mins": 8, "cro_lo_aligned": true, "cro_open_ended_q": false, "cro_circulating_feedback": false, "grey_vacancy_status": "One teacher handling multiple sections", "last_visit_date": "2026-09-05", "support_dose": {"visits": 3, "calls": 6, "samvad": 2}, "recommended_action": "Prioritize essential competency only; review timetable with HoS to optimize section management."}, {"id": "SCH-106", "name": "GPS South Colony", "zone": "South Zone", "cohort": "New Zone (Cohort 2)", "category": "Amber", "poc": "Keerthi Sonam", "hos": "Suresh Babu", "teachers_count": 3, "student_mastery_pct": 59, "hindi_decoding_pct": 62, "math_operations_pct": 56, "teacher_adoption_score": 71, "student_practice_mins": 14, "cro_lo_aligned": true, "cro_open_ended_q": true, "cro_circulating_feedback": true, "grey_vacancy_status": "None", "last_visit_date": "2026-09-14", "support_dose": {"visits": 2, "calls": 4, "samvad": 3}, "recommended_action": "Follow up on fortnightly FA data logging; encourage student worksheet completion during practice time."}, {"id": "SCH-107", "name": "GPS Railway Colony", "zone": "North Zone", "cohort": "Old Zone (Cohort 2)", "category": "Green", "poc": "Ananya Roy", "hos": "Vikram Sethi", "teachers_count": 3, "student_mastery_pct": 84, "hindi_decoding_pct": 88, "math_operations_pct": 80, "teacher_adoption_score": 92, "student_practice_mins": 22, "cro_lo_aligned": true, "cro_open_ended_q": true, "cro_circulating_feedback": true, "grey_vacancy_status": "None", "last_visit_date": "2026-09-15", "support_dose": {"visits": 1, "calls": 2, "samvad": 4}, "recommended_action": "Share digital certificate of recognition for high practice regularity during next monthly Samvad."}, {"id": "SCH-108", "name": "GPS Industrial Area", "zone": "East Zone", "cohort": "New Zone (Cohort 2)", "category": "Grey", "poc": "Vatan Singh", "hos": "Anita Sharma", "teachers_count": 1, "student_mastery_pct": 22, "hindi_decoding_pct": 20, "math_operations_pct": 24, "teacher_adoption_score": 30, "student_practice_mins": 6, "cro_lo_aligned": false, "cro_open_ended_q": false, "cro_circulating_feedback": false, "grey_vacancy_status": "Temporary substitute teacher", "last_visit_date": "2026-09-01", "support_dose": {"visits": 2, "calls": 3, "samvad": 1}, "recommended_action": "Share Competency Pack video module immediately; conduct short telephonic orientation within 3 days."}], "kpis": {"total_schools": 420, "active_zones": 6, "green_schools_pct": 34, "amber_schools_pct": 42, "red_schools_pct": 18, "grey_schools_pct": 6, "avg_student_mastery_pct": 54.2, "avg_teacher_adoption_pct": 66.8, "visit_completion_pct": 91.5, "did_readiness_score": 7.8}, "qwen_analysis": {"analysis_summary": "LiftED Cohort 2 shows solid momentum with 66.8% teacher adoption and 7.8 DiD readiness, but student mastery in decoding (32%) and place value (36%) requires sharp remediation focus.", "hindi_math_bottleneck": "Hindi gaps are concentrated in matra decoding and oral reading fluency; Math gaps stem from conceptual place value vs procedural calculation.", "poc_dosage_strategy": "Red schools receive bi-weekly physical visits & classroom demos; Amber schools receive monthly visits + bi-weekly calls; Grey schools receive 48-hr vacancy protocols.", "coaching_talking_points": ["Review spot-check errors on matra decoding with the teacher before classroom observation.", "Model an open-ended CFU question during the 15-minute independent student practice time.", "Log fortnightly formative assessment data to track movement from Amber to Green."]}, "exact_support_queue": [{"school": "RK Puram Sec 2", "category": "Red", "evidence": "Spot check mastery 24%", "action": "Physical coaching + misconception diagnosis", "owner": "Geeta", "zone": "Central Zone"}, {"school": "Begumpur CoEd", "category": "Amber", "evidence": "Mastery 48%, weak FA", "action": "FA demonstration + phone follow-up", "owner": "Ghazala", "zone": "North Zone"}, {"school": "Janak Puri A-1 A", "category": "Green", "evidence": "Mastery 78%, strong practice", "action": "Nudge + recognise practice", "owner": "Megha", "zone": "West Zone"}, {"school": "GPS East Extension", "category": "Grey", "evidence": "Teacher vacancy logged (48h protocol)", "action": "Escalate vacancy to PM & Zonal Officer", "owner": "Vatan", "zone": "East Zone"}, {"school": "GPS Sector 14 Model", "category": "Green", "evidence": "Mastery 82%, 20 min practice", "action": "Feature teacher in Samvad exemplar list", "owner": "Rohan", "zone": "Central Zone"}, {"school": "GMS North Cantonment", "category": "Amber", "evidence": "Mastery 52%, clear instructions", "action": "Focus coaching on circulating feedback", "owner": "Ananya", "zone": "North Zone"}, {"school": "GPS West Market", "category": "Red", "evidence": "Spot check mastery 28%", "action": "Model place-value addition demonstration", "owner": "Priya", "zone": "West Zone"}]};
 
-        function filterTpTable(val) {
-            const rows = document.querySelectorAll('#tp-table-body tr');
-            rows.forEach(r => {
-                const cat = r.getAttribute('data-cat');
-                if (val === 'all' || cat === val) {
-                    r.style.display = '';
-                } else {
-                    r.style.display = 'none';
-                }
-            });
-        }
-
-        function filterSupportTable(val) {
-            const rows = document.querySelectorAll('#team-exec-body tr');
-            rows.forEach(r => {
-                const support = r.getAttribute('data-support');
-                if (val === 'all' || support === val) {
-                    r.style.display = '';
-                } else {
-                    r.style.display = 'none';
-                }
-            });
-        }
-
-        const PACK_DATA = {
-            sep: {
-                reached: '86%', material: '69%', adopt: '57%', mastery: '51%',
-                rec: 479, eng: 411, imp: 330, mas: 247,
-                h_rec: '190px', h_eng: '163px', h_imp: '131px', h_mas: '98px',
-                scope: 'September Cohort Scope',
-                rows: [
-                    { name: 'Number sense & addition', sub: 'Math', reach: '88%', prac: '58%', mas: '51%', status: 'Active cycle', bg: '#DEF7EC', col: '#03543F' },
-                    { name: 'Oral Reading Fluency (ORF)', sub: 'Hindi', reach: '84%', prac: '54%', mas: '46%', status: 'Active cycle', bg: '#DEF7EC', col: '#03543F' }
-                ]
-            },
-            aug: {
-                reached: '93%', material: '81%', adopt: '68%', mastery: '63%',
-                rec: 479, eng: 445, imp: 388, mas: 302,
-                h_rec: '190px', h_eng: '176px', h_imp: '154px', h_mas: '120px',
-                scope: 'August Cohort Scope',
-                rows: [
-                    { name: 'Word reading & Swar/Vyanjan', sub: 'Hindi', reach: '95%', prac: '74%', mas: '68%', status: 'Completed cycle', bg: '#E0E7FF', col: '#3730A3' },
-                    { name: 'Place value (Tens & Units)', sub: 'Math', reach: '91%', prac: '62%', mas: '58%', status: 'Completed cycle', bg: '#E0E7FF', col: '#3730A3' }
-                ]
-            },
-            oct: {
-                reached: '68%', material: '44%', adopt: '38%', mastery: '30%',
-                rec: 479, eng: 326, imp: 211, mas: 144,
-                h_rec: '190px', h_eng: '129px', h_imp: '84px', h_mas: '57px',
-                scope: 'October Cohort Scope',
-                rows: [
-                    { name: 'Reading comprehension & inference', sub: 'Hindi', reach: '70%', prac: '40%', mas: '31%', status: 'Early rollout', bg: '#FEF3C7', col: '#92400E' },
-                    { name: 'Multiplication & division operations', sub: 'Math', reach: '66%', prac: '36%', mas: '29%', status: 'Early rollout', bg: '#FEF3C7', col: '#92400E' }
-                ]
-            },
-            all: {
-                reached: '82%', material: '65%', adopt: '54%', mastery: '48%',
-                rec: 1437, eng: 1182, imp: 929, mas: 693,
-                h_rec: '190px', h_eng: '156px', h_imp: '123px', h_mas: '92px',
-                scope: 'All 3 Competency Packs Cumulative',
-                rows: [
-                    { name: 'Number sense & addition', sub: 'Math', reach: '88%', prac: '58%', mas: '51%', status: 'Active cycle', bg: '#DEF7EC', col: '#03543F' },
-                    { name: 'Oral Reading Fluency (ORF)', sub: 'Hindi', reach: '84%', prac: '54%', mas: '46%', status: 'Active cycle', bg: '#DEF7EC', col: '#03543F' },
-                    { name: 'Word reading & Swar/Vyanjan', sub: 'Hindi', reach: '95%', prac: '74%', mas: '68%', status: 'Completed cycle', bg: '#E0E7FF', col: '#3730A3' },
-                    { name: 'Place value (Tens & Units)', sub: 'Math', reach: '91%', prac: '62%', mas: '58%', status: 'Completed cycle', bg: '#E0E7FF', col: '#3730A3' },
-                    { name: 'Reading comprehension & inference', sub: 'Hindi', reach: '70%', prac: '40%', mas: '31%', status: 'Early rollout', bg: '#FEF3C7', col: '#92400E' },
-                    { name: 'Multiplication & division operations', sub: 'Math', reach: '66%', prac: '36%', mas: '29%', status: 'Early rollout', bg: '#FEF3C7', col: '#92400E' }
-                ]
-            }
+        const PROFILES = {
+            "RK Puram Sec 2": { cat: "Red", mastery: "24%", gap: "Hindi Matra Decoding", owner: "Geeta", action: "Physical coaching visit + misconception diagnosis" },
+            "Begumpur CoEd": { cat: "Amber", mastery: "48%", gap: "Formative Assessment Logging", owner: "Ghazala", action: "FA demonstration + telephonic check-in call" },
+            "Janak Puri A-1 A": { cat: "Green", mastery: "78%", gap: "High Consistency", owner: "Megha", action: "Nudge + feature in Samvad exemplar list" },
+            "GPS East Extension": { cat: "Grey", mastery: "N/A", gap: "Grade 3 Teacher Vacancy", owner: "Vatan", action: "Execute 48-hour Grey protocol to escalate to PM" },
+            "GPS Sector 14 Model": { cat: "Green", mastery: "82%", gap: "Strong Daily Practice (20 min)", owner: "Rohan", action: "Digital recognition & light touch maintenance" }
         };
 
-        function filterPackData(val) {
-            const data = PACK_DATA[val] || PACK_DATA['sep'];
-            document.getElementById('pack-kpi-reached').innerText = data.reached;
-            document.getElementById('pack-kpi-material').innerText = data.material;
-            document.getElementById('pack-kpi-adopt').innerText = data.adopt;
-            document.getElementById('pack-kpi-mastery').innerText = data.mastery;
+        document.addEventListener("DOMContentLoaded", () => {
+            renderCSS();
+            renderCRO();
+            renderCadence();
+            renderCharts();
+            updateBrief();
+        });
 
-            document.getElementById('funnel-val-rec').innerText = data.rec.toLocaleString();
-            document.getElementById('funnel-val-eng').innerText = data.eng.toLocaleString();
-            document.getElementById('funnel-val-imp').innerText = data.imp.toLocaleString();
-            document.getElementById('funnel-val-mas').innerText = data.mas.toLocaleString();
-
-            document.getElementById('funnel-bar-rec').style.height = data.h_rec;
-            document.getElementById('funnel-bar-eng').style.height = data.h_eng;
-            document.getElementById('funnel-bar-imp').style.height = data.h_imp;
-            document.getElementById('funnel-bar-mas').style.height = data.h_mas;
-            document.getElementById('funnel-sub').innerText = (val === 'all' ? '1,437 Total Disseminations · ' : '479 Active Schools · ') + data.scope;
-
-            const pct_eng = Math.round(data.eng / data.rec * 100);
-            const pct_imp = Math.round(data.imp / data.rec * 100);
-            const pct_mas = Math.round(data.mas / data.rec * 100);
-
-            if (document.getElementById('flow-pct-eng')) document.getElementById('flow-pct-eng').innerText = pct_eng + '%';
-            if (document.getElementById('flow-pct-imp')) document.getElementById('flow-pct-imp').innerText = pct_imp + '%';
-            if (document.getElementById('flow-pct-mas')) document.getElementById('flow-pct-mas').innerText = pct_mas + '%';
-            if (document.getElementById('funnel-retention-badge')) document.getElementById('funnel-retention-badge').innerText = 'Funnel Retention: ' + pct_mas + '%';
-            if (document.getElementById('funnel-lbl-eng')) document.getElementById('funnel-lbl-eng').innerText = pct_eng + '% retention';
-            if (document.getElementById('funnel-lbl-imp')) document.getElementById('funnel-lbl-imp').innerText = pct_imp + '% retention';
-            if (document.getElementById('funnel-lbl-mas')) document.getElementById('funnel-lbl-mas').innerText = pct_mas + '% achieved';
-
-            const tbody = document.getElementById('pack-comp-tbody');
-            if (tbody) {
-                tbody.innerHTML = data.rows.map(r => `
-                    <tr>
-                        <td class="py-3.5 px-0 font-medium text-slate-900">${r.name}</td>
-                        <td class="py-3.5 px-3 text-slate-500">${r.sub}</td>
-                        <td class="py-3.5 px-3 font-semibold text-slate-900">${r.reach}</td>
-                        <td class="py-3.5 px-3 font-semibold text-slate-900">${r.prac}</td>
-                        <td class="py-3.5 px-3 font-semibold text-slate-900">${r.mas}</td>
-                        <td class="py-3.5 px-0">
-                            <span style="background:${r.bg};color:${r.col};" class="px-2.5 py-0.5 rounded-full text-[11px] font-semibold">${r.status}</span>
-                        </td>
-                    </tr>
-                `).join('');
-            }
-        }
-
-        const IMPACT_DATA = {
-            baseline: {
-                learning: "+6.1 pts",
-                schools: "47",
-                adoption: "+9 pts",
-                sub_adoption: "baseline to current",
-                confidence: "72%",
-                window_name: "Baseline to current",
-                rates: { sup: "86%", pra: "64%", stu: "58%", mas: "51%" },
-                bars: { sup: "86%", pra: "64%", stu: "58%", mas: "51%" },
-                changes: { sup: "+12 pts", pra: "+9 pts", stu: "+6 pts", mas: "+6 pts" },
-                equity: { low: "+7.4 pts", low_bar: "74%", vac: "+2.1 pts", vac_bar: "21%", red: "+8.2 pts", red_bar: "82%" }
-            },
-            cycle: {
-                learning: "+4.2 pts",
-                schools: "32",
-                adoption: "+6 pts",
-                sub_adoption: "cycle 1 to cycle 2",
-                confidence: "82%",
-                window_name: "Cycle 1 to Cycle 2",
-                rates: { sup: "91%", pra: "71%", stu: "65%", mas: "57%" },
-                bars: { sup: "91%", pra: "71%", stu: "65%", mas: "57%" },
-                changes: { sup: "+6 pts", pra: "+7 pts", stu: "+5 pts", mas: "+5 pts" },
-                equity: { low: "+5.8 pts", low_bar: "58%", vac: "+1.6 pts", vac_bar: "16%", red: "+6.4 pts", red_bar: "64%" }
-            },
-            endline: {
-                learning: "+11.6 pts",
-                schools: "89",
-                adoption: "+18 pts",
-                sub_adoption: "projected endline",
-                confidence: "64%",
-                window_name: "Projected endline",
-                rates: { sup: "95%", pra: "80%", stu: "75%", mas: "70%" },
-                bars: { sup: "95%", pra: "80%", stu: "75%", mas: "70%" },
-                changes: { sup: "+18 pts", pra: "+18 pts", stu: "+15 pts", mas: "+14 pts" },
-                equity: { low: "+13.2 pts", low_bar: "92%", vac: "+4.5 pts", vac_bar: "45%", red: "+15.1 pts", red_bar: "98%" }
-            }
-        };
-
-        function filterEvalWindow(val) {
-            const d = IMPACT_DATA[val] || IMPACT_DATA.baseline;
-            document.getElementById('imp-kpi-learning').innerText = d.learning;
-            document.getElementById('imp-kpi-schools').innerText = d.schools;
-            document.getElementById('imp-kpi-adoption').innerText = d.adoption;
-            document.getElementById('imp-sub-adoption').innerText = d.sub_adoption;
-            document.getElementById('imp-kpi-confidence').innerText = d.confidence;
-
-            document.getElementById('pathway-badge-window').innerText = d.window_name;
-            document.getElementById('equity-badge-window').innerText = d.window_name;
-
-            document.getElementById('pathway-rate-sup').innerText = d.rates.sup;
-            document.getElementById('pathway-bar-sup').style.width = d.bars.sup;
-            document.getElementById('pathway-chg-sup').innerText = d.changes.sup;
-
-            document.getElementById('pathway-rate-pra').innerText = d.rates.pra;
-            document.getElementById('pathway-bar-pra').style.width = d.bars.pra;
-            document.getElementById('pathway-chg-pra').innerText = d.changes.pra;
-
-            document.getElementById('pathway-rate-stu').innerText = d.rates.stu;
-            document.getElementById('pathway-bar-stu').style.width = d.bars.stu;
-            document.getElementById('pathway-chg-stu').innerText = d.changes.stu;
-
-            document.getElementById('pathway-rate-mas').innerText = d.rates.mas;
-            document.getElementById('pathway-bar-mas').style.width = d.bars.mas;
-            document.getElementById('pathway-chg-mas').innerText = d.changes.mas;
-
-            document.getElementById('equity-val-low').innerText = d.equity.low;
-            document.getElementById('equity-bar-low').style.width = d.equity.low_bar;
-
-            document.getElementById('equity-val-vac').innerText = d.equity.vac;
-            document.getElementById('equity-bar-vac').style.width = d.equity.vac_bar;
-
-            document.getElementById('equity-val-red').innerText = d.equity.red;
-            document.getElementById('equity-bar-red').style.width = d.equity.red_bar;
-
-            if (document.getElementById('impact-strip-dosage')) document.getElementById('impact-strip-dosage').innerText = d.rates.sup;
-            if (document.getElementById('impact-strip-teacher')) document.getElementById('impact-strip-teacher').innerText = d.rates.pra;
-            if (document.getElementById('impact-strip-student')) document.getElementById('impact-strip-student').innerText = d.rates.stu;
-            if (document.getElementById('impact-strip-mastery')) document.getElementById('impact-strip-mastery').innerText = d.rates.mas;
-        }
-
-        // PLOTLY DONUT CHART (SCHOOL SUPPORT STATUS) - EXECUTIVE DESIGN
-        Plotly.newPlot('chart-donut', [{
-            values: [163, 201, 101, 29],
-            labels: ['Green (Light Touch)', 'Amber (Targeted Coaching)', 'Red (Intensive Coaching)', 'Grey (Vacancy Protocol)'],
-            type: 'pie',
-            hole: 0.62,
-            pull: [0.02, 0.02, 0.02, 0.02],
-            marker: {
-                colors: ['#10B981', '#F59E0B', '#F43F5E', '#64748B'],
-                line: { color: '#FFFFFF', width: 3 }
-            },
-            textinfo: 'percent',
-            textfont: { family: 'Inter', size: 12, color: '#FFFFFF', weight: 600 },
-            hoverinfo: 'label+value+percent'
-        }], {
-            margin: { t: 15, b: 25, l: 15, r: 15 },
-            legend: { orientation: 'h', y: -0.22, xanchor: 'center', x: 0.5, font: { family: 'Inter', size: 11, color: '#475569' } },
-            paper_bgcolor: 'rgba(0,0,0,0)',
-            plot_bgcolor: 'rgba(0,0,0,0)',
-            font: { family: 'Inter', color: '#0F172A' },
-            annotations: [{
-                text: '<span style="font-size:26px;font-weight:800;color:#0F172A;line-height:1;">494</span><br><span style="font-size:11px;font-weight:600;color:#64748B;letter-spacing:0.05em;text-transform:uppercase;">Schools</span>',
-                showarrow: false,
-                font: { family: 'Inter' }
-            }]
-        }, { responsive: true, displayModeBar: false });
-
-        // PLOTLY ZONE GROUPED COLUMN CHART (WEST, CENTRAL, CIVIL, SOUTH) - EXECUTIVE DESIGN
-        Plotly.newPlot('chart-zone', [
-            {
-                x: ['West', 'Central', 'Civil', 'South'],
-                y: [127, 128, 94, 130],
-                name: 'Target Schools',
-                type: 'bar',
-                text: [127, 128, 94, 130],
-                textposition: 'outside',
-                textfont: { size: 11, color: '#334155', family: 'Inter', weight: 600 },
-                marker: { color: '#1E293B', cornerradius: 6 },
-                hovertemplate: '<b>%{x} Zone</b><br>Target Schools: %{y}<extra></extra>'
-            },
-            {
-                x: ['West', 'Central', 'Civil', 'South'],
-                y: [117, 105, 76, 110],
-                name: 'HoS Attended',
-                type: 'bar',
-                text: [117, 105, 76, 110],
-                textposition: 'outside',
-                textfont: { size: 11, color: '#059669', family: 'Inter', weight: 700 },
-                marker: { color: '#0D9488', cornerradius: 6 },
-                hovertemplate: '<b>%{x} Zone</b><br>HoS Attended: %{y}<extra></extra>'
-            }
-        ], {
-            barmode: 'group',
-            bargap: 0.28,
-            bargroupgap: 0.12,
-            margin: { t: 25, b: 25, l: 35, r: 15 },
-            legend: { orientation: 'h', y: -0.22, xanchor: 'center', x: 0.5, font: { family: 'Inter', size: 11, color: '#475569' } },
-            paper_bgcolor: 'rgba(0,0,0,0)',
-            plot_bgcolor: 'rgba(0,0,0,0)',
-            font: { family: 'Inter', color: '#0F172A' },
-            yaxis: { gridcolor: '#F1F5F9', tickfont: { color: '#64748B', size: 11 }, zeroline: false },
-            xaxis: { tickfont: { color: '#0F172A', size: 12, family: 'Inter', weight: 500 } }
-        }, { responsive: true, displayModeBar: false });
-
-        // PLOTLY COMPETENCY CHART (IF PRESENT)
-        if (document.getElementById('chart-comp')) {
-            Plotly.newPlot('chart-comp', [{
-                x: ['Swar/Vyanjan', 'Single Digit Addition', 'Word Reading', 'Place Value', 'Matra Decoding'],
-                y: [68, 64, 52, 36, 32],
-                type: 'bar',
-                marker: { color: ['#059669', '#059669', '#2563EB', '#D97706', '#E11D48'] }
-            }], {
-                margin: { t: 20, b: 20, l: 20, r: 20 },
-                paper_bgcolor: 'rgba(0,0,0,0)',
-                plot_bgcolor: 'rgba(0,0,0,0)',
-                font: { family: 'Inter', color: '#0F172A' }
+        function switchTab(tabId) {
+            ['exec', 'support', 'learning', 'practice', 'field', 'risks', 'roadmap', 'brief'].forEach(t => {
+                const sec = document.getElementById('content-' + t);
+                const btn = document.getElementById('tab-' + t);
+                if (sec) sec.classList.add('hidden');
+                if (btn) btn.classList.remove('active');
             });
+            const activeSec = document.getElementById('content-' + tabId);
+            const activeBtn = document.getElementById('tab-' + tabId);
+            if (activeSec) activeSec.classList.remove('hidden');
+            if (activeBtn) activeBtn.classList.add('active');
         }
 
-        // PLOTLY CRO CHART (IF PRESENT)
-        if (document.getElementById('chart-cro')) {
-            Plotly.newPlot('chart-cro', [{
-                x: [74.2, 68.5, 59.0, 71.4, 63.8, 66.8],
-                y: ['LO Alignment', 'Clear Instructions', 'CFU Questioning', '15-min Practice', 'Worksheet Fill', 'Engagement'],
+        function renderCSS() {
+            const tbody = document.getElementById('cssBody');
+            if (!tbody || !DATA.css_matrix) return;
+            tbody.innerHTML = DATA.css_matrix.map(row => `
+                <tr class="hover:bg-slate-50">
+                    <td class="p-3 font-bold text-indigo-900">${row.dimension}</td>
+                    <td class="p-3 text-slate-800">${row.what.replace(/\n/g, '<br>')}</td>
+                    <td class="p-3 text-amber-900 font-bold">${row.so_what.replace(/\n/g, '<br>')}</td>
+                    <td class="p-3 text-emerald-900 font-bold">${row.now_what.replace(/\n/g, '<br>')}</td>
+                </tr>
+            `).join('');
+        }
+
+        function renderCRO() {
+            const tbody = document.getElementById('croBody');
+            if (!tbody || !DATA.cro_indicators) return;
+            tbody.innerHTML = DATA.cro_indicators.map(row => `
+                <tr class="hover:bg-slate-50">
+                    <td class="p-3 font-mono text-slate-600 font-bold">${row.id}</td>
+                    <td class="p-3 font-bold text-indigo-900">${row.category}</td>
+                    <td class="p-3 font-semibold text-slate-800">${row.indicator}</td>
+                    <td class="p-3"><span class="px-2.5 py-0.5 rounded bg-slate-100 text-slate-800 border font-bold">${row.method}</span></td>
+                </tr>
+            `).join('');
+        }
+
+        function renderCadence() {
+            const grid = document.getElementById('cadenceGrid');
+            if (!grid || !DATA.field_calendar) return;
+            grid.innerHTML = DATA.field_calendar.map(col => `
+                <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-1.5">
+                    <div class="flex justify-between border-b pb-1"><span class="font-bold text-indigo-900">${col.week || col.teacher_experience}</span><span class="text-slate-500 font-mono">${col.date}</span></div>
+                    <p class="text-slate-800 font-semibold">${col.poc_focus || col.hos_focus}</p>
+                </div>
+            `).join('');
+        }
+
+        function renderCharts() {
+            Plotly.newPlot('chart-zone', [{
+                x: ['Central', 'North', 'East', 'West', 'South', 'Old Zones'],
+                y: [62, 58, 48, 55, 64, 70],
+                name: 'Hindi Decoding (%)',
                 type: 'bar',
-                orientation: 'h',
                 marker: { color: '#2563EB' }
+            }, {
+                x: ['Central', 'North', 'East', 'West', 'South', 'Old Zones'],
+                y: [54, 52, 44, 48, 58, 65],
+                name: 'Math Operations (%)',
+                type: 'bar',
+                marker: { color: '#059669' }
             }], {
-                margin: { t: 20, b: 20, l: 20, r: 20 },
+                barmode: 'group',
+                margin: { t: 10, b: 20, l: 30, r: 10 },
+                legend: { orientation: 'h', y: -0.2 },
                 paper_bgcolor: 'rgba(0,0,0,0)',
                 plot_bgcolor: 'rgba(0,0,0,0)',
                 font: { family: 'Inter', color: '#0F172A' }
             });
+
+            Plotly.newPlot('chart-trend', [{
+                x: ['May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct (Target)'],
+                y: [45, 52, 58, 62, 66.8, 75],
+                name: 'Teacher Adoption (%)',
+                type: 'scatter',
+                mode: 'lines+markers',
+                line: { color: '#9333EA', width: 3 }
+            }, {
+                x: ['May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct (Target)'],
+                y: [38, 42, 46, 50, 54.2, 62],
+                name: 'Student Mastery (%)',
+                type: 'scatter',
+                mode: 'lines+markers',
+                line: { color: '#16A34A', width: 3 }
+            }], {
+                margin: { t: 10, b: 20, l: 30, r: 10 },
+                legend: { orientation: 'h', y: -0.2 },
+                paper_bgcolor: 'rgba(0,0,0,0)',
+                plot_bgcolor: 'rgba(0,0,0,0)',
+                font: { family: 'Inter', color: '#0F172A' }
+            });
+        }
+
+        function updateBrief() {
+            const sel = document.getElementById('schoolSelect').value;
+            const p = PROFILES[sel] || {};
+            document.getElementById('briefCard').innerHTML = `
+                <div class="flex justify-between items-center border-b pb-2">
+                    <span class="text-base font-extrabold text-slate-900">${sel}</span>
+                    <span class="badge-${p.cat ? p.cat.toLowerCase() : 'grey'}">${p.cat} Category</span>
+                </div>
+                <div class="grid grid-cols-3 gap-4 pt-1">
+                    <div><span class="text-slate-500 font-bold uppercase text-[10px]">Spot Check Mastery</span><div class="text-lg font-black text-slate-900">${p.mastery}</div></div>
+                    <div><span class="text-slate-500 font-bold uppercase text-[10px]">Identified Gap</span><div class="text-xs font-bold text-rose-800">${p.gap}</div></div>
+                    <div><span class="text-slate-500 font-bold uppercase text-[10px]">Assigned PoC</span><div class="text-xs font-bold text-indigo-800">${p.owner}</div></div>
+                </div>
+                <div class="p-3 bg-white border border-slate-200 rounded-lg">
+                    <strong class="text-slate-900">Coaching Directive:</strong>
+                    <p class="text-slate-700 mt-0.5">${p.action}</p>
+                </div>
+            `;
         }
     </script>
-    <footer style='margin-top:40px;padding:16px 0;text-align:center;color:#94A3B8;font-size:11px;border-top:1px solid #E2E8F0;letter-spacing:0.02em;'>Prepared by Ashish</footer>
 </body>
 </html>
